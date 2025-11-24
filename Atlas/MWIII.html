@@ -10,6 +10,29 @@
 </head>
 
 <body>
+    <button class="btn btn-outline-light btn-sm toc-toggle d-lg-none" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasSidebar">
+        ☰
+    </button>
+
+    <!-- SIDEBAR (Desktop) -->
+    <aside class="sidebar d-none d-lg-block">
+        <h5>Content</h5>
+        <nav id="toc"></nav>
+    </aside>
+
+    <!-- OFFCANVAS (Mobile) -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasSidebar">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title">Content</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                aria-label="Cerrar"></button>
+        </div>
+        <div class="offcanvas-body">
+            <nav id="toc-mobile"></nav>
+        </div>
+    </div>
+
     <div class="container rnty-container shadow-sm mt-5 mt-md-3">
         <main id="contenido">
             <div class="text-center text-secondary">Loading...</div>
@@ -17,8 +40,9 @@
     </div>
 
     <script>
-        const mdFile = "../md/MWIII.md";
+        const mdFile = "/md/MWIII.md";
     </script>
+
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script src="/Atlas/navbar.js"></script>
     <script src="/md/md.js"></script>
