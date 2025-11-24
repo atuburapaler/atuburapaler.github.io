@@ -17,6 +17,7 @@
   <br class="d-block d-md-none" />
   <br class="d-block d-md-none" />
   <br class="d-block d-md-none" />
+  <br class="d-block d-md-none" />
   `;
 
   document.body.insertAdjacentHTML("afterbegin", navbarHTML);
