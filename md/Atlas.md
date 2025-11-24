@@ -6,9 +6,7 @@
     - Be sure to use dark mode, and desktop mode. Mobile and light mode don't look good atm.
 !!! info Special thanks to:
     r4v3n, xifil, luxploit, purrplee, Kechioma, J, pipes, Dyl_Cam, RyGuy2Cool, momo5502, & the *IW8-Mod* team.
-***
 ![](https://static.wikia.nocookie.net/callofduty/images/d/d0/KonniGroup_Emblem_MWII.png/revision/latest?cb=20230930225909&format=original#right)![](https://static.wikia.nocookie.net/callofduty/images/0/0b/Reaper141_Emblem_MWII.png/revision/latest?cb=20230213164123&format=original#right) 
-[TOC]
 &nbsp;
 ***
 &nbsp;
