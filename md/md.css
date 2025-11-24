@@ -347,20 +347,27 @@ th {
     }
 }
 
+/* test word break */
 #contenido {
-    word-wrap: break-word;
-    overflow-wrap: anywhere;
+  word-wrap: break-word;
+  overflow-wrap: anywhere;
+}
+
+#contenido * {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+#contenido p,
+#contenido a,
+#contenido span {
+  word-break: break-all;
+  overflow-wrap: anywhere;
 }
 
 #contenido pre,
 #contenido code {
-    white-space: pre-wrap;
-    word-break: break-word;
-}
-
-#contenido table {
-    display: block;
-    width: 100%;
-    max-width: 100%;
-    overflow-x: auto;
+  white-space: pre-wrap;
+  word-break: break-word;
+  overflow-wrap: anywhere;
 }
