@@ -7,8 +7,8 @@ Number|Season|Splash
 `1.16`|![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt492af3d8b35e50b5/60db86bb2d26525ef67ac5a4/call-of-duty-mw.svg){30%:30%}![Season Two](){15%:15%}|![](){80%:80%}
 `1.19`-`20`|![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt492af3d8b35e50b5/60db86bb2d26525ef67ac5a4/call-of-duty-mw.svg){30%:30%}![Season Three](){15%:15%}|![](){80%:80%}
 `1.23`|![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt492af3d8b35e50b5/60db86bb2d26525ef67ac5a4/call-of-duty-mw.svg){30%:30%}![Season Four](https://lh3.google.com/u/0/d/1g5YEzDxRCBY2obttLEDNh3WfXPMh3H2U=w1222-h922-iv1?auditContext=prefetch){15%:15%}|![](https://lh3.google.com/u/0/d/18kV-qeyzYihpEHr1say59x2d3CfEpcq-=w1910-h922-iv1?auditContext=prefetch){80%:80%}
-`1.24`-`6`|![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt492af3d8b35e50b5/60db86bb2d26525ef67ac5a4/call-of-duty-mw.svg){30%:30%}![Season Five](https://lh3.google.com/u/0/d/1M9TobM596A1WxShNXKA4FLEeB_Pf5WzA=w1222-h922-iv1?auditContext=prefetch){15%:15%}|![](https://lh3.google.com/u/0/d/18kV-qeyzYihpEHr1say59x2d3CfEpcq-=w1910-h922-iv1?auditContext=prefetch){80%:80%}
-`1.27`-`8`|![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt492af3d8b35e50b5/60db86bb2d26525ef67ac5a4/call-of-duty-mw.svg){30%:30%} 6|![](https://lh3.google.com/u/0/d/18LIIr7k2y-RJ8Z4f70tVmZx0uQRE47M2=w1910-h922-iv1?auditContext=forDisplay){80%:80%}
+`1.24`-`6`|![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt492af3d8b35e50b5/60db86bb2d26525ef67ac5a4/call-of-duty-mw.svg){30%:30%}![Season Five](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw8/icon_season_s05.png){80%:80%}|![](){80%:80%}
+`1.27`-`8`|![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt492af3d8b35e50b5/60db86bb2d26525ef67ac5a4/call-of-duty-mw.svg){30%:30%} 6|![](){80%:80%}
 `1.30`-`1`|![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt9b410089e8178011/60db86bb3681555f01d08321/call-of-duty-black-ops-cold-war.svg){25%:25%}![Season One](https://static.wikia.nocookie.net/callofduty/images/6/63/Season_One_Icon_BOCW.png){25%:25%}|![](https://lh3.google.com/u/0/d/1wjSdKa4y_SFlZmQ_c58c_5wKdcYCzhxO=w1910-h922-iv1?auditContext=prefetch){80%:80%}
 `1.34`|![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt9b410089e8178011/60db86bb3681555f01d08321/call-of-duty-black-ops-cold-war.svg){25%:25%}![Season Two](https://static.wikia.nocookie.net/callofduty/images/b/bf/Season_Two_Icon_BOCW.png){25%:25%}|![](https://lh3.google.com/u/0/d/1qlzccUgi_ZaKu24GBmwevCgLA9vEFMwt=w1910-h922-iv1?auditContext=forDisplay){80%:80%}
 `1.36`-`7`|![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt9b410089e8178011/60db86bb3681555f01d08321/call-of-duty-black-ops-cold-war.svg){25%:25%}![Season Three](https://static.wikia.nocookie.net/callofduty/images/d/d2/Season_Three_Icon_BOCW.png){25%:25%}|![](https://lh3.google.com/u/0/d/1zmqDlQhe5nUhi2gY_Wk7wJo0wU7efhm9=w1910-h922-iv1?auditContext=forDisplay){80%:80%}![](https://lh3.google.com/u/0/d/1by4_FEWow64TcwDiNUWsXKn4t3zqMzl9=w1910-h922-iv1?auditContext=prefetch){80%:80%}
@@ -45,11 +45,10 @@ This will show or hide a hint whenever you're able to perform an execution, the 
 ## 🎒 Inventories
 - `setPrivateLoadout loadouts 0 name`
 Example setPrivateLoadout loadouts 0 name "New meta, chat"
-- `setPrivateLoadout loadouts 0 weaponSetups 0 weapon`
-- `setPrivateLoadout loadouts 0 weaponSetups 0 camo`
-Click these icons for each list [![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt492af3d8b35e50b5/60db86bb2d26525ef67ac5a4/call-of-duty-mw.svg){32px:32px}](https://rentry.co/atu-atlas-cod#mastery-camouflages) [![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt9b410089e8178011/60db86bb3681555f01d08321/call-of-duty-black-ops-cold-war.svg){32px:32px}](https://rentry.co/atu-atlas-cod#cold-war-camouflages) [![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/bltdbe988a11f72d788/6179f1c61bb8c23cf8bbe9c4/VanguardGold.svg){32px:32px}](https://rentry.co/atu-atlas-cod#vanguard-camouflages)
 - `setPrivateLoadoutsPlayerData customizationSetup radial 0`
 - `setPrivateLoadoutsPlayerData customizationSetup operatorCustomization`
+- `setPrivateLoadout loadouts 0 weaponSetups 0 weapon`
+- `setPrivateLoadout loadouts 0 weaponSetups 0 camo`
 
 ### Camouflages
 Name|Icon|ID
@@ -84,7 +83,6 @@ This defines if the next match on escape it's going to use night assets
 This defines if the next match will open up the secret bunkers under escape 4 by force.
 
 ### ![](https://images.blz-contentstack.com/v3/assets/bltf408a0557f4e4998/blt658c764be11bbed4/60db86bbce1eb95db45df71b/call-of-duty-warzone.svg){6%:6%} Game modes
-
 Name|Icon|Full command
 -|:-:|-
 Battle Royale|![Modern Warfare era icon.](https://static.wikia.nocookie.net/callofduty/images/a/a3/BattleRoyale_Logo_Warzone_MW.png){15%:15%} ![Vanguard era icon.](https://static.wikia.nocookie.net/callofduty/images/9/9a/BattleRoyale_Icon_VG_WZ.png){15%:15%}|`scr_br_gametype br`
@@ -95,8 +93,7 @@ Resurgence|![](https://static.wikia.nocookie.net/callofduty/images/1/1d/Resurgen
 Plunder|![Modern Warfare era icon.](https://static.wikia.nocookie.net/callofduty/images/5/5e/Plunder_Logo_Warzone_MW.png){15%:15%} ![Vanguard era icon.](https://static.wikia.nocookie.net/callofduty/images/c/c9/Plunder_Icon_VG_WZ.png){15%:15%}|`scr_br_gametype dmz`
 King Slayer|![](https://static.wikia.nocookie.net/callofduty/images/7/7d/KingSlayer_Logo_WZ.png){15%:15%}|`scr_br_gametype kingslayer`
 
-### ->![](https://images.blz-contentstack.com/v3/assets/bltf408a0557f4e4998/blt658c764be11bbed4/60db86bbce1eb95db45df71b/call-of-duty-warzone.svg){32px:32px} Special events<-
-
+### ![](https://images.blz-contentstack.com/v3/assets/bltf408a0557f4e4998/blt658c764be11bbed4/60db86bbce1eb95db45df71b/call-of-duty-warzone.svg){32px:32px} Special events
 Name|Version|Icon|Full command
 -|-|:-:|-
 Zombies in Vodianoy|1.34|![](https://static.wikia.nocookie.net/callofduty/images/8/8e/Zombie_Keycard_Icon_WZ.png)|`bla bla bla i'll fill this later`
@@ -109,47 +106,52 @@ Festive Fervor|1.50-2|![](https://lh3.google.com/u/0/d/1Flv4ms4vnsYOxmUUmYX5oIvL
 Operation: Monarch|1.57|![](https://static.wikia.nocookie.net/callofduty/images/1/11/OperationMonarch_Logo_WZ.png)|`scr_br_gametype mendota;seta scr_br_pr_validate_gametypes 0;set scr_br_alt_mode_mendota 1;exec pr_br_mendota.cfg;seta scr_br_alt_mode_mxp 5`
 Rebirth of the Dead|1.60+|![](https://static.wikia.nocookie.net/callofduty/images/d/d0/ZombieRoyale_Logo_Warzone_MW.png)|`set scr_br_gametype "zxp";set scr_br_alt_mode_zxp 1;set scr_br_zxp_numHitsJugg 0;set scr_br_zxp_respawn_shutdown_jugg 0;set scr_br_zxp_jugg_num_players 0;set scr_br_dbd_vehicle_motorcycle 1;set scr_br_zxp_zombiesDamageZombies 1;set scr_br_zxp_health 700;set scr_br_zxp_powers_cooldown 0;set scr_br_zxp_human_powers 1;seta scr_br_pr_validate_gametypes 0;seta scr_br_atlantisNight 1`
 Operation: Last Call|1.63+%darkgoldenrod%**²**%%|![](https://static.wikia.nocookie.net/callofduty/images/e/e6/OperationLastCall_Icon_WZ.png)|`scr_br_gametype olaride;seta scr_br_pr_validate_gametypes 0;set scr_br_alt_mode_olaride 1`
-
+!!! warning
     **¹** It requires a controller set as the primary input method as you need to unplug it and plug it back in to get any input.
     **²** 1.63 is a very unstable/broken build, the event will work in post. versions but it might miss some mechanics.
+    
+### 🎒 Inventories
+- `setWZPrivateLoadout loadouts 0 name`
+Example setWZPrivateLoadout loadouts 0 name "New meta, chat"
+- `setWZPrivateLoadout loadouts 0 weaponSetups 0 weapon`
+- `setWZPrivateLoadoutsPlayerData customizationSetup radial 0`
+- `setWZPrivateLoadoutsPlayerData customizationSetup operatorCustomization`
+- `setWZPrivateLoadout loadouts 0 weaponSetups 0 camo`
 
 ### ![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt9b410089e8178011/60db86bb3681555f01d08321/call-of-duty-black-ops-cold-war.svg){64px:64px} ->Cold War Camouflages<-
 ![](https://static.wikia.nocookie.net/callofduty/images/9/97/TeamDeathmatch_Gamemode_Icon_MP_BOCW.png){64px:64px}!~ **Multiplayer mastery**~!%darkgoldenrod%¹%%
-
 Name|Icon|ID
 -|:-:|-
 Gold|![](https://static.wikia.nocookie.net/callofduty/images/0/05/Gold_Camo_Icon_BOCW.png){90px:90px}|`camo_mp_t9mastery_gold`
 Diamond|![](https://static.wikia.nocookie.net/callofduty/images/7/73/Diamond_Camo_Icon_BOCW.png){90px:90px}|`camo_mp_t9mastery_diamond`
 Dark Matter Ultra|![](https://static.wikia.nocookie.net/callofduty/images/a/a1/DM_Ultra_Camo_Icon_BOCW.png){90px:90px}|`camo_mp_t9mastery_darkmatter`
-
+!!! warning
     **¹**Only available on version 1.30 onwards (Season One)
     This version has some early coverage on weapon models.
 
 ![](https://static.wikia.nocookie.net/callofduty/images/0/08/Defend_Objective_Icon_Outbreak_Zombies_BOCW.png){64px:64px}!~ **Zombies mastery**~!%darkgoldenrod%²%%
-
 Name|Icon|ID
 -|:-:|-
 Golden Viper|![](https://static.wikia.nocookie.net/callofduty/images/9/95/Golden_Viper_Camouflage_BOCW.png){90px:90px}|`camo_zm_t9mastery_gold`
 Plague Diamond|![](https://static.wikia.nocookie.net/callofduty/images/f/f6/Plague_Diamond_Camo_Icon_BOCW.png){90px:90px}|`camo_zm_t9mastery_diamond`
 Dark Aether|![](https://static.wikia.nocookie.net/callofduty/images/0/03/Dark_Aether_Camouflage_BOCW.png){90px:90px}|`camo_zm_t9mastery_darkmatter`
-
+!!! warning
     **²**Only available on version 1.41 onwards (Season Five)
     This version has some early coverage on weapon models.
     Some assets of the Dark Aether are broken on version 1.45 onwards.
 
-### ![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/bltdbe988a11f72d788/6179f1c61bb8c23cf8bbe9c4/VanguardGold.svg){64px:64px} ->Vanguard Camouflages<-
-![](https://static.wikia.nocookie.net/callofduty/images/1/17/TeamDeathmatch_Gamemode_Icon_MP_CODV.png){64px:64px} !~**Multiplayer mastery**~!%darkgoldenrod%¹%%
-
+### ![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/bltdbe988a11f72d788/6179f1c61bb8c23cf8bbe9c4/VanguardGold.svg){64px:64px} Vanguard Camouflages
+![](https://static.wikia.nocookie.net/callofduty/images/1/17/TeamDeathmatch_Gamemode_Icon_MP_CODV.png){64px:64px} **Multiplayer mastery**%darkgoldenrod%¹%%
 Name|Icon|ID
 -|:-:|-
 Gold|![](){90px:90px}|`s4_camo_11a`
 Diamond|![](){90px:90px}|`s4_camo_11b`
 Atomic|![](){90px:90px}|`s4_camo_11c`
 ?||`s4_camo_11d`
-
+!!! warning
     **¹**Only available on version 1.46 onwards (Season One)
 
-!~**Events**~!
+**Events**
 Name|Icon|ID
 -|:-:|-
 Titanium Chrome||`s4_camo_titanium_trials_01`
@@ -158,7 +160,7 @@ Skynet||`s4_camo_titanium_trials_03`
 Death Prospector||`mtl_s4_camo_gold_woodland`
 False Protector||`mtl_s4_camo_gold_digital`
 
-![](https://static.wikia.nocookie.net/callofduty/images/9/97/DerAnfang_LobbyIcon_CODV.png){5%:5%} !~**Zombies mastery**~!
+![](https://static.wikia.nocookie.net/callofduty/images/9/97/DerAnfang_LobbyIcon_CODV.png){101px:124px} **Zombies mastery**
 Name|Icon|ID
 -|:-:|-
 Golden Viper|![](){90px:90px}|`s4_camo_11a_zm`
