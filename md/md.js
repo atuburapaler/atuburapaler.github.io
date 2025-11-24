@@ -218,7 +218,6 @@ fetch(mdFile)
         const enhanced = preprocessRnty(md);
         const html = marked.parse(enhanced);
         const container = document.getElementById("contenido");
-        container.classList.add("text-break");
         container.innerHTML = html;
 
         buildTOC(container);

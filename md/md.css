@@ -346,3 +346,8 @@ th {
         max-width: 780px;
     }
 }
+
+#contenido {
+    word-wrap: break-word;
+    overflow-wrap: anywhere;
+}
