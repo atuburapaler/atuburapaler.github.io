@@ -351,3 +351,16 @@ th {
     word-wrap: break-word;
     overflow-wrap: anywhere;
 }
+
+#contenido pre,
+#contenido code {
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+
+#contenido table {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+}
