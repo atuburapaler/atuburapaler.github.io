@@ -289,6 +289,13 @@ th {
     }
 }
 
+/* fix sidebar space on medium screens */
+@media (min-width: 992px) and (max-width: 1195px) {
+    .rnty-container {
+        padding-left: 150px;
+    }
+}
+
 /* OFFCANVAS (Mobile) */
 .offcanvas {
     background-color: #0f1724;
