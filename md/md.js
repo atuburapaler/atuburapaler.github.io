@@ -34,12 +34,8 @@ function preprocessRnty(md) {
     // Spoilers !> texto
     out = out.replace(/^!>(.*)$/gm, (_, txt) => `<span class="spoiler">${txt.trim()}</span>`);
 
-    // Citas tipo ->"texto"<-
-    out = out.replace(/^->\s*"(.*?)"\s*<-\s*$/gm, '<blockquote>"$1"</blockquote>');
-
-    // Alineación centrada y derecha
-    out = out.replace(/^-> *(.*?) *<-\s*$/gm, '<div class="align-center">$1</div>');
-    out = out.replace(/^-> *(.*?) *->\s*$/gm, '<div class="align-right">$1</div>');
+    // Cualquier texto entre -> y <- se muestra como cita
+    out = out.replace(/[*_~]*->\s*([\s\S]*?)\s*<-[*_~]*/gm, '<blockquote>$1</blockquote>');
 
     // Admoniciones !! y !!!
     out = out.replace(
