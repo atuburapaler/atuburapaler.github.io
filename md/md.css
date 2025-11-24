@@ -374,6 +374,7 @@ th {
 @media (max-width: 576px) {
     #contenido img {
         height: auto;
+        width: 100%;
         object-fit: contain;
     }
 }
