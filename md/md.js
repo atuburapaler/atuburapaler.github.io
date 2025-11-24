@@ -189,6 +189,26 @@ function setupSpoilers(container) {
     });
 }
 
+function generarSidebarTOC(container) {
+    const toc = document.getElementById("toc");
+    const tocMobile = document.getElementById("toc-mobile");
+    if (!toc || !tocMobile) return;
+
+    const headings = container.querySelectorAll("h1, h2, h3");
+    if (!headings.length) return;
+
+    let html = "";
+    headings.forEach(h => {
+        const id = h.textContent.trim().replace(/\s+/g, "-").toLowerCase();
+        h.id = id;
+        const indent = (parseInt(h.tagName[1]) - 1) * 1.25;
+        html += `<a href="#${id}" style="margin-left:${indent}rem;">${h.textContent}</a>`;
+    });
+
+    toc.innerHTML = html;
+    tocMobile.innerHTML = html;
+}
+
 fetch(mdFile)
     .then(r => {
         if (!r.ok) throw new Error("Failed to load Markdown file.");
@@ -204,6 +224,8 @@ fetch(mdFile)
         postProcessImages(container);
         fixGitHubImageLinks(container);
         setupSpoilers(container);
+
+        generarSidebarTOC(container);
     })
     .catch(e => {
         document.getElementById("contenido").textContent = e.message;
