@@ -38,7 +38,7 @@ Rock|![](https://static.wikia.nocookie.net/callofduty/images/b/b2/Rock_Lethal_HU
 Buzzsaw|![]()|`iw9_me_buzzsaw_mp`
 EMP bomb|![]()|`iw9_cyberemp`
 Rebreather|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw9/hud_icon_loot_rebreather.png)|`iw9_oxygenmask_mp`
-Iodine pills|![](){15%:15%}|`iodine_pills_mp`
+Iodine pills|![]()|`iodine_pills_mp`
 
 ### WARZONE 2.0
 ![](https://cdn2.steamgriddb.com/hero/41393f3d6e219d835c2a97f4d9ea3689.jpg)
