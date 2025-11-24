@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es" data-bs-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Atlas</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+  <style>
+    pre,
+    code {
+      background: var(--bs-dark-bg-subtle);
+      border-radius: .375rem;
+      padding: .5rem .75rem;
+    }
+
+    pre {
+      overflow-x: auto;
+    }
+
+    img {
+      max-width: 100%;
+      border-radius: .5rem;
+      margin: 1rem 0;
+    }
+
+    blockquote {
+      border-left: .25rem solid var(--bs-primary);
+      padding-left: 1rem;
+      color: var(--bs-secondary-color);
+      margin: 1rem 0;
+    }
+
+    table {
+      width: 100%;
+    }
+
+    th,
+    td {
+      padding: .75rem;
+      border: 1px solid var(--bs-border-color);
+    }
+  </style>
+</head>
+
+<body class="bg-dark text-light">
+  <div class="container my-5">
+    <div class="bg-body-secondary rounded p-4 shadow-sm" id="contenido">
+      <div class="text-center text-secondary">Cargando md...</div>
+    </div>
+  </div>
+
+  <script>
+    const mdFile = "Atlas.md";
+
+    fetch(mdFile)
+      .then(r => {
+        if (!r.ok) throw new Error("No se pudo cargar el archivo Markdown.");
+        return r.text();
+      })
+      .then(md => {
+        document.getElementById("contenido").innerHTML = marked.parse(md);
+      })
+      .catch(err => {
+        document.getElementById("contenido").textContent = err.message;
+      });
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
