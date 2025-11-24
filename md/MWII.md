@@ -27,17 +27,17 @@ Orion|![](https://static.wikia.nocookie.net/callofduty/images/6/6d/Orion_Camo_Ic
 ####![](https://static.wikia.nocookie.net/callofduty/images/9/95/SpecialOps_Icon_MWII.png){64px:64px} ->Exclusive weapons<-
 Name|Icon|ID
 -|:-:|-
-Nothing|![](){10%:10%}|`iw9_gunless_mp`
-Fists|![](){10%:10%}|`iw9_drown`
-Fists (old)|![](https://lh3.google.com/u/0/d/1OCjcDTOLqLJBdu0wII7_eZgZRnyEPKV8=w1222-h922-iv1?auditContext=prefetch){10%:10%}|`iw8_fists_mp_zmb`
+Nothing|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw9/hud_icon_weapon_melee.png){10%:10%}|`iw9_gunless_mp`
+Fists|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw9/hud_icon_weapon_me_fist.png){10%:10%}|`iw9_drown`
+Fists (old)|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw8/icon_weapon_me_fists.png){10%:10%}|`iw8_fists_mp_zmb`
 Minigun|![](https://static.wikia.nocookie.net/callofduty/images/4/4b/Minigun_HUD_Icon_MWII.png){15%:15%}|`iw9_lm_dblmg`
 Stim pistol|![](https://static.wikia.nocookie.net/callofduty/images/b/bc/StimPistol_FieldUpgrade_HUD_Icon_WZ2.png){10%:10%}|`iw9_pi_stimpistol`
 Glass shard|![](){150px:100%}|`jup_me_glassshiv`
-Laser Vision (Temp V)|![](){10%:10%}|`super_laser_charge_mp`
+Laser Vision (Temp V)|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw9/hud_icon_power_laser_eyes.png){10%:10%}|`super_laser_charge_mp`
 Rock|![](https://static.wikia.nocookie.net/callofduty/images/b/b2/Rock_Lethal_HUD_Icon_WZ.png/revision/latest?cb=20250610041025){10%:10%}|`rock_mp`
 Buzzsaw|![](){10%:10%}|`iw9_me_buzzsaw_mp`
 EMP bomb|![](){10%:10%}|`iw9_cyberemp`
-Oxygen mask|![](){10%:10%}|`iw9_oxygenmask_mp`
+Rebreather|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw9/hud_icon_loot_rebreather.png){10%:10%}|`iw9_oxygenmask_mp`
 Iodine pills|![](){15%:15%}|`iodine_pills_mp`
 
 ### ![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt50cbf0004f8aeba3/6373bd4c5148880e83ab6d4a/codwz2.svg){6%:6%} WARZONE 2.0![](https://cdn2.steamgriddb.com/hero/41393f3d6e219d835c2a97f4d9ea3689.jpg)
