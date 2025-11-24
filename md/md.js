@@ -139,7 +139,7 @@ function setupSpoilers(container) {
 // Cargar Markdown
 fetch(mdFile)
     .then(r => {
-        if (!r.ok) throw new Error("No se pudo cargar el archivo Markdown.");
+        if (!r.ok) throw new Error("Failed to load Markdown file.");
         return r.text();
     })
     .then(md => {
