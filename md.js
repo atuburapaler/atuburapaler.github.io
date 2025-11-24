@@ -5,7 +5,7 @@
     mangle: false
 });
 
-function preprocessRentry(md) {
+function preprocessRnty(md) {
     let out = md;
 
     // Comentarios [//]: ()
@@ -143,7 +143,7 @@ fetch(mdFile)
         return r.text();
     })
     .then(md => {
-        const enhanced = preprocessRentry(md);
+        const enhanced = preprocessRnty(md);
         const html = marked.parse(enhanced);
         const container = document.getElementById("contenido");
         container.innerHTML = html;
