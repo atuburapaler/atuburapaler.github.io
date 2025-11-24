@@ -1,0 +1,221 @@
+﻿body {
+    background-color: #0d1117;
+    color: #c9d1d9;
+    font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.8;
+}
+
+.rentry-container {
+    max-width: 780px;
+    background-color: #0d1117;
+    margin: 3rem auto;
+    padding: 2.5rem;
+    border-radius: 12px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #ffffff;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+a {
+    color: #58a6ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+pre {
+    background: #161b22;
+    padding: 1rem;
+    border-radius: 6px;
+    overflow-x: auto;
+    font-size: 0.95rem;
+}
+
+code {
+    background: #161b22;
+    color: #ffcc66;
+    padding: 2px 5px;
+    border-radius: 4px;
+    font-size: 0.95em;
+}
+
+blockquote {
+    border-left: 4px solid #30363d;
+    padding-left: 1rem;
+    color: #8b949e;
+    margin: 1rem 0;
+    font-style: italic;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    margin: 1.5rem auto;
+    border-radius: 6px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #21262d;
+    margin: 2rem 0;
+}
+
+ul,
+ol {
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1.5rem 0;
+    font-size: 0.95rem;
+}
+
+th,
+td {
+    border: 1px solid #30363d;
+    padding: 0.75rem 1rem;
+}
+
+th {
+    background: #161b22;
+    color: #fff;
+}
+
+.spoiler {
+    background: #333;
+    color: transparent;
+    border-radius: 3px;
+    padding: 0 4px;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.2s ease;
+}
+
+.spoiler.revealed {
+    color: #fff;
+    background: #222;
+}
+
+.admonition {
+    position: relative;
+    border-radius: 6px;
+    padding: 1rem 1.2rem 1rem 3.2rem;
+    margin: 1.5rem 0;
+    border: 1px solid #30363d;
+    background: #161b22;
+}
+
+.admonition::before {
+    position: absolute;
+    left: 0.9rem;
+    top: 0.9rem;
+    font-size: 1.2rem;
+    line-height: 1;
+}
+
+.admonition strong {
+    display: block;
+    margin-bottom: 0.25rem;
+}
+
+/* Colores e íconos */
+.admonition.note {
+    background: #1c2128;
+    border-color: #30363d;
+    color: #c9d1d9;
+}
+
+.admonition.note::before {
+    content: "📝";
+}
+
+.admonition.info {
+    background: #0d2847;
+    border-color: #1f6feb;
+    color: #c9d1d9;
+}
+
+.admonition.info::before {
+    content: "💡";
+}
+
+.admonition.warning {
+    background: #3a2f0b;
+    border-color: #e3b341;
+    color: #f2e088;
+}
+
+.admonition.warning::before {
+    content: "⚠️";
+}
+
+.admonition.danger {
+    background: #3b1113;
+    border-color: #f85149;
+    color: #ffb3af;
+}
+
+.admonition.danger::before {
+    content: "❌";
+}
+
+.admonition.greentext {
+    background: #08190c;
+    border-color: #2ea043;
+    color: #56d364;
+    font-family: "Fira Mono", "Consolas", monospace;
+}
+
+.admonition.greentext::before {
+    content: "🍀";
+}
+
+.align-center {
+    text-align: center;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.toc {
+    border: 1px solid #30363d;
+    border-radius: 6px;
+    padding: 1rem 1.5rem;
+    margin: 1.5rem 0;
+    background: #0f1724;
+    font-size: 0.95rem;
+}
+
+.toc h2 {
+    margin-top: 0;
+    font-size: 1.1rem;
+}
+
+.toc ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.toc ul ul {
+    padding-left: 1.2rem;
+}
