@@ -34,6 +34,9 @@ function preprocessRnty(md) {
     // Spoilers !> texto
     out = out.replace(/^!>(.*)$/gm, (_, txt) => `<span class="spoiler">${txt.trim()}</span>`);
 
+    // Citas tipo ->"texto"<-
+    out = out.replace(/^->\s*"(.*?)"\s*<-\s*$/gm, '<blockquote>"$1"</blockquote>');
+
     // Alineación centrada y derecha
     out = out.replace(/^-> *(.*?) *<-\s*$/gm, '<div class="align-center">$1</div>');
     out = out.replace(/^-> *(.*?) *->\s*$/gm, '<div class="align-right">$1</div>');
@@ -110,14 +113,12 @@ function postProcessImages(container) {
         let src = img.getAttribute('src');
         if (!src) return;
 
-        // Forzar renderizado correcto para SVG
         if (src.endsWith('.svg')) {
             img.setAttribute('type', 'image/svg+xml');
             img.setAttribute('loading', 'lazy');
             img.style.display = 'inline-block';
         }
 
-        // Redirigir dominios
         const corsBlockedDomains = [
             'static.wikia.nocookie.net',
             'blz-contentstack-images.akamaized.net',
@@ -130,7 +131,6 @@ function postProcessImages(container) {
             img.setAttribute('src', proxied);
         }
 
-        // Procesar anclas #left o #right
         const hashIndex = src.indexOf('#');
         if (hashIndex !== -1) {
             const base = src.slice(0, hashIndex);
@@ -142,7 +142,6 @@ function postProcessImages(container) {
             }
         }
 
-        // Buscar {width:height} al final del texto
         const nextNode = img.nextSibling;
         if (nextNode && nextNode.nodeType === Node.TEXT_NODE) {
             const match = nextNode.textContent.match(/\{(\d+)([a-z%vw]*)\s*:\s*(\d+)([a-z%vw]*)\}/);
@@ -155,9 +154,8 @@ function postProcessImages(container) {
             }
         }
 
-        // Fallback visual si la imagen aún falla
         img.addEventListener('error', () => {
-            console.warn(`⚠️ Imagen fallida: ${src}`);
+            console.warn(`Image failed to load: ${src}`);
             img.replaceWith(
                 Object.assign(document.createElement('span'), {
                     textContent: '[Image unavailable]',
@@ -167,7 +165,6 @@ function postProcessImages(container) {
         });
     });
 
-    // Limpieza de flotantes !;
     container.querySelectorAll('p').forEach(p => {
         if (p.textContent.trim() === '!;') {
             const clearDiv = document.createElement('div');
@@ -177,7 +174,6 @@ function postProcessImages(container) {
     });
 }
 
-// Convierte img de GitHub a formato RAW
 function fixGitHubImageLinks(container) {
     const imgs = container.querySelectorAll("img");
     imgs.forEach(img => {
@@ -197,7 +193,6 @@ function setupSpoilers(container) {
     });
 }
 
-// Cargar Markdown
 fetch(mdFile)
     .then(r => {
         if (!r.ok) throw new Error("Failed to load Markdown file.");
