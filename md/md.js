@@ -105,17 +105,32 @@ function buildTOC(container) {
 
 function postProcessImages(container) {
     const imgs = Array.from(container.querySelectorAll('img'));
+
     imgs.forEach(img => {
+        // Procesar anclas #left o #right
         let src = img.getAttribute('src');
         if (!src) return;
         const hashIndex = src.indexOf('#');
         if (hashIndex !== -1) {
             const base = src.slice(0, hashIndex);
             const flag = src.slice(hashIndex + 1);
-            img.src = base;
+            img.setAttribute('src', base);
             if (flag === 'left' || flag === 'right') {
                 img.style.float = flag;
                 img.style.margin = flag === 'left' ? '0 1rem 1rem 0' : '0 0 1rem 1rem';
+            }
+        }
+
+        // Buscar {width:height} al final de la misma línea o párrafo
+        const nextNode = img.nextSibling;
+        if (nextNode && nextNode.nodeType === Node.TEXT_NODE) {
+            const match = nextNode.textContent.match(/\{(\d+)([a-z%vw]*)\s*:\s*(\d+)([a-z%vw]*)\}/);
+            if (match) {
+                const width = match[1] + (match[2] || 'px');
+                const height = match[3] + (match[4] || 'px');
+                img.style.width = width;
+                img.style.height = height;
+                nextNode.textContent = nextNode.textContent.replace(match[0], '').trim();
             }
         }
     });
