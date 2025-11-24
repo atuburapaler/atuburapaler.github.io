@@ -15,16 +15,16 @@
 - `setPrivateLoadout loadouts 0 weaponSetups 0 camo`
 - `setPrivateLoadoutsPlayerData customizationSetup operatorCustomization`
 
-####Camouflages
-!~ **Multiplayer mastery**~!
+#### Camouflages
+**Multiplayer mastery**
 Name|Icon|ID
 -|:-:|-
-Gold|![](https://static.wikia.nocookie.net/callofduty/images/9/95/Gold_Camo_Icon_MWII.png){90px:90px}|`camo_comp_01`
-Platinum|![](https://static.wikia.nocookie.net/callofduty/images/3/33/Platinum_Camo_Icon_MWII.png){90px:90px}|`camo_comp_02`
-Polyatomic|![](https://static.wikia.nocookie.net/callofduty/images/9/96/Polyatomic_Camo_Icon_MWII.png){90px:90px}|`camo_comp_03`
-Orion|![](https://static.wikia.nocookie.net/callofduty/images/6/6d/Orion_Camo_Icon_MWII.png){90px:90px}|`camo_comp_04`
+Gold|![](https://static.wikia.nocookie.net/callofduty/images/9/95/Gold_Camo_Icon_MWII.png)|`camo_comp_01`
+Platinum|![](https://static.wikia.nocookie.net/callofduty/images/3/33/Platinum_Camo_Icon_MWII.png)|`camo_comp_02`
+Polyatomic|![](https://static.wikia.nocookie.net/callofduty/images/9/96/Polyatomic_Camo_Icon_MWII.png)|`camo_comp_03`
+Orion|![](https://static.wikia.nocookie.net/callofduty/images/6/6d/Orion_Camo_Icon_MWII.png)|`camo_comp_04`
 
-####![](https://static.wikia.nocookie.net/callofduty/images/9/95/SpecialOps_Icon_MWII.png){64px:64px} ->Exclusive weapons<-
+#### Exclusive weapons
 Name|Icon|ID
 -|:-:|-
 Nothing|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw9/hud_icon_weapon_melee.png)|`iw9_gunless_mp`
