@@ -369,3 +369,11 @@ th {
         overflow-wrap: anywhere;
     }
 }
+
+/* Fix aspect ratio on mobile images */
+@media (max-width: 576px) {
+    #contenido img {
+        height: auto;
+        object-fit: contain;
+    }
+}
