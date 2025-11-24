@@ -290,7 +290,7 @@ th {
 }
 
 /* fix sidebar space on medium screens */
-@media (min-width: 992px) and (max-width: 1195px) {
+@media (min-width: 992px) and (max-width: 1199.98px) {
     .rnty-container {
         padding-left: 150px;
     }
