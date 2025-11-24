@@ -107,9 +107,17 @@ function postProcessImages(container) {
     const imgs = Array.from(container.querySelectorAll('img'));
 
     imgs.forEach(img => {
-        // Procesar anclas #left o #right
         let src = img.getAttribute('src');
         if (!src) return;
+
+        // Fix SVGs
+        if (src.endsWith('.svg')) {
+            img.setAttribute('type', 'image/svg+xml');
+            img.setAttribute('loading', 'lazy');
+            img.style.display = 'inline-block';
+        }
+
+        // Procesar anclas #left o #right
         const hashIndex = src.indexOf('#');
         if (hashIndex !== -1) {
             const base = src.slice(0, hashIndex);
