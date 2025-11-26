@@ -27,7 +27,7 @@ Orion|![](https://static.wikia.nocookie.net/callofduty/images/6/6d/Orion_Camo_Ic
 ### Exclusive weapons
 Name|Icon|ID
 -|:-:|-
-Nothing|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw9/hud_icon_weapon_melee.png){50%:50%}|`iw9_gunless_mp`
+Nothing|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw9/hud_icon_weapon_melee.png)|`iw9_gunless_mp`
 Fists|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw9/hud_icon_weapon_me_fist.png){50%:50%}|`iw9_drown`
 Fists (old)|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw8/icon_weapon_me_fists.png){50%:50%}|`iw8_fists_mp_zmb`
 Minigun|![](https://static.wikia.nocookie.net/callofduty/images/4/4b/Minigun_HUD_Icon_MWII.png){50%:50%}|`iw9_lm_dblmg`
