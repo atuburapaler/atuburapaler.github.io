@@ -1,4 +1,4 @@
-# ![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt8168cbdbbc05770d/64cc38e2c45759d767a1f84f/Jupiter_Coming_Soon-Bnet_Game-Icon_Shop-EN-Vector-01.svg){20%:20%} MODERN WARFARE III ![](https://cdn2.steamgriddb.com/hero/4971ea42e67e73f2e0dc2546ac114455.jpg)
+![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt8168cbdbbc05770d/64cc38e2c45759d767a1f84f/Jupiter_Coming_Soon-Bnet_Game-Icon_Shop-EN-Vector-01.svg){20%:20%} MODERN WARFARE III ![](https://cdn2.steamgriddb.com/hero/4971ea42e67e73f2e0dc2546ac114455.jpg)
 *->"Take this to hell with you, Captain... Never bury your enemies alive."<-*
 
 ## Menus
