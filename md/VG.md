@@ -1,12 +1,15 @@
 # ![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/bltdbe988a11f72d788/6179f1c61bb8c23cf8bbe9c4/VanguardGold.svg) VANGUARD ![](https://cdn2.steamgriddb.com/hero/52ec3baefcf93a558d994e1bcd3b5c3d.jpg)
 *->"Ever heard of Vanguard? I created Vanguard."<-*
+
 ## Menus
 - `openmenu mainlockoutmenu`
 - `openmenu mainmenuoffline`
 - `openmenu systemlinklobby`
+
 ## Visuals
 - `execution_hint_enabled`
 This will show or hide a hint whenever you're able to perform an execution, the UI elements for controller are unfinished in this game (0-1)
+
 ## Inventories
 - `setPrivateLoadout loadouts 0 name`
 Example: *setPrivateLoadout loadouts 0 name "New meta, chat"*
@@ -16,6 +19,7 @@ Example: *setPrivateLoadout loadouts 0 weaponSetups 0 weapon s4_ar_stango44*
 Example: *setPrivateLoadout loadouts 0 weaponSetups 0 camo s4_camo_11a*
 - `setPrivateLoadoutsPlayerData customizationSetup radial 0`
 - `setPrivateLoadoutsPlayerData customizationSetup operatorCustomization`
+
 ### Camouflages
 ![](https://static.wikia.nocookie.net/callofduty/images/1/17/TeamDeathmatch_Gamemode_Icon_MP_CODV.png){64px:64px}
 Multiplayer mastery
