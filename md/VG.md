@@ -1,4 +1,5 @@
-# ![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/bltdbe988a11f72d788/6179f1c61bb8c23cf8bbe9c4/VanguardGold.svg) VANGUARD ![](https://cdn2.steamgriddb.com/hero/52ec3baefcf93a558d994e1bcd3b5c3d.jpg)
+# ![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/bltdbe988a11f72d788/6179f1c61bb8c23cf8bbe9c4/VanguardGold.svg) VANGUARD
+![](https://cdn2.steamgriddb.com/hero/52ec3baefcf93a558d994e1bcd3b5c3d.jpg)
 *->"Ever heard of Vanguard? I created Vanguard."<-*
 
 ## Menus
