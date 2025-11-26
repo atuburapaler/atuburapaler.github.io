@@ -1,4 +1,4 @@
-# ![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt492af3d8b35e50b5/60db86bb2d26525ef67ac5a4/call-of-duty-mw.svg){64px:64px} MODERN WARFARE![](https://shared.steamstatic.com/store_item_assets/steam/apps/2000950/library_hero_2x.jpg?t=1677185679)
+![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt492af3d8b35e50b5/60db86bb2d26525ef67ac5a4/call-of-duty-mw.svg){64px:64px} MODERN WARFARE![](https://shared.steamstatic.com/store_item_assets/steam/apps/2000950/library_hero_2x.jpg?t=1677185679)
 *->"We get dirty and the world stays clean. That's the mission."<-*
 
 ## 📚 Versions
