@@ -35,10 +35,10 @@ Stim pistol|![](https://static.wikia.nocookie.net/callofduty/images/b/bc/StimPis
 Glass shard|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw9/hud_icon_weapon_jup_me_glassshiv_mp.png){50%:50%}|`jup_me_glassshiv`
 Laser Vision (Temp V)|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw9/hud_icon_power_laser_eyes.png){50%:50%}|`super_laser_charge_mp`
 Rock|![](https://static.wikia.nocookie.net/callofduty/images/b/b2/Rock_Lethal_HUD_Icon_WZ.png/revision/latest?cb=20250610041025){50%:50%}|`rock_mp`
-Buzzsaw|![](){50%:50%}|`iw9_me_buzzsaw_mp`
-EMP bomb|![](){50%:50%}|`iw9_cyberemp`
+Buzzsaw|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw9/cp_tac_waypoint_buzzsaw.png){50%:50%}|`iw9_me_buzzsaw_mp`
+EMP bomb|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw9/hud_icon_equipment_emp.png){50%:50%}|`iw9_cyberemp`
 Rebreather|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw9/hud_icon_loot_rebreather.png){50%:50%}|`iw9_oxygenmask_mp`
-Iodine pills|![]()|`iodine_pills_mp`
+Iodine pills|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw9/hud_icon_equipment_iodine_pills.png)|`iodine_pills_mp`
 
 ### WARZONE 2.0
 ![](https://cdn2.steamgriddb.com/hero/41393f3d6e219d835c2a97f4d9ea3689.jpg)
