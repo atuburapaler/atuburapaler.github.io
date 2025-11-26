@@ -9,18 +9,18 @@
     <link href="/md/md.css" rel="stylesheet">
 <style>
     body {
-      cursor: url('../images/ui/jup.cur'), auto;
-    }
-    a, button, [role="button"], input[type="submit"], input[type="button"], .clickable {
-      cursor: url('../images/ui/jup-select.cur'), pointer;
-    }
-    input[type="text"], textarea, .text-input {
-      cursor: url('../images/ui/jup-text.cur'), text;
-    }
-    .not-allowed, [disabled], .cursor-denied {
-      cursor: url('../images/ui/jup-no.cur'), not-allowed !important;
-    }
-  </style>
+  cursor: url('../images/ui/jup.cur'), auto;
+}
+a, button, [role="button"], input[type="submit"], input[type="button"], .clickable {
+  cursor: url('../images/ui/jup-select.cur'), pointer;
+}
+input, textarea, [contenteditable="true"], .text-input {
+  cursor: url('../images/ui/jup-text.cur'), text;
+}
+.not-allowed, [disabled], .cursor-denied {
+  cursor: url('../images/ui/jup-no.cur'), not-allowed !important;
+}
+</style>
 </head>
 
 <body>
