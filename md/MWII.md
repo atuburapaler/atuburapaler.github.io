@@ -29,10 +29,10 @@ Name|Icon|ID
 -|:-:|-
 Nothing|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw9/hud_icon_weapon_melee.png)|`iw9_gunless_mp`
 Fists|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw9/hud_icon_weapon_me_fist.png){50%:50%}|`iw9_drown`
-Fists (old)|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw8/icon_weapon_me_fists.png){50%:50%}|`iw8_fists_mp_zmb`
+Fists (old)|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw8/icon_weapon_me_fists.png){20%:20%}|`iw8_fists_mp_zmb`
 Minigun|![](https://static.wikia.nocookie.net/callofduty/images/4/4b/Minigun_HUD_Icon_MWII.png){50%:50%}|`iw9_lm_dblmg`
 Stim pistol|![](https://static.wikia.nocookie.net/callofduty/images/b/bc/StimPistol_FieldUpgrade_HUD_Icon_WZ2.png){50%:50%}|`iw9_pi_stimpistol`
-Glass shard|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw9/hud_icon_weapon_jup_me_glassshiv_mp.png){50%:50%}|`jup_me_glassshiv`
+Glass shard|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw9/hud_icon_weapon_jup_me_glassshiv_mp.png){70%:70%}|`jup_me_glassshiv`
 Laser Vision (Temp V)|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw9/hud_icon_power_laser_eyes.png){50%:50%}|`super_laser_charge_mp`
 Rock|![](https://static.wikia.nocookie.net/callofduty/images/b/b2/Rock_Lethal_HUD_Icon_WZ.png/revision/latest?cb=20250610041025){50%:50%}|`rock_mp`
 Buzzsaw|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw9/cp_tac_waypoint_buzzsaw.png){50%:50%}|`iw9_me_buzzsaw_mp`
