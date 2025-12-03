@@ -1,4 +1,4 @@
-# ![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt8f53b3687511367c/62abb5b3e5f7e7444f49f012/MWII_LOGO_SQUARE_SVG.svg){20%:20%} MODERN WARFARE II
+# MODERN WARFARE II
 ![](https://cdn2.steamgriddb.com/hero/8b4bcaeccf864f7508097af0d97429ca.jpg)
 *"Be careful who you trust, Sergeant. People you know can hurt you the most."*
 
@@ -40,5 +40,5 @@ EMP bomb|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/im
 Rebreather|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw9/hud_icon_loot_rebreather.png){50%:50%}|`iw9_oxygenmask_mp`
 Iodine pills|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw9/hud_icon_equipment_iodine_pills.png){30%:30%}|`iodine_pills_mp`
 
-### ![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt50cbf0004f8aeba3/6373bd4c5148880e83ab6d4a/codwz2.svg){10%:10%}  WARZONE 2.0
+## WARZONE 2.0
 ![](https://cdn2.steamgriddb.com/hero/41393f3d6e219d835c2a97f4d9ea3689.jpg)
