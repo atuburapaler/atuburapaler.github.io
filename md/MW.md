@@ -86,18 +86,18 @@ This defines if the next match will open up the secret bunkers under escape 4 by
 ### ![](https://images.blz-contentstack.com/v3/assets/bltf408a0557f4e4998/blt658c764be11bbed4/60db86bbce1eb95db45df71b/call-of-duty-warzone.svg){6%:6%} Game modes
 Name|Icon|Full command
 -|:-:|-
-Battle Royale|![Modern Warfare era icon.](https://static.wikia.nocookie.net/callofduty/images/a/a3/BattleRoyale_Logo_Warzone_MW.png){15%:15%} ![Vanguard era icon.](https://static.wikia.nocookie.net/callofduty/images/9/9a/BattleRoyale_Icon_VG_WZ.png){15%:15%}|`scr_br_gametype br`
-Mini Royale|![](https://static.wikia.nocookie.net/callofduty/images/a/af/MiniRoyale_Logo_WZ.png){15%:15%}|`scr_br_gametype mini`
-Juggernaut Royale|![](https://static.wikia.nocookie.net/callofduty/images/4/44/JuggernautRoyale_Logo_WZ.png){15%:15%}|`scr_br_gametype jugg`
-Armored Royale|![](https://static.wikia.nocookie.net/callofduty/images/7/7d/ArmoredRoyale_Logo_WZ.png){15%:15%}|`scr_br_gametype truckwar`
-Resurgence|![](https://static.wikia.nocookie.net/callofduty/images/1/1d/Resurgence_Logo_WZ.png){15%:15%}|`scr_br_gametype rebirth`
-Plunder|![Modern Warfare era icon.](https://static.wikia.nocookie.net/callofduty/images/5/5e/Plunder_Logo_Warzone_MW.png){15%:15%} ![Vanguard era icon.](https://static.wikia.nocookie.net/callofduty/images/c/c9/Plunder_Icon_VG_WZ.png){15%:15%}|`scr_br_gametype dmz`
-King Slayer|![](https://static.wikia.nocookie.net/callofduty/images/7/7d/KingSlayer_Logo_WZ.png){15%:15%}|`scr_br_gametype kingslayer`
+Battle Royale|![](https://static.wikia.nocookie.net/callofduty/images/a/a3/BattleRoyale_Logo_Warzone_MW.png){15%:15%}![](https://static.wikia.nocookie.net/callofduty/images/9/9a/BattleRoyale_Icon_VG_WZ.png)|`scr_br_gametype br`
+Mini Royale|![](https://static.wikia.nocookie.net/callofduty/images/a/af/MiniRoyale_Logo_WZ.png)|`scr_br_gametype mini`
+Juggernaut Royale|![](https://static.wikia.nocookie.net/callofduty/images/4/44/JuggernautRoyale_Logo_WZ.png)|`scr_br_gametype jugg`
+Armored Royale|![](https://static.wikia.nocookie.net/callofduty/images/7/7d/ArmoredRoyale_Logo_WZ.png)|`scr_br_gametype truckwar`
+Resurgence|![](https://static.wikia.nocookie.net/callofduty/images/1/1d/Resurgence_Logo_WZ.png)|`scr_br_gametype rebirth`
+Plunder|![](https://static.wikia.nocookie.net/callofduty/images/5/5e/Plunder_Logo_Warzone_MW.png)![](https://static.wikia.nocookie.net/callofduty/images/c/c9/Plunder_Icon_VG_WZ.png)|`scr_br_gametype dmz`
+King Slayer|![](https://static.wikia.nocookie.net/callofduty/images/7/7d/KingSlayer_Logo_WZ.png)|`scr_br_gametype kingslayer`
 
 ### ![](https://images.blz-contentstack.com/v3/assets/bltf408a0557f4e4998/blt658c764be11bbed4/60db86bbce1eb95db45df71b/call-of-duty-warzone.svg){32px:32px} Special events
 Name|Version|Icon|Full command
 -|-|:-:|-
-Zombies in Vodianoy|1.34|![](https://static.wikia.nocookie.net/callofduty/images/8/8e/Zombie_Keycard_Icon_WZ.png)|`bla bla bla i'll fill this later`
+Zombies in Vodianoy|1.34|![](https://static.wikia.nocookie.net/callofduty/images/8/8e/Zombie_Keycard_Icon_WZ.png)|`TBA`
 The Destruction of Verdansk P1|1.34|![Part 1](https://static.wikia.nocookie.net/callofduty/images/b/bc/DestructionOfVerdansk_Mode_Icon_WZ.png)|`seta scr_br_gametype "reveal";seta scr_br_alt_mode_zxp 1`
 The Destruction of Verdansk P2|1.34|![Part 2](https://static.wikia.nocookie.net/callofduty/images/b/bc/DestructionOfVerdansk_Mode_Icon_WZ.png)|`set NSQLTTMRMP "mp_escape2_pm";set scr_br_gametype reveal_2`
 Verdansk '84 Loot. Kill. Win.|1.34%darkgoldenrod%**¹**%%|![](https://static.wikia.nocookie.net/callofduty/images/a/a3/BattleRoyale_Logo_Warzone_MW.png)|`scr_br_gametype brdov`
@@ -120,8 +120,8 @@ Example setWZPrivateLoadout loadouts 0 name "New meta, chat"
 - `setWZPrivateLoadout loadouts 0 weaponSetups 0 camo`
 
 ### WZ Camouflages
-![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt9b410089e8178011/60db86bb3681555f01d08321/call-of-duty-black-ops-cold-war.svg){50%:50%}![](https://static.wikia.nocookie.net/callofduty/images/9/97/TeamDeathmatch_Gamemode_Icon_MP_BOCW.png){50%:50%}
-**Multiplayer mastery**%darkgoldenrod%¹%%
+![](https://static.wikia.nocookie.net/callofduty/images/9/97/TeamDeathmatch_Gamemode_Icon_MP_BOCW.png){25%:25%}
+**Cold War, Multiplayer mastery**%darkgoldenrod%¹%%
 
 Name|Icon|ID
 -|:-:|-
@@ -132,7 +132,8 @@ Dark Matter Ultra|![](https://static.wikia.nocookie.net/callofduty/images/a/a1/D
 ¹Only available on version 1.30 onwards (Season One)
 This version has some early coverage on weapon models.
 
-![](https://static.wikia.nocookie.net/callofduty/images/0/08/Defend_Objective_Icon_Outbreak_Zombies_BOCW.png){64px:64px} **Zombies mastery** %darkgoldenrod%²%%
+![](https://static.wikia.nocookie.net/callofduty/images/0/08/Defend_Objective_Icon_Outbreak_Zombies_BOCW.png){50%:50%}
+**Cold War, Zombies mastery** %darkgoldenrod%²%%
 
 Name|Icon|ID
 -|:-:|-
@@ -144,8 +145,8 @@ Dark Aether|![](https://static.wikia.nocookie.net/callofduty/images/0/03/Dark_Ae
 This version has some early coverage on weapon models.
 Some assets of the Dark Aether are broken on version 1.45 onwards.
 
-![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/bltdbe988a11f72d788/6179f1c61bb8c23cf8bbe9c4/VanguardGold.svg){64px:64px} Vanguard Camouflages
-![](https://static.wikia.nocookie.net/callofduty/images/1/17/TeamDeathmatch_Gamemode_Icon_MP_CODV.png){64px:64px} **Multiplayer mastery**%darkgoldenrod%¹%%
+![](https://static.wikia.nocookie.net/callofduty/images/1/17/TeamDeathmatch_Gamemode_Icon_MP_CODV.png){50%:50%}
+**Vanguard, Multiplayer mastery**%darkgoldenrod%¹%%
 
 Name|Icon|ID
 -|:-:|-
@@ -154,7 +155,9 @@ Diamond|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/ima
 Atomic|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw8/v_ui_elmnt_camo_112.png){90px:90px}|`s4_camo_11c`
 ?||`s4_camo_11d`
 
-![](https://static.wikia.nocookie.net/callofduty/images/9/97/DerAnfang_LobbyIcon_CODV.png){101px:124px} **Zombies mastery**%darkgoldenrod%¹%%
+![](https://static.wikia.nocookie.net/callofduty/images/9/97/DerAnfang_LobbyIcon_CODV.png){101px:124px}
+**Vanguard, Zombies mastery**%darkgoldenrod%¹%%
+
 Name|Icon|ID
 -|:-:|-
 Golden Viper|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw8/v_ui_elmnt_camo_gold_zm_e_s.png){90px:90px}|`s4_camo_11a_zm`
