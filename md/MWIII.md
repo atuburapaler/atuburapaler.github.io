@@ -14,7 +14,7 @@
 - `seta #x3879E55ACF9D60DEB`
 This displays the Halloween themed Season Six HUD, in the next match (0-1)
 - `#x3BB4DBC0D6A10A598`
-This displays the Call of Duty Endowment banner in the countdown after the warmup, in the next ![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt50cbf0004f8aeba3/6373bd4c5148880e83ab6d4a/codwz2.svg){6%:6%} match (0-1)
+This displays the Call of Duty Endowment banner in the countdown after the warmup, in the next WZ 2.0 match (0-1)
 - `lui_channels_enabled`
 - `lui_notifications_enabled`
 These defines if the top right menu will display various buttons, or not (0-1)
@@ -92,6 +92,8 @@ A lot of loot bla bla bla (0-3)
 - `set scr_start_currency`
 Set the amount of essence the players will have in the next match.
 - `set #x3ef237da69bb64ef6 mp_jup_st_c_gw;seta #x3f0651f120dc9412d 1`
+
+### Missions
 Act 1 - Exfil Dr Jansen
 - `set #x3ef237da69bb64ef6 mp_jup_resort_gw;seta #x3f0651c120dc93a94 1`
 Act 2 - Test Site
@@ -112,7 +114,8 @@ Season 5 Rift Story
 - `set #x3ef237da69bb64ef6 mp_jup_tower;seta #x37661484c77058395 1; #x3f63771eb667cbc20 1`
 Season 5 Rift - might have to noclip to get some of the Mr. Peeks
 
-![](https://static.wikia.nocookie.net/callofduty/images/a/a1/ContainmentLevel_Level50_Icon_Zombies_MWIII.png){32px:32px} Wonder weapons
+### Wonder weapons
+![](https://static.wikia.nocookie.net/callofduty/images/a/a1/ContainmentLevel_Level50_Icon_Zombies_MWIII.png){50%:50%}
 Name|Icon|ID
 -|:-:|-
 Ray Gun|![](https://static.wikia.nocookie.net/callofduty/images/e/e6/RayGun_HUD_Icon_MWIII.png){50%:50%}|`jup_pi_raygun`
@@ -121,7 +124,8 @@ Scorcher|![](https://static.wikia.nocookie.net/callofduty/images/5/56/Scorcher_H
 Wunderwaffe DG-2|![](https://static.wikia.nocookie.net/callofduty/images/3/33/WunderwaffeDG2_HUD_Icon_MWIII.png){50%:50%}|`jup_ar_dg2`
 V-R11|![](https://static.wikia.nocookie.net/callofduty/images/b/bc/VR11_HUD_Icon_MWIII.png){50%:50%}|`jup_la_humangun`
 
-![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw9/jup_ui_map_icon_mr_peeks.png){4%:4%} Equipment
+### Equipment
+![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw9/jup_ui_map_icon_mr_peeks.png){50%:50%}
 Name|Icon|ID
 -|:-:|-
 Snowball|![](https://static.wikia.nocookie.net/callofduty/images/2/20/Snowball_icon_BO4.png){50%:50%}|`jup_snowball_ob`
@@ -135,7 +139,8 @@ Name|Icon|ID
 -|:-:|-
 Mark of the Survivor|![](https://static.wikia.nocookie.net/callofduty/images/c/c8/MarkOfTheSurvivor_Camo_Icon_MWIII.png){90px:90px}|`jup_camo_n4942_1`
 
-![](https://cdn2.steamgriddb.com/logo/50d2be98900f1d8a2fb3c3207c6d31b9.png){64px:8%} Zombies mastery
+![](https://cdn2.steamgriddb.com/logo/50d2be98900f1d8a2fb3c3207c6d31b9.png){50%:50%}
+Zombies mastery
 Name|Icon|ID
 -|:-:|-
 Golden Enigma|![](https://static.wikia.nocookie.net/callofduty/images/8/8a/GoldenEnigma_Camo_Icon_MWIII.png){90px:90px}|`jup_camo_ob_comp_01`
@@ -143,7 +148,7 @@ Zircon Scale|![](https://static.wikia.nocookie.net/callofduty/images/f/fc/Zircon
 Serpentinite|![](https://static.wikia.nocookie.net/callofduty/images/3/3d/Serpentinite_Camo_Icon_MWIII.png){90px:90px}|`jup_camo_ob_comp_03`
 Borealis|![](https://static.wikia.nocookie.net/callofduty/images/1/15/Borealis_Camo_Icon_MWIII.png){90px:90px}|`jup_camo_ob_comp_04`
 
-![](https://cdn2.steamgriddb.com/logo/50d2be98900f1d8a2fb3c3207c6d31b9.png){64px:8%} Zombies mastery ![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt8f53b3687511367c/62abb5b3e5f7e7444f49f012/MWII_LOGO_SQUARE_SVG.svg){64px:8%}
+MWII Zombies mastery
 Name|Icon|ID
 -|:-:|-
 Golden Ivory|![](https://static.wikia.nocookie.net/callofduty/images/e/ef/GoldenIvory_Camo_Icon_MWIII.png){90px:90px}|`jup_camo_ob_iw9_comp_01`
@@ -151,8 +156,8 @@ Spinel Husk|![](https://static.wikia.nocookie.net/callofduty/images/b/b8/SpinelH
 Arachnida|![](https://static.wikia.nocookie.net/callofduty/images/1/1f/Arachnida_Camo_Icon_MWIII.png){90px:90px}|`jup_camo_ob_iw9_comp_03`
 Bioluminescent|![](https://static.wikia.nocookie.net/callofduty/images/e/e6/Bioluminescent_Camo_Icon_MWIII.png){90px:90px}|`jup_camo_ob_iw9_comp_04`
 
-## ![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt50cbf0004f8aeba3/6373bd4c5148880e83ab6d4a/codwz2.svg){10%:10%}  WARZONE 2.0
-
+## WARZONE 2.0
+![](https://cdn2.steamgriddb.com/hero/d0c5eb4ed41f5237969d0218c27aee75.png)
 - `exec br_core.cfg;exec br_globals.cfg`
 Execute Warzone 2.0.
 - `live_lobby_minplayers_start`
@@ -173,7 +178,7 @@ This disables/enable a developer tool kit in the next match, most of the stuff w
 - `seta scr_br_bunker_doors_show_documents`
 These defines if the next match it's going to use specific ![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt38fbd5bc534f9d8d/666b3646e3720f794c00428c/-Bnet_Game-Shop_Icon-EN-1080x1080.svg?){10%:10%} reveal assets or not (0-1)
 
-### ![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt50cbf0004f8aeba3/6373bd4c5148880e83ab6d4a/codwz2.svg){10%:10%} Game modes
+### Game modes
 Name|Icon|Full command
 -|:-:|-
 Battle Royale|![](https://static.wikia.nocookie.net/callofduty/images/6/6c/BattleRoyale_Icon_MWIII_WZ2.png)|`ui_gametype br`
