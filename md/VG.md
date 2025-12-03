@@ -1,4 +1,4 @@
-# ![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/bltdbe988a11f72d788/6179f1c61bb8c23cf8bbe9c4/VanguardGold.svg) VANGUARD
+# VANGUARD
 ![](https://cdn2.steamgriddb.com/hero/52ec3baefcf93a558d994e1bcd3b5c3d.jpg)
 *->"Ever heard of Vanguard? I created Vanguard."<-*
 
@@ -18,6 +18,10 @@ Example: *setPrivateLoadout loadouts 0 name "New meta, chat"*
 Example: *setPrivateLoadout loadouts 0 weaponSetups 0 weapon s4_ar_stango44*
 - `setPrivateLoadout loadouts 0 weaponSetups 0 camo`
 Example: *setPrivateLoadout loadouts 0 weaponSetups 0 camo s4_camo_11a*
+- `setZMLoadout loadouts 0 weaponSetups 0 weapon`
+Example: *setZMLoadout loadouts 0 weaponSetups 0 weapon s4_pi_raygun*
+- `setZMLoadout loadouts 0 weaponSetups 0 camo`
+Example: *setZMLoadout loadouts 0 weaponSetups 0 camo s4_camo_11a_zm*
 - `setPrivateLoadoutsPlayerData customizationSetup radial 0`
 - `setPrivateLoadoutsPlayerData customizationSetup operatorCustomization`
 
