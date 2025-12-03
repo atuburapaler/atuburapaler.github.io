@@ -152,7 +152,7 @@ Name|Icon|ID
 -|:-:|-
 Mark of the Survivor|![](https://static.wikia.nocookie.net/callofduty/images/c/c8/MarkOfTheSurvivor_Camo_Icon_MWIII.png){90px:90px}|`jup_camo_n4942_1`
 
-![](https://cdn2.steamgriddb.com/logo/50d2be98900f1d8a2fb3c3207c6d31b9.png){70%:70%}
+![](https://cdn2.steamgriddb.com/logo/50d2be98900f1d8a2fb3c3207c6d31b9.png){40%:40%}
 Zombies mastery
 Name|Icon|ID
 -|:-:|-
