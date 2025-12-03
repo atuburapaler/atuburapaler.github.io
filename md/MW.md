@@ -1,8 +1,8 @@
-# ![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt492af3d8b35e50b5/60db86bb2d26525ef67ac5a4/call-of-duty-mw.svg){64px:64px} MODERN WARFARE
+# MODERN WARFARE
 ![](https://shared.steamstatic.com/store_item_assets/steam/apps/2000950/library_hero_2x.jpg?t=1677185679)
 *->"We get dirty and the world stays clean. That's the mission."<-*
 
-## 📚 Versions
+## Versions
 Number|Season|Splash
 -|:-:|:-:
 `1.16`|![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt492af3d8b35e50b5/60db86bb2d26525ef67ac5a4/call-of-duty-mw.svg){30%:30%}![Season Two](){15%:15%}|![](){80%:80%}
@@ -24,14 +24,14 @@ Number|Season|Splash
 `1.65`|![Call of Duty: Warzone Caldera](){75%:75%}|![](https://static.wikia.nocookie.net/callofduty/images/4/42/WarzoneCaldera_Artwork_WZ.jpg/revision/latest/scale-to-width-down/1000?cb=20230624220454){80%:80%}
 `1.67`|Retail|![](){80%:80%}
 
-## 📋 Menus
+## Menus
 - `openmenu mainlockoutmenu`
 - `openmenu mainmenuoffline`
 - `openmenu systemlinklobby`
 - `openmenu bundlelockermenu`
 - `openmenu wzseasonalopeningscreenpc`
 
-## 🕶️ Visuals
+## Visuals
 - `seta MONKPPPQR`
 This defines if the game frontend will be using seasonal assets or not (0-1)
 - `r_colorGradingAnalyticalEnable 0; r_whiteBalanceTweaks 1; r_whiteBalanceIlluminant 2`
@@ -43,7 +43,7 @@ This will set the terrain tessellation details render (0-2) this setting is ofte
 - `execution_hint_enabled`
 This will show or hide a hint whenever you're able to perform an execution, the UI elements are unfinished in this game (0-1)
 
-## 🎒 Inventories
+## Inventories
 - `setPrivateLoadout loadouts 0 name`
 Example setPrivateLoadout loadouts 0 name "New meta, chat"
 - `setPrivateLoadoutsPlayerData customizationSetup radial 0`
@@ -111,7 +111,7 @@ Operation: Last Call|1.63+%darkgoldenrod%**²**%%|![](https://static.wikia.nocoo
 ¹It requires a controller set as the primary input method as you need to unplug it and plug it back in to get any input.
 ² 1.63 is a very unstable/broken build, the event will work in post. versions but it might miss some mechanics.
     
-### Inventories
+### WZ Inventories
 - `setWZPrivateLoadout loadouts 0 name`
 Example setWZPrivateLoadout loadouts 0 name "New meta, chat"
 - `setWZPrivateLoadout loadouts 0 weaponSetups 0 weapon`
@@ -119,9 +119,9 @@ Example setWZPrivateLoadout loadouts 0 name "New meta, chat"
 - `setWZPrivateLoadoutsPlayerData customizationSetup operatorCustomization`
 - `setWZPrivateLoadout loadouts 0 weaponSetups 0 camo`
 
-### Camouflages
-![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt9b410089e8178011/60db86bb3681555f01d08321/call-of-duty-black-ops-cold-war.svg){64px:64px} Cold War Camouflages
-![](https://static.wikia.nocookie.net/callofduty/images/9/97/TeamDeathmatch_Gamemode_Icon_MP_BOCW.png){64px:64px} **Multiplayer mastery**%darkgoldenrod%¹%%
+### WZ Camouflages
+![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt9b410089e8178011/60db86bb3681555f01d08321/call-of-duty-black-ops-cold-war.svg){50%:50%}![](https://static.wikia.nocookie.net/callofduty/images/9/97/TeamDeathmatch_Gamemode_Icon_MP_BOCW.png){50%:50%}
+**Multiplayer mastery**%darkgoldenrod%¹%%
 
 Name|Icon|ID
 -|:-:|-
@@ -149,17 +149,17 @@ Some assets of the Dark Aether are broken on version 1.45 onwards.
 
 Name|Icon|ID
 -|:-:|-
-Gold|![](){90px:90px}|`s4_camo_11a`
-Diamond|![](){90px:90px}|`s4_camo_11b`
-Atomic|![](){90px:90px}|`s4_camo_11c`
+Gold|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw8/v_ui_elmnt_camo_110.png){90px:90px}|`s4_camo_11a`
+Diamond|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw8/v_ui_elmnt_camo_111.png){90px:90px}|`s4_camo_11b`
+Atomic|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw8/v_ui_elmnt_camo_112.png){90px:90px}|`s4_camo_11c`
 ?||`s4_camo_11d`
 
 ![](https://static.wikia.nocookie.net/callofduty/images/9/97/DerAnfang_LobbyIcon_CODV.png){101px:124px} **Zombies mastery**%darkgoldenrod%¹%%
 Name|Icon|ID
 -|:-:|-
-Golden Viper|![](){90px:90px}|`s4_camo_11a_zm`
-Plague Diamond|![](){90px:90px}|`s4_camo_11b_zm`
-Dark Aether|![](){90px:90px}|`s4_camo_11c_zm`
+Golden Viper|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw8/v_ui_elmnt_camo_gold_zm_e_s.png){90px:90px}|`s4_camo_11a_zm`
+Plague Diamond|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw8/v_ui_elmnt_camo_diamond_zm_a_s.png){90px:90px}|`s4_camo_11b_zm`
+Dark Aether|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw8/v_ui_elmnt_camo_atomic_c_zm_c.png){90px:90px}|`s4_camo_11c_zm`
 !!! warning
 ¹Only available on version 1.46 onwards (Season One)
 
