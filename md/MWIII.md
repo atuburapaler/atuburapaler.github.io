@@ -52,8 +52,8 @@ Nothing|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/ima
 Fists|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw9/hud_icon_weapon_me_fist.png){50%:50%}|`iw9_drown`
 Fists (old)|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw8/icon_weapon_me_fists.png){20%:20%}|`iw8_fists_mp_zmb`
 Minigun|![](https://static.wikia.nocookie.net/callofduty/images/4/4b/Minigun_HUD_Icon_MWII.png){50%:50%}|`iw9_lm_dblmg`
-Arcade Riveter|![](https://static.wikia.nocookie.net/callofduty/images/4/43/Riveter_HUD_Icon_MWIII.png)|`setJupiterPrivateLoadout loadouts 0 weaponSetups 0 weapon jup_cp01_sh_aromeo410;setJupiterPrivateLoadout loadouts 0 weaponSetups 0 attachmentSetup 0 attachment jup_ammo_410g_vortex`
-Arcade MORS|![](https://static.wikia.nocookie.net/callofduty/images/5/50/MORS_HUD_Icon_MWIII.png)|`setJupiterPrivateLoadout loadouts 0 weaponSetups 1 weapon jup_jp35_sn_moscar;setJupiterPrivateLoadout loadouts 0 weaponSetups 1 attachmentSetup 0 attachment jup_jp35_sn_moscar_bar_explode`
+Arcade Riveter|![](https://static.wikia.nocookie.net/callofduty/images/4/43/Riveter_HUD_Icon_MWIII.png){50%:50%}|`setJupiterPrivateLoadout loadouts 0 weaponSetups 0 weapon jup_cp01_sh_aromeo410;setJupiterPrivateLoadout loadouts 0 weaponSetups 0 attachmentSetup 0 attachment jup_ammo_410g_vortex`
+Arcade MORS|![](https://static.wikia.nocookie.net/callofduty/images/5/50/MORS_HUD_Icon_MWIII.png){50%:50%}|`setJupiterPrivateLoadout loadouts 0 weaponSetups 1 weapon jup_jp35_sn_moscar;setJupiterPrivateLoadout loadouts 0 weaponSetups 1 attachmentSetup 0 attachment jup_jp35_sn_moscar_bar_explode`
 Stim pistol|![](https://static.wikia.nocookie.net/callofduty/images/b/bc/StimPistol_FieldUpgrade_HUD_Icon_WZ2.png){50%:50%}|`iw9_pi_stimpistol`
 Glass shard|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw9/hud_icon_weapon_jup_me_glassshiv_mp.png){70%:70%}|`jup_me_glassshiv`
 Laser Vision (Temp V)|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw9/hud_icon_power_laser_eyes.png){50%:50%}|`super_laser_charge_mp`
@@ -152,7 +152,7 @@ Name|Icon|ID
 -|:-:|-
 Mark of the Survivor|![](https://static.wikia.nocookie.net/callofduty/images/c/c8/MarkOfTheSurvivor_Camo_Icon_MWIII.png){90px:90px}|`jup_camo_n4942_1`
 
-![](https://cdn2.steamgriddb.com/logo/50d2be98900f1d8a2fb3c3207c6d31b9.png){40%:40%}
+![](https://cdn2.steamgriddb.com/logo/50d2be98900f1d8a2fb3c3207c6d31b9.png){30%:30%}
 Zombies mastery
 Name|Icon|ID
 -|:-:|-
