@@ -171,7 +171,7 @@ This disables/enable third person button option on the pause menu, in the next m
 This disables/enable a developer tool kit in the next match, most of the stuff won't work, visual only.
 - `seta scr_br_bunker_doors_show_graffiti`
 - `seta scr_br_bunker_doors_show_documents`
-These defines if the next match it's going to use specific ![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt38fbd5bc534f9d8d/666b3646e3720f794c00428c/-Bnet_Game-Shop_Icon-EN-1080x1080.svg?){32px:32px} reveal assets or not (0-1)
+These defines if the next match it's going to use specific ![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt38fbd5bc534f9d8d/666b3646e3720f794c00428c/-Bnet_Game-Shop_Icon-EN-1080x1080.svg?){10%:10%} reveal assets or not (0-1)
 
 ### ![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt50cbf0004f8aeba3/6373bd4c5148880e83ab6d4a/codwz2.svg){10%:10%} Game modes
 Name|Icon|Full command
