@@ -1,4 +1,4 @@
-# ![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt8168cbdbbc05770d/64cc38e2c45759d767a1f84f/Jupiter_Coming_Soon-Bnet_Game-Icon_Shop-EN-Vector-01.svg){20%:20%} MODERN WARFARE III
+# MODERN WARFARE III
 ![](https://cdn2.steamgriddb.com/hero/4971ea42e67e73f2e0dc2546ac114455.jpg)
 *->"Take this to hell with you, Captain... Never bury your enemies alive."<-*
 
@@ -34,6 +34,10 @@ This will restore previous values and return to the default sample count.
 Something about bots, i'll test it later.
 - `cg_drawdevoverlays`
 This will show/hide developer info in an overlay (0-1)
+- `lui_enable_gun_effect_preview_firing_range`
+This defines if the weapon preview from the firing range will display or not a tracers preview window like in bundle menus (0-1)
+- `r_globalSnow 1`
+Experimental, this will render snow textures on the whole game, can affect all kind of maps.
 
 ## Inventories
 - `setJupiterPrivateLoadout loadouts 0 name`
@@ -147,7 +151,7 @@ Spinel Husk|![](https://static.wikia.nocookie.net/callofduty/images/b/b8/SpinelH
 Arachnida|![](https://static.wikia.nocookie.net/callofduty/images/1/1f/Arachnida_Camo_Icon_MWIII.png){90px:90px}|`jup_camo_ob_iw9_comp_03`
 Bioluminescent|![](https://static.wikia.nocookie.net/callofduty/images/e/e6/Bioluminescent_Camo_Icon_MWIII.png){90px:90px}|`jup_camo_ob_iw9_comp_04`
 
-### ![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt50cbf0004f8aeba3/6373bd4c5148880e83ab6d4a/codwz2.svg){10%:10%}  WARZONE 2.0
+## ![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt50cbf0004f8aeba3/6373bd4c5148880e83ab6d4a/codwz2.svg){10%:10%}  WARZONE 2.0
 
 - `exec br_core.cfg;exec br_globals.cfg`
 Execute Warzone 2.0.
@@ -167,12 +171,15 @@ This disables/enable third person button option on the pause menu, in the next m
 This disables/enable a developer tool kit in the next match, most of the stuff won't work, visual only.
 - `seta scr_br_bunker_doors_show_graffiti`
 - `seta scr_br_bunker_doors_show_documents`
-These defines if the next match it's going to use specific Black Ops 6 reveal assets or not (0-1)
+These defines if the next match it's going to use specific ![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt38fbd5bc534f9d8d/666b3646e3720f794c00428c/-Bnet_Game-Shop_Icon-EN-1080x1080.svg?){32px:32px} reveal assets or not (0-1)
 
-### ![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt50cbf0004f8aeba3/6373bd4c5148880e83ab6d4a/codwz2.svg){6%:6%} Game modes
+### ![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt50cbf0004f8aeba3/6373bd4c5148880e83ab6d4a/codwz2.svg){10%:10%} Game modes
 Name|Icon|Full command
 -|:-:|-
-Battle Royale|![](https://static.wikia.nocookie.net/callofduty/images/6/6c/BattleRoyale_Icon_MWIII_WZ2.png){15%:15%}|`ui_gametype br`
-Mini Royale|![](https://static.wikia.nocookie.net/callofduty/images/a/ad/MiniRoyale_Icon_MWIII_WZ2.png){15%:15%}|`ui_gametype mini`
-Resurgence|![](https://static.wikia.nocookie.net/callofduty/images/f/fd/Resurgence_Icon_MWIII_WZ2.png){15%:15%}|`ui_gametype resurgence`
-Plunder|![](https://static.wikia.nocookie.net/callofduty/images/f/fc/Plunder_Icon_MWIII_WZ2.png){15%:15%}|`ui_gametype plunder`
+Battle Royale|![](https://static.wikia.nocookie.net/callofduty/images/6/6c/BattleRoyale_Icon_MWIII_WZ2.png)|`ui_gametype br`
+Mini Royale|![](https://static.wikia.nocookie.net/callofduty/images/a/ad/MiniRoyale_Icon_MWIII_WZ2.png)|`ui_gametype mini`
+Resurgence|![](https://static.wikia.nocookie.net/callofduty/images/f/fd/Resurgence_Icon_MWIII_WZ2.png)|`ui_gametype resurgence`
+Plunder|![](https://static.wikia.nocookie.net/callofduty/images/f/fc/Plunder_Icon_MWIII_WZ2.png)|`ui_gametype plunder`
+Zombie Royale|![](https://static.wikia.nocookie.net/callofduty/images/9/97/ZombieRoyale_Icon_MWIII_WZ2.png)|`ui_gametype zxp`
+Purgatory|![](https://static.wikia.nocookie.net/callofduty/images/6/69/Purgatory_Icon_WZ2.png)|`ui_gametype limbo`
+Totally The Same BR|![](https://static.wikia.nocookie.net/callofduty/images/6/6c/BattleRoyale_Icon_MWIII_WZ2.png)|`ui_gametype br;bg_brIsTotallyNormal 1`
