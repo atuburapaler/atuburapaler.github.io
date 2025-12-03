@@ -44,10 +44,24 @@ Experimental, this will render snow textures on the whole game, can affect all k
 - `setJupiterPrivateLoadout loadouts 0 weaponSetups 0 weapon`
 - `setJupiterPrivateLoadout loadouts 0 weaponSetups 0 camo`
 - `setJupiterPrivateLoadoutsPlayerData customizationSetup operatorCustomization`
-- `setJupiterPrivateLoadout loadouts 0 weaponSetups 0 weapon jup_cp01_sh_aromeo410;setJupiterPrivateLoadout loadouts 0 weaponSetups 0 attachmentSetup 0 attachment jup_ammo_410g_vortex`
-Equip the Arcade game mode Riveter shotgun with unique explosive ammo.
-- `setJupiterPrivateLoadout loadouts 0 weaponSetups 1 weapon jup_jp35_sn_moscar;setJupiterPrivateLoadout loadouts 0 weaponSetups 1 attachmentSetup 0 attachment jup_jp35_sn_moscar_bar_explode`
-Equip the Arcade game mode MORS sniper rifle with unique explosive ammo.
+
+### Exclusive weapons
+Name|Icon|ID
+-|:-:|-
+Nothing|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw9/hud_icon_weapon_melee.png)|`iw9_gunless_mp`
+Fists|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw9/hud_icon_weapon_me_fist.png){50%:50%}|`iw9_drown`
+Fists (old)|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw8/icon_weapon_me_fists.png){20%:20%}|`iw8_fists_mp_zmb`
+Minigun|![](https://static.wikia.nocookie.net/callofduty/images/4/4b/Minigun_HUD_Icon_MWII.png){50%:50%}|`iw9_lm_dblmg`
+Arcade Riveter|![](https://static.wikia.nocookie.net/callofduty/images/4/43/Riveter_HUD_Icon_MWIII.png)|`setJupiterPrivateLoadout loadouts 0 weaponSetups 0 weapon jup_cp01_sh_aromeo410;setJupiterPrivateLoadout loadouts 0 weaponSetups 0 attachmentSetup 0 attachment jup_ammo_410g_vortex`
+Arcade MORS|![](https://static.wikia.nocookie.net/callofduty/images/5/50/MORS_HUD_Icon_MWIII.png)|`setJupiterPrivateLoadout loadouts 0 weaponSetups 1 weapon jup_jp35_sn_moscar;setJupiterPrivateLoadout loadouts 0 weaponSetups 1 attachmentSetup 0 attachment jup_jp35_sn_moscar_bar_explode`
+Stim pistol|![](https://static.wikia.nocookie.net/callofduty/images/b/bc/StimPistol_FieldUpgrade_HUD_Icon_WZ2.png){50%:50%}|`iw9_pi_stimpistol`
+Glass shard|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw9/hud_icon_weapon_jup_me_glassshiv_mp.png){70%:70%}|`jup_me_glassshiv`
+Laser Vision (Temp V)|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw9/hud_icon_power_laser_eyes.png){50%:50%}|`super_laser_charge_mp`
+Rock|![](https://static.wikia.nocookie.net/callofduty/images/b/b2/Rock_Lethal_HUD_Icon_WZ.png/revision/latest?cb=20250610041025){50%:50%}|`rock_mp`
+Buzzsaw|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw9/cp_tac_waypoint_buzzsaw.png){50%:50%}|`iw9_me_buzzsaw_mp`
+EMP bomb|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw9/hud_icon_equipment_emp.png){50%:50%}|`iw9_cyberemp`
+Rebreather|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw9/hud_icon_loot_rebreather.png){50%:50%}|`iw9_oxygenmask_mp`
+Iodine pills|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw9/hud_icon_equipment_iodine_pills.png){30%:30%}|`iodine_pills_mp`
 
 ### Camouflages
 Multiplayer mastery
@@ -73,8 +87,7 @@ Gridlocked|![](https://static.wikia.nocookie.net/callofduty/images/8/8e/Gridlock
 Shifting Grid|![](https://static.wikia.nocookie.net/callofduty/images/d/df/ShiftingGrid_Camo_Icon_MWIII.png){90px:90px}|
 Synth-Bust|![](https://static.wikia.nocookie.net/callofduty/images/f/fb/SynthBust_Camo_Icon_MWIII.png){90px:90px}|
 
-## ![](https://cdn2.steamgriddb.com/logo/50d2be98900f1d8a2fb3c3207c6d31b9.png){10%:10%} Zombies
-
+## Zombies
 - `cl_transientcollision_memorybudgetgame 224288000;cl_transientcollision_maxtilesoverride 64;scr_default_maxagents 64;ui_serverframeduration 16;ui_physicsframeduration 16`
 Stability values.
 - `set ob_devuav`
@@ -115,7 +128,7 @@ Season 5 Rift Story
 Season 5 Rift - might have to noclip to get some of the Mr. Peeks
 
 ### Wonder weapons
-![](https://static.wikia.nocookie.net/callofduty/images/a/a1/ContainmentLevel_Level50_Icon_Zombies_MWIII.png){50%:50%}
+![](https://static.wikia.nocookie.net/callofduty/images/a/a1/ContainmentLevel_Level50_Icon_Zombies_MWIII.png)
 Name|Icon|ID
 -|:-:|-
 Ray Gun|![](https://static.wikia.nocookie.net/callofduty/images/e/e6/RayGun_HUD_Icon_MWIII.png){50%:50%}|`jup_pi_raygun`
@@ -125,7 +138,7 @@ Wunderwaffe DG-2|![](https://static.wikia.nocookie.net/callofduty/images/3/33/Wu
 V-R11|![](https://static.wikia.nocookie.net/callofduty/images/b/bc/VR11_HUD_Icon_MWIII.png){50%:50%}|`jup_la_humangun`
 
 ### Equipment
-![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw9/jup_ui_map_icon_mr_peeks.png){50%:50%}
+![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw9/jup_ui_map_icon_mr_peeks.png)
 Name|Icon|ID
 -|:-:|-
 Snowball|![](https://static.wikia.nocookie.net/callofduty/images/2/20/Snowball_icon_BO4.png){50%:50%}|`jup_snowball_ob`
@@ -139,7 +152,7 @@ Name|Icon|ID
 -|:-:|-
 Mark of the Survivor|![](https://static.wikia.nocookie.net/callofduty/images/c/c8/MarkOfTheSurvivor_Camo_Icon_MWIII.png){90px:90px}|`jup_camo_n4942_1`
 
-![](https://cdn2.steamgriddb.com/logo/50d2be98900f1d8a2fb3c3207c6d31b9.png){50%:50%}
+![](https://cdn2.steamgriddb.com/logo/50d2be98900f1d8a2fb3c3207c6d31b9.png){70%:70%}
 Zombies mastery
 Name|Icon|ID
 -|:-:|-
