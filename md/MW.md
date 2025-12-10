@@ -5,22 +5,22 @@
 ## Versions
 Number|Season|Splash
 -|:-:|:-:
-`1.16`|![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt492af3d8b35e50b5/60db86bb2d26525ef67ac5a4/call-of-duty-mw.svg){30%:30%}![Season Two](){15%:15%}|![](){80%:80%}
-`1.19`-`20`|![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt492af3d8b35e50b5/60db86bb2d26525ef67ac5a4/call-of-duty-mw.svg){30%:30%}![Season Three](){15%:15%}|![](){80%:80%}
-`1.23`|![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt492af3d8b35e50b5/60db86bb2d26525ef67ac5a4/call-of-duty-mw.svg){30%:30%}![Season Four](https://lh3.google.com/u/0/d/1g5YEzDxRCBY2obttLEDNh3WfXPMh3H2U=w1222-h922-iv1?auditContext=prefetch){15%:15%}|![](https://lh3.google.com/u/0/d/18kV-qeyzYihpEHr1say59x2d3CfEpcq-=w1910-h922-iv1?auditContext=prefetch){80%:80%}
-`1.24`-`6`|![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt492af3d8b35e50b5/60db86bb2d26525ef67ac5a4/call-of-duty-mw.svg){30%:30%}![Season Five](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw8/icon_season_s05.png){80%:80%}|![](){80%:80%}
-`1.27`-`8`|![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt492af3d8b35e50b5/60db86bb2d26525ef67ac5a4/call-of-duty-mw.svg){30%:30%} 6|![](){80%:80%}
-`1.30`-`1`|![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt9b410089e8178011/60db86bb3681555f01d08321/call-of-duty-black-ops-cold-war.svg){25%:25%}![Season One](https://static.wikia.nocookie.net/callofduty/images/6/63/Season_One_Icon_BOCW.png){25%:25%}|![](https://lh3.google.com/u/0/d/1wjSdKa4y_SFlZmQ_c58c_5wKdcYCzhxO=w1910-h922-iv1?auditContext=prefetch){80%:80%}
-`1.34`|![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt9b410089e8178011/60db86bb3681555f01d08321/call-of-duty-black-ops-cold-war.svg){25%:25%}![Season Two](https://static.wikia.nocookie.net/callofduty/images/b/bf/Season_Two_Icon_BOCW.png){25%:25%}|![](https://lh3.google.com/u/0/d/1qlzccUgi_ZaKu24GBmwevCgLA9vEFMwt=w1910-h922-iv1?auditContext=forDisplay){80%:80%}
-`1.36`-`7`|![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt9b410089e8178011/60db86bb3681555f01d08321/call-of-duty-black-ops-cold-war.svg){25%:25%}![Season Three](https://static.wikia.nocookie.net/callofduty/images/d/d2/Season_Three_Icon_BOCW.png){25%:25%}|![](https://lh3.google.com/u/0/d/1zmqDlQhe5nUhi2gY_Wk7wJo0wU7efhm9=w1910-h922-iv1?auditContext=forDisplay){80%:80%}![](https://lh3.google.com/u/0/d/1by4_FEWow64TcwDiNUWsXKn4t3zqMzl9=w1910-h922-iv1?auditContext=prefetch){80%:80%}
-`1.38`-`9`|![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt9b410089e8178011/60db86bb3681555f01d08321/call-of-duty-black-ops-cold-war.svg){25%:25%}![Season Four](https://static.wikia.nocookie.net/callofduty/images/b/ba/Season_Four_Icon_BOCW.png){25%:25%}|![](https://lh3.google.com/u/0/d/1VyHMDUQ0AuEyzaCatxWAOm1d7NScyVbf=w1222-h922-iv1?auditContext=forDisplay){80%:80%}
-`1.41`-`2`|![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt9b410089e8178011/60db86bb3681555f01d08321/call-of-duty-black-ops-cold-war.svg){25%:25%}![Season Five](https://static.wikia.nocookie.net/callofduty/images/8/88/Season_Five_Icon_BOCW.png){25%:25%}|![](https://lh3.google.com/u/0/d/14E3EqbJ2i7L8bVK_E-dzpnEMOBfyyXVl=w1910-h922-iv1?auditContext=forDisplay){80%:80%}
-`1.44`-`5`|![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt9b410089e8178011/60db86bb3681555f01d08321/call-of-duty-black-ops-cold-war.svg){25%:25%}![Season Six](https://lh3.google.com/u/0/d/1dLpv6ZUxmujmXeaz6pFv5bIuiktiZsqA=w1222-h922-iv1?auditContext=prefetch){25%:25%}|![](https://lh3.google.com/u/0/d/18xd3ZS2XD-_0ZtWlHStpYlNUzAL0Cz4D=w1222-h922-iv1?auditContext=prefetch){80%:80%}
-`1.46`-`51`|![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/bltdbe988a11f72d788/6179f1c61bb8c23cf8bbe9c4/VanguardGold.svg){20%:20%}![Season One](https://lh3.google.com/u/0/d/1NYFFr8CYYSQbH9D1mdbpNj2oDSPoVjMF=w1910-h922-iv1?auditContext=prefetch){25%:25%}|![](https://lh3.google.com/u/0/d/1i28nBgUwn7D6302zks1xM6LY6tGTW0b8=w1222-h922-iv1?auditContext=forDisplay){80%:80%}
-`1.54`-`6`|![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/bltdbe988a11f72d788/6179f1c61bb8c23cf8bbe9c4/VanguardGold.svg){20%:20%}![Season Two](https://lh3.google.com/u/0/d/1_jIHo5-SrSa27iKGSgNvErJ4WKgtXKNh=w1910-h922-iv1?auditContext=prefetch){25%:25%}|![](https://lh3.google.com/u/0/d/13cxMNQx8EirKre-zjKHXVBK61dJcSmUy=w1910-h922-iv1?auditContext=prefetch){80%:80%}
-`1.57`-`8`|![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/bltdbe988a11f72d788/6179f1c61bb8c23cf8bbe9c4/VanguardGold.svg){20%:20%}![Season Three](){80%:80%}
-`1.59`-`61`|![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/bltdbe988a11f72d788/6179f1c61bb8c23cf8bbe9c4/VanguardGold.svg){20%:20%}![Season Four](){25%:25%}|![](https://lh3.google.com/u/0/d/1Xr5Os94eSdTBd2jQrFAYY0kFLDF5xcZ9=w1910-h922-iv1?auditContext=forDisplay){80%:80%}
-`1.62`-`64`|![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/bltdbe988a11f72d788/6179f1c61bb8c23cf8bbe9c4/VanguardGold.svg){20%:20%}![Season Five](){80%:80%}
+`1.16`|![](../images/ui/MW-icon.png){30%:30%}![Season Two](){15%:15%}|![](../images/iw8/1.16.bmp){80%:80%}
+`1.19`-`20`|![](../images/ui/MW-icon.png){30%:30%}![Season Three](){15%:15%}|![](){80%:80%}
+`1.23`|![](../images/ui/MW-icon.png){30%:30%}![Season Four](https://lh3.google.com/u/0/d/1g5YEzDxRCBY2obttLEDNh3WfXPMh3H2U=w1222-h922-iv1?auditContext=prefetch){15%:15%}|![](){80%:80%}
+`1.24`-`6`|![](../images/ui/MW-icon.png){30%:30%}![Season Five](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw8/icon_season_s05.png){80%:80%}|![](){80%:80%}
+`1.27`-`8`|![](../images/ui/MW-icon.png){30%:30%} 6|![](){80%:80%}
+`1.30`-`1`|![](../images/ui/CW-icon.png){25%:25%}![Season One](https://static.wikia.nocookie.net/callofduty/images/6/63/Season_One_Icon_BOCW.png){25%:25%}|![](https://lh3.google.com/u/0/d/1wjSdKa4y_SFlZmQ_c58c_5wKdcYCzhxO=w1910-h922-iv1?auditContext=prefetch){80%:80%}
+`1.34`|![](../images/ui/CW-icon.png){25%:25%}![Season Two](https://static.wikia.nocookie.net/callofduty/images/b/bf/Season_Two_Icon_BOCW.png){25%:25%}|![](https://lh3.google.com/u/0/d/1qlzccUgi_ZaKu24GBmwevCgLA9vEFMwt=w1910-h922-iv1?auditContext=forDisplay){80%:80%}
+`1.36`-`7`|![](../images/ui/CW-icon.png){25%:25%}![Season Three](https://static.wikia.nocookie.net/callofduty/images/d/d2/Season_Three_Icon_BOCW.png){25%:25%}|![](){80%:80%}![](https://lh3.google.com/u/0/d/1by4_FEWow64TcwDiNUWsXKn4t3zqMzl9=w1910-h922-iv1?auditContext=prefetch){80%:80%}
+`1.38`-`9`|![](../images/ui/CW-icon.png){25%:25%}![Season Four](https://static.wikia.nocookie.net/callofduty/images/b/ba/Season_Four_Icon_BOCW.png){25%:25%}|![](){80%:80%}
+`1.41`-`2`|![](../images/ui/CW-icon.png){25%:25%}![Season Five](https://static.wikia.nocookie.net/callofduty/images/8/88/Season_Five_Icon_BOCW.png){25%:25%}|![](){80%:80%}
+`1.44`-`5`|![](../images/ui/CW-icon.png){25%:25%}![Season Six](){25%:25%}|![](https://lh3.google.com/u/0/d/18xd3ZS2XD-_0ZtWlHStpYlNUzAL0Cz4D=w1222-h922-iv1?auditContext=prefetch){80%:80%}
+`1.46`-`51`|![](../images/ui/VG-icon.png){20%:20%}![Season One](https://lh3.google.com/u/0/d/1NYFFr8CYYSQbH9D1mdbpNj2oDSPoVjMF=w1910-h922-iv1?auditContext=prefetch){25%:25%}|![](){80%:80%}
+`1.54`-`6`|![](../images/ui/VG-icon.png){20%:20%}![Season Two](https://lh3.google.com/u/0/d/1_jIHo5-SrSa27iKGSgNvErJ4WKgtXKNh=w1910-h922-iv1?auditContext=prefetch){25%:25%}|![](){80%:80%}
+`1.57`-`8`|![](../images/ui/VG-icon.png){20%:20%}![Season Three](){80%:80%}
+`1.59`-`61`|![](../images/ui/VG-icon.png){20%:20%}![Season Four](){25%:25%}|![](https://lh3.google.com/u/0/d/1Xr5Os94eSdTBd2jQrFAYY0kFLDF5xcZ9=w1910-h922-iv1?auditContext=forDisplay){80%:80%}
+`1.62`-`64`|![](../images/ui/VG-icon.png){20%:20%}![Season Five](){80%:80%}
 `1.65`|![Call of Duty: Warzone Caldera](){75%:75%}|![](https://static.wikia.nocookie.net/callofduty/images/4/42/WarzoneCaldera_Artwork_WZ.jpg/revision/latest/scale-to-width-down/1000?cb=20230624220454){80%:80%}
 `1.67`|Retail|![](){80%:80%}
 
@@ -35,7 +35,7 @@ Number|Season|Splash
 - `seta MONKPPPQR`
 This defines if the game frontend will be using seasonal assets or not (0-1)
 - `r_colorGradingAnalyticalEnable 0; r_whiteBalanceTweaks 1; r_whiteBalanceIlluminant 2`
-This will emulate a neutral lighting for the game front end, which can be used to override ![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt9b410089e8178011/60db86bb3681555f01d08321/call-of-duty-black-ops-cold-war.svg){32px:32px} and ![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/bltdbe988a11f72d788/6179f1c61bb8c23cf8bbe9c4/VanguardGold.svg){32px:32px} colored filters.
+This will emulate a neutral lighting for the game front end, which can be used to override ![](../images/ui/CW-icon.png){32px:32px} and ![](../images/ui/VG-icon.png){32px:32px} colored filters.
 - `r_colorGradingAnalyticalEnable 1; r_whiteBalanceTweaks 0; r_whiteBalanceIlluminant 0`
 This will restore previous values and return to the default front end lighting.
 - `r_tessellation`
@@ -77,7 +77,7 @@ This enables the possibility of using loadouts for every player/bot in the next 
 - `seta scr_br_use_ww2_announcer`
 - `seta scr_br_use_ww2_killstreak_call_in_device`
 - `seta scr_br_use_ww2_model_swaps`
-These defines if the next match it's going to use specific ![](https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/bltdbe988a11f72d788/6179f1c61bb8c23cf8bbe9c4/VanguardGold.svg){32px:32px} assets or not (0-1)
+These defines if the next match it's going to use specific ![](../images/ui/VG-icon.png){32px:32px} assets or not (0-1)
 - `seta scr_br_atlantisNight`
 This defines if the next match on escape it's going to use night assets
 - `seta scr_escape4_ee_6_2_enabled 1;seta scr_escape4_ee_6_3_enabled 1`
