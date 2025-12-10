@@ -5,24 +5,24 @@
 ## Versions
 Number|Season|Splash
 -|:-:|:-:
-`1.16`|![](../images/ui/MW-icon.png){30%:30%}![Season Two](){15%:15%}|![](../images/iw8/1.16.bmp){80%:80%}
-`1.19`-`20`|![](../images/ui/MW-icon.png){30%:30%}![Season Three](){15%:15%}|![](){80%:80%}
-`1.23`|![](../images/ui/MW-icon.png){30%:30%}![Season Four](https://lh3.google.com/u/0/d/1g5YEzDxRCBY2obttLEDNh3WfXPMh3H2U=w1222-h922-iv1?auditContext=prefetch){15%:15%}|![](){80%:80%}
-`1.24`-`6`|![](../images/ui/MW-icon.png){30%:30%}![Season Five](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw8/icon_season_s05.png){80%:80%}|![](){80%:80%}
-`1.27`-`8`|![](../images/ui/MW-icon.png){30%:30%} 6|![](){80%:80%}
-`1.30`-`1`|![](../images/ui/CW-icon.png){25%:25%}![Season One](https://static.wikia.nocookie.net/callofduty/images/6/63/Season_One_Icon_BOCW.png){25%:25%}|![](https://lh3.google.com/u/0/d/1wjSdKa4y_SFlZmQ_c58c_5wKdcYCzhxO=w1910-h922-iv1?auditContext=prefetch){80%:80%}
-`1.34`|![](../images/ui/CW-icon.png){25%:25%}![Season Two](https://static.wikia.nocookie.net/callofduty/images/b/bf/Season_Two_Icon_BOCW.png){25%:25%}|![](https://lh3.google.com/u/0/d/1qlzccUgi_ZaKu24GBmwevCgLA9vEFMwt=w1910-h922-iv1?auditContext=forDisplay){80%:80%}
-`1.36`-`7`|![](../images/ui/CW-icon.png){25%:25%}![Season Three](https://static.wikia.nocookie.net/callofduty/images/d/d2/Season_Three_Icon_BOCW.png){25%:25%}|![](){80%:80%}![](https://lh3.google.com/u/0/d/1by4_FEWow64TcwDiNUWsXKn4t3zqMzl9=w1910-h922-iv1?auditContext=prefetch){80%:80%}
-`1.38`-`9`|![](../images/ui/CW-icon.png){25%:25%}![Season Four](https://static.wikia.nocookie.net/callofduty/images/b/ba/Season_Four_Icon_BOCW.png){25%:25%}|![](){80%:80%}
-`1.41`-`2`|![](../images/ui/CW-icon.png){25%:25%}![Season Five](https://static.wikia.nocookie.net/callofduty/images/8/88/Season_Five_Icon_BOCW.png){25%:25%}|![](){80%:80%}
-`1.44`-`5`|![](../images/ui/CW-icon.png){25%:25%}![Season Six](){25%:25%}|![](https://lh3.google.com/u/0/d/18xd3ZS2XD-_0ZtWlHStpYlNUzAL0Cz4D=w1222-h922-iv1?auditContext=prefetch){80%:80%}
-`1.46`-`51`|![](../images/ui/VG-icon.png){20%:20%}![Season One](https://lh3.google.com/u/0/d/1NYFFr8CYYSQbH9D1mdbpNj2oDSPoVjMF=w1910-h922-iv1?auditContext=prefetch){25%:25%}|![](){80%:80%}
-`1.54`-`6`|![](../images/ui/VG-icon.png){20%:20%}![Season Two](https://lh3.google.com/u/0/d/1_jIHo5-SrSa27iKGSgNvErJ4WKgtXKNh=w1910-h922-iv1?auditContext=prefetch){25%:25%}|![](){80%:80%}
-`1.57`-`8`|![](../images/ui/VG-icon.png){20%:20%}![Season Three](){80%:80%}
-`1.59`-`61`|![](../images/ui/VG-icon.png){20%:20%}![Season Four](){25%:25%}|![](https://lh3.google.com/u/0/d/1Xr5Os94eSdTBd2jQrFAYY0kFLDF5xcZ9=w1910-h922-iv1?auditContext=forDisplay){80%:80%}
-`1.62`-`64`|![](../images/ui/VG-icon.png){20%:20%}![Season Five](){80%:80%}
-`1.65`|![Call of Duty: Warzone Caldera](){75%:75%}|![](https://static.wikia.nocookie.net/callofduty/images/4/42/WarzoneCaldera_Artwork_WZ.jpg/revision/latest/scale-to-width-down/1000?cb=20230624220454){80%:80%}
-`1.67`|Retail|![](){80%:80%}
+`1.16`|![](../images/ui/MW-icon.png){30%:30%} Season Two|![](../images/iw8/1.16.bmp){80%:80%}
+`1.19`-`20`|![](../images/ui/MW-icon.png){30%:30%} Season Three|![](../images/iw8/1.20.bmp){80%:80%}
+`1.23`|![](../images/ui/MW-icon.png){30%:30%} Season Four|![](){80%:80%}
+`1.24`-`6`|![](../images/ui/MW-icon.png){30%:30%} Season Five|![](){80%:80%}
+`1.27`-`8`|![](../images/ui/MW-icon.png){30%:30%} Season Six|![](../images/iw8/1.28.bmp){80%:80%}
+`1.30`-`1`|![](../images/ui/CW-icon.png){25%:25%} Season One|![](../images/iw8/1.30.bmp){80%:80%}
+`1.34`|![](../images/ui/CW-icon.png){25%:25%} Season Two|![](../images/iw8/1.34.bmp){80%:80%}
+`1.36`-`7`|![](../images/ui/CW-icon.png){25%:25%} Season Three|![](../images/iw8/1.37.bmp){80%:80%}
+`1.38`-`9`|![](../images/ui/CW-icon.png){25%:25%} Season Four|![](../images/iw8/1.39.bmp){80%:80%}
+`1.41`-`2`|![](../images/ui/CW-icon.png){25%:25%} Season Five|![](../images/iw8/1.41.bmp){80%:80%}
+`1.44`-`5`|![](../images/ui/CW-icon.png){25%:25%} Season Six|![](../images/iw8/1.44.bmp){80%:80%}
+`1.46`-`51`|![](../images/ui/VG-icon.png){20%:20%} Season One|![](../images/iw8/1.51.bmp){80%:80%}
+`1.54`-`6`|![](../images/ui/VG-icon.png){20%:20%} Season Two|![](../images/iw8/1.53.bmp){80%:80%}
+`1.57`-`8`|![](../images/ui/VG-icon.png){20%:20%} Season Three|![](../images/iw8/1.57.bmp){80%:80%}
+`1.59`-`61`|![](../images/ui/VG-icon.png){20%:20%} Season Four|![](../images/iw8/1.60.bmp){80%:80%}
+`1.62`-`64`|![](../images/ui/VG-icon.png){20%:20%} Season Five|![](../images/iw8/1.62.bmp){80%:80%}
+`1.65`|Warzone Caldera|![](https://static.wikia.nocookie.net/callofduty/images/4/42/WarzoneCaldera_Artwork_WZ.jpg/revision/latest/scale-to-width-down/1000?cb=20230624220454){80%:80%}
+`1.67`|Retail|![](../images/iw8/1.0.bmp){80%:80%}
 
 ## Menus
 - `openmenu mainlockoutmenu`
@@ -35,7 +35,7 @@ Number|Season|Splash
 - `seta MONKPPPQR`
 This defines if the game frontend will be using seasonal assets or not (0-1)
 - `r_colorGradingAnalyticalEnable 0; r_whiteBalanceTweaks 1; r_whiteBalanceIlluminant 2`
-This will emulate a neutral lighting for the game front end, which can be used to override ![](../images/ui/CW-icon.png){32px:32px} and ![](../images/ui/VG-icon.png){32px:32px} colored filters.
+This will emulate a neutral lighting for the game front end, which can be used to override VG and Cold War colored filters.
 - `r_colorGradingAnalyticalEnable 1; r_whiteBalanceTweaks 0; r_whiteBalanceIlluminant 0`
 This will restore previous values and return to the default front end lighting.
 - `r_tessellation`
@@ -86,7 +86,7 @@ This defines if the next match will open up the secret bunkers under escape 4 by
 ### ![](https://images.blz-contentstack.com/v3/assets/bltf408a0557f4e4998/blt658c764be11bbed4/60db86bbce1eb95db45df71b/call-of-duty-warzone.svg){6%:6%} Game modes
 Name|Icon|Full command
 -|:-:|-
-Battle Royale|![](https://static.wikia.nocookie.net/callofduty/images/a/a3/BattleRoyale_Logo_Warzone_MW.png){15%:15%}![](https://static.wikia.nocookie.net/callofduty/images/9/9a/BattleRoyale_Icon_VG_WZ.png)|`scr_br_gametype br`
+Battle Royale|![](https://static.wikia.nocookie.net/callofduty/images/a/a3/BattleRoyale_Logo_Warzone_MW.png)![](https://static.wikia.nocookie.net/callofduty/images/9/9a/BattleRoyale_Icon_VG_WZ.png)|`scr_br_gametype br`
 Mini Royale|![](https://static.wikia.nocookie.net/callofduty/images/a/af/MiniRoyale_Logo_WZ.png)|`scr_br_gametype mini`
 Juggernaut Royale|![](https://static.wikia.nocookie.net/callofduty/images/4/44/JuggernautRoyale_Logo_WZ.png)|`scr_br_gametype jugg`
 Armored Royale|![](https://static.wikia.nocookie.net/callofduty/images/7/7d/ArmoredRoyale_Logo_WZ.png)|`scr_br_gametype truckwar`
