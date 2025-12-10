@@ -21,3 +21,8 @@ document.addEventListener("DOMContentLoaded", () => {
   <br class="d-block d-lg-none" />
   <br class="d-block d-lg-none" />
   <br class="d-block d-lg-none" />
+  </div>
+  </nav>
+`;
+document.body.insertAdjacentHTML("afterbegin", navbarHTML);
+});
