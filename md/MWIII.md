@@ -48,20 +48,20 @@ Experimental, this will render snow textures on the whole game, can affect all k
 ### Exclusive weapons
 Name|Icon|ID
 -|:-:|-
-Nothing|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw9/hud_icon_weapon_melee.png)|`iw9_gunless_mp`
-Fists|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw9/hud_icon_weapon_me_fist.png){50%:50%}|`iw9_drown`
-Fists (old)|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw8/icon_weapon_me_fists.png){20%:20%}|`iw8_fists_mp_zmb`
+Nothing|![](../images/iw9/hud_icon_weapon_melee.png)|`iw9_gunless_mp`
+Fists|![](../images/iw9/hud_icon_weapon_me_fist.png){50%:50%}|`iw9_drown`
+Fists (old)|![](../images/iw8/icon_weapon_me_fists.png){20%:20%}|`iw8_fists_mp_zmb`
 Minigun|![](https://static.wikia.nocookie.net/callofduty/images/4/4b/Minigun_HUD_Icon_MWII.png){50%:50%}|`iw9_lm_dblmg`
 Arcade Riveter|![](https://static.wikia.nocookie.net/callofduty/images/4/43/Riveter_HUD_Icon_MWIII.png){50%:50%}|`setJupiterPrivateLoadout loadouts 0 weaponSetups 0 weapon jup_cp01_sh_aromeo410;setJupiterPrivateLoadout loadouts 0 weaponSetups 0 attachmentSetup 0 attachment jup_ammo_410g_vortex`
 Arcade MORS|![](https://static.wikia.nocookie.net/callofduty/images/5/50/MORS_HUD_Icon_MWIII.png){50%:50%}|`setJupiterPrivateLoadout loadouts 0 weaponSetups 1 weapon jup_jp35_sn_moscar;setJupiterPrivateLoadout loadouts 0 weaponSetups 1 attachmentSetup 0 attachment jup_jp35_sn_moscar_bar_explode`
 Stim pistol|![](https://static.wikia.nocookie.net/callofduty/images/b/bc/StimPistol_FieldUpgrade_HUD_Icon_WZ2.png){50%:50%}|`iw9_pi_stimpistol`
-Glass shard|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw9/hud_icon_weapon_jup_me_glassshiv_mp.png){70%:70%}|`jup_me_glassshiv`
-Laser Vision (Temp V)|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw9/hud_icon_power_laser_eyes.png){50%:50%}|`super_laser_charge_mp`
+Glass shard|![](../images/iw9/hud_icon_weapon_jup_me_glassshiv_mp.png){70%:70%}|`jup_me_glassshiv`
+Laser Vision (Temp V)|![](../images/iw9/hud_icon_power_laser_eyes.png){50%:50%}|`super_laser_charge_mp`
 Rock|![](https://static.wikia.nocookie.net/callofduty/images/b/b2/Rock_Lethal_HUD_Icon_WZ.png/revision/latest?cb=20250610041025){50%:50%}|`rock_mp`
-Buzzsaw|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw9/cp_tac_waypoint_buzzsaw.png){50%:50%}|`iw9_me_buzzsaw_mp`
-EMP bomb|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw9/hud_icon_equipment_emp.png){50%:50%}|`iw9_cyberemp`
-Rebreather|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw9/hud_icon_loot_rebreather.png){50%:50%}|`iw9_oxygenmask_mp`
-Iodine pills|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw9/hud_icon_equipment_iodine_pills.png){30%:30%}|`iodine_pills_mp`
+Buzzsaw|![](../images/iw9/cp_tac_waypoint_buzzsaw.png){50%:50%}|`iw9_me_buzzsaw_mp`
+EMP bomb|![](../images/iw9/hud_icon_equipment_emp.png){50%:50%}|`iw9_cyberemp`
+Rebreather|![](../images/iw9/hud_icon_loot_rebreather.png){50%:50%}|`iw9_oxygenmask_mp`
+Iodine pills|![](../images/iw9/hud_icon_equipment_iodine_pills.png){30%:30%}|`iodine_pills_mp`
 
 ### Camouflages
 Multiplayer mastery
@@ -78,7 +78,7 @@ Name|Icon|ID
 One Trick|![](https://static.wikia.nocookie.net/callofduty/images/8/88/OneTrick_Camo_Icon_MWIII.png){90px:90px}|`jup_camo_prest_01`
 Molten Obsidian|![](https://static.wikia.nocookie.net/callofduty/images/f/f7/MoltenObsidian_Camo_Icon_MWIII.png){90px:90px}|`jup_camo_prest_02`
 Mercury|![](https://static.wikia.nocookie.net/callofduty/images/b/b8/Mercury_Camo_Icon_MWIII.png){90px:90px}|`jup_camo_prest_03`
-Constellation's End|![](https://static.wikia.nocookie.net/callofduty/images/6/61/ConstellationsEnd_Camo_Icon_MWIII.png/revision/latest?cb=20240918233408&format=original){90px:90px}|`jup_camo_prest_04`
+Constellation's End|![](../images/iw9/jup_camo_prest_04.gif){90px:90px}|`jup_camo_prest_04`
 
 Events
 Name|Icon|ID
@@ -138,7 +138,7 @@ Wunderwaffe DG-2|![](https://static.wikia.nocookie.net/callofduty/images/3/33/Wu
 V-R11|![](https://static.wikia.nocookie.net/callofduty/images/b/bc/VR11_HUD_Icon_MWIII.png){50%:50%}|`jup_la_humangun`
 
 ### Equipment
-![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw9/jup_ui_map_icon_mr_peeks.png)
+![](../images/iw9/jup_ui_map_icon_mr_peeks.png)
 Name|Icon|ID
 -|:-:|-
 Snowball|![](https://static.wikia.nocookie.net/callofduty/images/2/20/Snowball_icon_BO4.png){50%:50%}|`jup_snowball_ob`
