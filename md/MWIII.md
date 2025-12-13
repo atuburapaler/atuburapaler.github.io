@@ -173,8 +173,7 @@ Bioluminescent|![](https://static.wikia.nocookie.net/callofduty/images/e/e6/Biol
 ![](https://cdn2.steamgriddb.com/hero/d0c5eb4ed41f5237969d0218c27aee75.png)
 - `exec br_core.cfg;exec br_globals.cfg`
 Execute WZ 2.0.
-- `exec br_core.cfg;exec br_globals.cfg`
-exec #x43B0AD900F42FF5D5
+- `exec #x43B0AD900F42FF5D5`
 Needed for Urzikstan WZ 2.0 matches.
 - `live_lobby_minplayers_start`
 This sets what's the minimum players requirement in order to finish the warmup.
