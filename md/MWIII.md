@@ -88,6 +88,7 @@ Shifting Grid|![](https://static.wikia.nocookie.net/callofduty/images/d/df/Shift
 Synth-Bust|![](https://static.wikia.nocookie.net/callofduty/images/f/fb/SynthBust_Camo_Icon_MWIII.png){90px:90px}|
 
 ## Zombies
+![](../images/iw9/jup-ob-bann.png)
 - `cl_transientcollision_memorybudgetgame 224288000;cl_transientcollision_maxtilesoverride 64;scr_default_maxagents 64;ui_serverframeduration 16;ui_physicsframeduration 16`
 Stability values.
 - `set ob_devuav`
