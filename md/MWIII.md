@@ -36,8 +36,6 @@ This will restore previous values and return to the default sample count.
 This will enable/disable Bot names used in WZ 2.0 in every possible mode, disabled by default (0-1)
 - `set com_showbottag`
 This will enable/disable the [bot] prefix for bots in every possible mode, enabled by default (1-0)
-- `bot_disableallai`
-This will disable AI behaviour on bots and agents, disabled by default (0-1)
 - `cg_drawdevoverlays`
 This will show/hide developer info in an overlay (0-1)
 - `lui_enable_gun_effect_preview_firing_range`
@@ -48,18 +46,10 @@ This defines if an icon will display on specific subtitles, early BO6 implementa
 Experimental, this will render snow textures on the whole game, can affect all kind of maps.
 
 ## Inventories
-Private matches
 - `setJupiterPrivateLoadout loadouts 0 name`
 - `setJupiterPrivateLoadout loadouts 0 weaponSetups 0 weapon`
 - `setJupiterPrivateLoadout loadouts 0 weaponSetups 0 camo`
 - `setJupiterPrivateLoadoutsPlayerData customizationSetup operatorCustomization`
-Zombies
-- `setOutbreakLoadout loadouts 0 weaponSetups 0 weapon`
-Weapon setup, example: *setOutbreakLoadout loadouts 0 weaponSetups 0 weapon jup_jp19_ar_acharlie*
-- `setOutbreakLoadout loadouts 0 weaponSetups 0 camo`
-Weapon setup camouflage, example: *setOutbreakLoadout loadouts 0 weaponSetups 0 camo jup_camo_ob_comp_01*
-- `setOutbreakLoadout loadouts 0 equipmentSetups 0 equipment`
-Equipment setup, example: *setOutbreakLoadout loadouts 0 equipmentSetups 0 equipment equip_frag*
 
 ### Exclusive weapons
 Name|Icon|ID
@@ -96,6 +86,14 @@ Molten Obsidian|![](https://static.wikia.nocookie.net/callofduty/images/f/f7/Mol
 Mercury|![](https://static.wikia.nocookie.net/callofduty/images/b/b8/Mercury_Camo_Icon_MWIII.png){90px:90px}|`jup_camo_prest_03`
 Constellation's End|![](../images/iw9/jup_camo_prest_04.gif){90px:90px}|`jup_camo_prest_04`
 
+MWII Multiplayer mastery
+Name|Icon|ID
+-|:-:|-
+Gold|![](https://static.wikia.nocookie.net/callofduty/images/9/95/Gold_Camo_Icon_MWII.png){90px:90px}|`camo_comp_01`
+Platinum|![](https://static.wikia.nocookie.net/callofduty/images/3/33/Platinum_Camo_Icon_MWII.png){90px:90px}|`camo_comp_02`
+Polyatomic|![](https://static.wikia.nocookie.net/callofduty/images/9/96/Polyatomic_Camo_Icon_MWII.png){90px:90px}|`camo_comp_03`
+Orion|![](https://static.wikia.nocookie.net/callofduty/images/6/6d/Orion_Camo_Icon_MWII.png){90px:90px}|`camo_comp_04`
+
 Events
 Name|Icon|ID
 -|:-:|-
@@ -110,44 +108,55 @@ Stability values.
 - `set ob_devuav`
 This defines if the next match will display hostiles on the mini map persistently.
 - `set party_maxsquadsize`
-This sets the number of teammates the player will have in the next match.
 - `set party_maxplayers`
-This sets the number of Operation Deadbolt allies the player will have in the next match (marked with blue)
+This will define the number of players/squads on your team, using the same value for both will let you play duos/quads/trios with bots (0-4)
 - `seta enable_automation_bot`
 This will define if bots can perform specific actions like shooting and aiming, in the next match, it's disabled by default (0-1)
 - `set bot_enablenopathnodebehavior`
 This will define if bots can't follow a path and track hostiles, in the next match, it's enabled by default (1-0)
 - `seta #x32fe0283b419ff08a`
 This defines if the Urzikstan helicopter infil animation plays, in the next match, enabled by default (0-1)
-- `seta #x389f5285b9abcc3b2`
-This will enable a developer cheat for all players/bots with high value loot, depending on the number. Can be used once per weapon upgrade (0-3)
+- `seta cheat_force_power_level`
+This will enable a developer cheat for all players/bots with high value loot, depending on the number, and based on the danger zone loot. Can be used once per weapon upgrade (0-3)
 - `set scr_start_currency`
-Set the amount of essence the players will have in the next match.
-- `set #x3ef237da69bb64ef6 mp_jup_st_c_gw;seta #x3f0651f120dc9412d 1`
+Set the amount of essence the players/bots will have in the next match, affects the whole squad (0-2147483647)
 
-### Missions
-Act 1 - Exfil Dr Jansen
-- `set #x3ef237da69bb64ef6 mp_jup_resort_gw;seta #x3f0651c120dc93a94 1`
-Act 2 - Test Site
-- `set #x3ef237da69bb64ef6 mp_jup_gw_fallout;seta #x3f0651d120dc93cc7 1`
-Act 3 - Confront Zakhaev
-- `set #x3ef237da69bb64ef6 mp_jup_fort;seta #x3596076b5ab54d511 1`
+### Story Missions
+**Act I**: Welcome to Operation Deadbolt (Exfil Dr. Jansen)
+- `set ui_mapname mp_jup_st_c_gw;seta ob_quest1_act1 1`
+**Act II**: Mother of Invention (Test Site)
+- `set ui_mapname mp_jup_resort_gw;seta ob_quest1_act2 1`
+**Act III**: Confrontation (Confront Zakhaev)
+- `set ui_mapname mp_jup_gw_fallout;seta ob_quest1_act3 1`
+**Clear mission selection**
+- `seta ob_quest1_act1 0;seta ob_quest1_act2 0;seta ob_quest1_act3 0;seta ob_rift_run 0;seta ob_s5_rift_run 0;seta ob_rift_story_mission_s1 0;seta #x373cfb77eb49c943 0;seta ob_unstable_rift 0;seta ob_s3_rift_run 0;seta ob_rift_story_mission_s5 0;seta ob_rift_story_mission_s3 0`
+**Hard Rift mode**
+- `seta #x373cfb77eb49c943 1`
 Season 1 - Rift
-- `set #x3ef237da69bb64ef6 mp_jup_sira;seta #x3c385fef4df4638cb 1`
+- `set ui_mapname mp_jup_fort;seta ob_rift_story_mission_s1 1`
 Season 2 - Rift
-- `set #x3ef237da69bb64ef6 mp_jup_hydro;seta #x3596074b5ab54d0ab 1`
+- `set ui_mapname mp_jup_sira;seta ob_s2_rift_run 1`
 Season 3 - Rift Story
-- `set #x3ef237da69bb64ef6 mp_jup_hydro;seta #x3ad8d5450e8812fde 1`
+- `set ui_mapname mp_jup_hydro;seta ob_rift_story_mission_s3 1`
 Season 3 - Rift
-- `set #x3ef237da69bb64ef6 mp_jup_fort;seta #x3fcdaef0b6dd641d2 1`
+- `set ui_mapname mp_jup_hydro;seta ob_s3_rift_run 1`
 Season 4 - Unstable Rift
-- `set #x3ef237da69bb64ef6 mp_jup_tower;seta #x359607ab5ab54dddd 1`
+- `set ui_mapname mp_jup_fort;seta ob_unstable_rift 1`
 Season 5 Rift Story
-- `set #x3ef237da69bb64ef6 mp_jup_tower;seta #x37661484c77058395 1; #x3f63771eb667cbc20 1`
-Season 5 Rift - might have to noclip to get some of the Mr. Peeks
+- `set ui_mapname mp_jup_tower;seta ob_rift_story_mission_s5 1`
+Season 5 Rift
+- `set ui_mapname mp_jup_tower;seta ob_rift_run 1;seta ob_s5_rift_run 1`
+
+### MWZ Inventories
+- `setOutbreakLoadout loadouts 0 weaponSetups 0 weapon`
+Weapon setup, example: *setOutbreakLoadout loadouts 0 weaponSetups 0 weapon jup_jp19_ar_acharlie*
+- `setOutbreakLoadout loadouts 0 weaponSetups 0 camo`
+Weapon setup camouflage, example: *setOutbreakLoadout loadouts 0 weaponSetups 0 camo jup_camo_ob_comp_01*
+- `setOutbreakLoadout loadouts 0 equipmentSetups 0 equipment`
+Equipment setup, example: *setOutbreakLoadout loadouts 0 equipmentSetups 0 equipment equip_frag*
 
 ### Wonder weapons
-![](https://static.wikia.nocookie.net/callofduty/images/a/a1/ContainmentLevel_Level50_Icon_Zombies_MWIII.png)
+![](../images/iw9/jup_ui_map_icon_mysterybox.png){30%:30%}
 Name|Icon|ID
 -|:-:|-
 Ray Gun|![](https://static.wikia.nocookie.net/callofduty/images/e/e6/RayGun_HUD_Icon_MWIII.png)|`jup_pi_raygun`
@@ -157,10 +166,11 @@ Wunderwaffe DG-2|![](https://static.wikia.nocookie.net/callofduty/images/3/33/Wu
 V-R11|![](https://static.wikia.nocookie.net/callofduty/images/b/bc/VR11_HUD_Icon_MWIII.png)|`jup_la_humangun`
 
 ### Equipment
-![](../images/iw9/jup_ui_map_icon_mr_peeks.png)
+![](../images/iw9/jup_ui_map_icon_mr_peeks.png){30%:30%}
 Name|Icon|ID
 -|:-:|-
-Snowball|![](https://static.wikia.nocookie.net/callofduty/images/2/20/Snowball_icon_BO4.png)|`equip_snowball`
+Snowball|![](../images/iw9/hud_icon_equipment_snowball.png)|`equip_snowball`
+Golden snowball|![](../images/iw9/hud_icon_equipment_snowball_pball.png)|`equip_pball`
 Monkey bomb|![](https://static.wikia.nocookie.net/callofduty/images/c/c7/CymbalMonkey_Tactical_HUD_Icon_Zombies_MWIII.png)|`equip_monkey_bomb`
 LT53 Kazimir|![](https://static.wikia.nocookie.net/callofduty/images/3/38/LT53Kazimir_Tactical_HUD_Icon_Zombies_MWIII.png)|`equip_blackhole_bomb`
 Aether blade|![](https://static.wikia.nocookie.net/callofduty/images/b/b1/AetherBlade_Lethal_HUD_Icon_Zombies_MWIII.png)|`equip_aether_blade_ob`
@@ -198,8 +208,6 @@ Needed for Urzikstan WZ 2.0 matches.
 This sets what's the minimum players requirement in order to finish the warmup.
 - `set lui_show_loading_hints`
 This disables/enable the next game mode hints, in the next match. (0-1)
-- `seta unified_backpack_size 1;seta inventory_backpack_size 9;seta force_ranking 1`
-This fixes the backpack inventory (experimental), in the next match.
 - `set ui_serverframeduration 16,set ui_physicsframeduration 16`
 Sets the right physics values for miscellaneous entities like drones, in the next match.
 - `cl_transientcollision_memorybudgetgame 224288000;cl_transientcollision_maxtilesoverride 64`
@@ -210,7 +218,7 @@ This disables/enable third person button option on the pause menu, in the next m
 This disables/enable a developer tool kit in the next match, most of the stuff won't work, visual only.
 - `seta scr_br_bunker_doors_show_graffiti`
 - `seta scr_br_bunker_doors_show_documents`
-These defines if the next match it's going to use specific ![](../images/ui/BO6-icon.png){16px:16px} reveal assets or not (0-1)
+These defines if the next match it's going to use specific BO6 reveal assets or not (0-1)
 
 ### Game modes
 Name|Icon|Full command
