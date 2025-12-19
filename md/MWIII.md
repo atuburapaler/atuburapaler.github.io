@@ -41,15 +41,33 @@ This will show/hide developer info in an overlay (0-1)
 - `lui_enable_gun_effect_preview_firing_range`
 This defines if the weapon preview from the firing range will display or not a tracers preview window like in bundle menus (0-1)
 - `lui_use_lua_subtitle_impl`
-This defines if an icon will display on specific subtitles, early BO6 implementation, disabled by default (0-1)
+This defines if an icon will display on specific subtitles, unfinished and early BO6 implementation, disabled by default (0-1)
 - `r_globalSnow 1`
 Experimental, this will render snow textures on the whole game, can affect all kind of maps.
 
 ## Inventories
+**Private matches**
 - `setJupiterPrivateLoadout loadouts 0 name`
+Loadout name, example: *setJupiterPrivateLoadout loadouts 0 name "Fist of iron"*
 - `setJupiterPrivateLoadout loadouts 0 weaponSetups 0 weapon`
+Weapon setup, example: *setJupiterPrivateLoadout loadouts 0 weaponSetups 0 weapon jup_jp19_ar_acharlie*
 - `setJupiterPrivateLoadout loadouts 0 weaponSetups 0 camo`
-- `setJupiterPrivateLoadoutsPlayerData customizationSetup operatorCustomization`
+Weapon setup camouflage, example: *setJupiterPrivateLoadout loadouts 0 weaponSetups 0 camo jup_camo_comp_01*
+- `setJupiterPrivateLoadout loadouts 0 equipmentSetups 0 equipment`
+Equipment setup, example: *setJupiterPrivateLoadout loadouts 0 equipmentSetups 0 equipment equip_frag*
+- `setJupiterPrivateLoadout loadouts 0 fieldUpgradeSetups 0 fieldUpgrade`
+Field upgrade setup, example: *setJupiterPrivateLoadout loadouts 0 fieldUpgradeSetups 0 fieldUpgrade super_deadsilence*
+**Public matches**
+- `setJupiterPublicLoadout loadouts 0 name`
+Loadout name, example: *setJupiterPublicLoadout loadouts 0 name "Fist of iron"*
+- `setJupiterPublicLoadout loadouts 0 weaponSetups 0 weapon`
+Weapon setup, example: *setJupiterPublicLoadout loadouts 0 weaponSetups 0 weapon jup_jp19_ar_acharlie*
+- `setJupiterPublicLoadout loadouts 0 weaponSetups 0 camo`
+Weapon setup camouflage, example: *setJupiterPublicLoadout loadouts 0 weaponSetups 0 camo jup_camo_comp_01*
+- `setJupiterPublicLoadout loadouts 0 equipmentSetups 0 equipment`
+Equipment setup, example: *setJupiterPublicLoadout loadouts 0 equipmentSetups 0 equipment equip_frag*
+- `setJupiterPublicLoadout loadouts 0 fieldUpgradeSetups 0 fieldUpgrade`
+Field upgrade setup, example: *setJupiterPublicLoadout loadouts 0 fieldUpgradeSetups 0 fieldUpgrade super_deadsilence*
 
 ### Exclusive weapons
 Name|Icon|ID
@@ -68,6 +86,13 @@ Buzzsaw|![](../images/iw9/cp_tac_waypoint_buzzsaw.png)|`iw9_me_buzzsaw_mp`
 EMP bomb|![](../images/iw9/hud_icon_equipment_emp.png)|`iw9_cyberemp`
 Rebreather|![](../images/iw9/hud_icon_loot_rebreather.png)|`iw9_oxygenmask_mp`
 Iodine pills|![](../images/iw9/hud_icon_equipment_iodine_pills.png)|`iodine_pills_mp`
+
+### Exclusive field upgrades
+Stim pistol|![](https://static.wikia.nocookie.net/callofduty/images/b/bc/StimPistol_FieldUpgrade_HUD_Icon_WZ2.png)|`super_stimpistol`
+Oxygen mask|![](../images/iw9/hud_icon_loot_rebreather.png)|`super_oxygen_mask`
+Haunted box|![](https://static.wikia.nocookie.net/callofduty/images/6/64/HauntedBox_FieldUpgrade_HUD_Icon_WZ2.png)|`super_haunted_drop`
+Squad rage|![](https://static.wikia.nocookie.net/callofduty/images/0/03/SquadRage_FieldUpgrade_HUD_Icon_WZ2.png)|`super_squadrage`
+
 
 ### Camouflages
 Multiplayer mastery
@@ -101,7 +126,7 @@ Gridlocked|![](https://static.wikia.nocookie.net/callofduty/images/8/8e/Gridlock
 Shifting Grid|![](https://static.wikia.nocookie.net/callofduty/images/d/df/ShiftingGrid_Camo_Icon_MWIII.png){90px:90px}|
 Synth-Bust|![](https://static.wikia.nocookie.net/callofduty/images/f/fb/SynthBust_Camo_Icon_MWIII.png){90px:90px}|
 
-## Zombies
+## MODERN WARFARE ZOMBIES
 ![](../images/iw9/jup-ob-bann.png)
 - `cl_transientcollision_memorybudgetgame 224288000;cl_transientcollision_maxtilesoverride 64;scr_default_maxagents 64;ui_serverframeduration 16;ui_physicsframeduration 16`
 Stability values.
@@ -154,6 +179,8 @@ Weapon setup, example: *setOutbreakLoadout loadouts 0 weaponSetups 0 weapon jup_
 Weapon setup camouflage, example: *setOutbreakLoadout loadouts 0 weaponSetups 0 camo jup_camo_ob_comp_01*
 - `setOutbreakLoadout loadouts 0 equipmentSetups 0 equipment`
 Equipment setup, example: *setOutbreakLoadout loadouts 0 equipmentSetups 0 equipment equip_frag*
+- `setOutbreakLoadout loadouts 0 fieldUpgradeSetups 0 fieldUpgrade`
+Field upgrade setup, example: *setOutbreakLoadout loadouts 0 fieldUpgradeSetups 0 fieldUpgrade super_aether_shroud*
 
 ### Wonder weapons
 ![](../images/iw9/jup_ui_map_icon_mysterybox.png){30%:30%}
@@ -164,16 +191,6 @@ Ray Gun (WZ)|![](https://static.wikia.nocookie.net/callofduty/images/e/e6/RayGun
 Scorcher|![](https://static.wikia.nocookie.net/callofduty/images/5/56/Scorcher_HUD_Icon_MWIII.png)|`jup_la_plasmagun`
 Wunderwaffe DG-2|![](https://static.wikia.nocookie.net/callofduty/images/3/33/WunderwaffeDG2_HUD_Icon_MWIII.png)|`jup_ar_dg2`
 V-R11|![](https://static.wikia.nocookie.net/callofduty/images/b/bc/VR11_HUD_Icon_MWIII.png)|`jup_la_humangun`
-
-### Equipment
-![](../images/iw9/jup_ui_map_icon_mr_peeks.png){30%:30%}
-Name|Icon|ID
--|:-:|-
-Snowball|![](../images/iw9/hud_icon_equipment_snowball.png)|`equip_snowball`
-Golden snowball|![](../images/iw9/hud_icon_equipment_snowball_pball.png)|`equip_pball`
-Monkey bomb|![](https://static.wikia.nocookie.net/callofduty/images/c/c7/CymbalMonkey_Tactical_HUD_Icon_Zombies_MWIII.png)|`equip_monkey_bomb`
-LT53 Kazimir|![](https://static.wikia.nocookie.net/callofduty/images/3/38/LT53Kazimir_Tactical_HUD_Icon_Zombies_MWIII.png)|`equip_blackhole_bomb`
-Aether blade|![](https://static.wikia.nocookie.net/callofduty/images/b/b1/AetherBlade_Lethal_HUD_Icon_Zombies_MWIII.png)|`equip_aether_blade_ob`
 
 ### Camouflages
 Events
@@ -197,6 +214,26 @@ Golden Ivory|![](https://static.wikia.nocookie.net/callofduty/images/e/ef/Golden
 Spinel Husk|![](https://static.wikia.nocookie.net/callofduty/images/b/b8/SpinelHusk_Camo_Icon_MWIII.png){90px:90px}|`jup_camo_ob_iw9_comp_02`
 Arachnida|![](https://static.wikia.nocookie.net/callofduty/images/1/1f/Arachnida_Camo_Icon_MWIII.png){90px:90px}|`jup_camo_ob_iw9_comp_03`
 Bioluminescent|![](https://static.wikia.nocookie.net/callofduty/images/e/e6/Bioluminescent_Camo_Icon_MWIII.png){90px:90px}|`jup_camo_ob_iw9_comp_04`
+
+### Equipment
+![](../images/iw9/jup_ui_map_icon_mr_peeks.png){30%:30%}
+Name|Icon|ID
+-|:-:|-
+Snowball|![](../images/iw9/hud_icon_equipment_snowball.png)|`equip_snowball`
+Golden snowball|![](../images/iw9/hud_icon_equipment_snowball_pball.png)|`equip_pball`
+Monkey bomb|![](https://static.wikia.nocookie.net/callofduty/images/c/c7/CymbalMonkey_Tactical_HUD_Icon_Zombies_MWIII.png)|`equip_monkey_bomb`
+LT53 Kazimir|![](https://static.wikia.nocookie.net/callofduty/images/3/38/LT53Kazimir_Tactical_HUD_Icon_Zombies_MWIII.png)|`equip_blackhole_bomb`
+Aether blade|![](https://static.wikia.nocookie.net/callofduty/images/b/b1/AetherBlade_Lethal_HUD_Icon_Zombies_MWIII.png)|`equip_aether_blade`
+
+### W.A.N.D.S
+Name|Icon|ID
+-|:-:|-
+Energy mine|![](https://static.wikia.nocookie.net/callofduty/images/a/ae/EnergyMine_FieldUpgrade_Icon_Zombies_BOCW.png)|`super_energy_mine`
+Frenzied guard|![](https://static.wikia.nocookie.net/callofduty/images/e/e8/FrenziedGuard_FieldUpgrade_Icon_Zombies_BOCW.png)|`super_frenzied_guard`
+Healing aura|![](https://static.wikia.nocookie.net/callofduty/images/a/a7/HealingAura_FieldUpgrade_Icon_Zombies_BOCW.png)|`super_healing_aura`
+Frost blast|![](https://static.wikia.nocookie.net/callofduty/images/7/71/FrostBlast_FieldUpgrade_Icon_Zombies_BOCW.png)|`super_frost_blast`
+Aether shroud|![](https://static.wikia.nocookie.net/callofduty/images/e/e8/AetherShroud_FieldUpgrade_Icon_Zombies_BOCW.png)|`super_aether_shroud`
+Tesla Storm|![](https://static.wikia.nocookie.net/callofduty/images/7/71/TeslaStorm_FieldUpgrade_Icon_Zombies_BOCW.png)|`super_tesla_storm`
 
 ## WARZONE 2.0
 ![](https://cdn2.steamgriddb.com/hero/d0c5eb4ed41f5237969d0218c27aee75.png)
