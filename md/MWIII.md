@@ -14,7 +14,7 @@
 
 ## Visuals
 - `seta #x3879E55ACF9D60DEB`
-This displays the Halloween themed Season Six HUD, in the next match (0-1)
+This displays the Halloween themed Season Six HUD, in the next multiplayer match (0-1)
 - `#x3BB4DBC0D6A10A598`
 This displays the Call of Duty Endowment banner in the countdown after the warmup, in the next WZ 2.0 match (0-1)
 - `lui_channels_enabled`
@@ -93,8 +93,6 @@ Name|Icon|ID
 Stim pistol|![](https://static.wikia.nocookie.net/callofduty/images/b/bc/StimPistol_FieldUpgrade_HUD_Icon_WZ2.png)|`super_stimpistol`
 Oxygen mask|![](../images/iw9/hud_icon_loot_rebreather.png)|`super_oxygen_mask`
 Haunted box|![](https://static.wikia.nocookie.net/callofduty/images/6/64/HauntedBox_FieldUpgrade_HUD_Icon_WZ2.png)|`super_haunted_drop`
-Squad rage|![](https://static.wikia.nocookie.net/callofduty/images/0/03/SquadRage_FieldUpgrade_HUD_Icon_WZ2.png)|`super_squadrage`
-
 
 ### Camouflages
 Multiplayer mastery
@@ -130,6 +128,8 @@ Synth-Bust|![](https://static.wikia.nocookie.net/callofduty/images/f/fb/SynthBus
 
 ## MODERN WARFARE ZOMBIES
 ![](../images/iw9/jup-ob-bann.png)
+*->"No one gets in, nothin' - I mean, nothin' gets out. Clear?"<-*
+
 - `cl_transientcollision_memorybudgetgame 224288000;cl_transientcollision_maxtilesoverride 64;scr_default_maxagents 64;ui_serverframeduration 16;ui_physicsframeduration 16`
 Stability values.
 - `set ob_devuav`
@@ -149,30 +149,30 @@ This will enable a developer cheat for all players/bots with high value loot, de
 Set the amount of essence the players/bots will have in the next match, affects the whole squad (0-2147483647)
 
 ### Story Missions
-**Act I**: Welcome to Operation Deadbolt (Exfil Dr. Jansen)
 - `set ui_mapname mp_jup_st_c_gw;seta ob_quest1_act1 1`
-**Act II**: Mother of Invention (Test Site)
+**Act I**: Welcome to Operation Deadbolt (Exfil Dr. Jansen)
 - `set ui_mapname mp_jup_resort_gw;seta ob_quest1_act2 1`
-**Act III**: Confrontation (Confront Zakhaev)
+**Act II**: Mother of Invention (Test Site)
 - `set ui_mapname mp_jup_gw_fallout;seta ob_quest1_act3 1`
-**Clear mission selection**
+**Act III**: Confrontation (Confront Zakhaev)
 - `seta ob_quest1_act1 0;seta ob_quest1_act2 0;seta ob_quest1_act3 0;seta ob_rift_run 0;seta ob_s5_rift_run 0;seta ob_rift_story_mission_s1 0;seta #x373cfb77eb49c943 0;seta ob_unstable_rift 0;seta ob_s3_rift_run 0;seta ob_rift_story_mission_s5 0;seta ob_rift_story_mission_s3 0`
-**Hard Rift mode**
+**Clear mission selection**
 - `seta #x373cfb77eb49c943 1`
-Season 1 - Rift
+**Hard Rift mode**
 - `set ui_mapname mp_jup_fort;seta ob_rift_story_mission_s1 1`
-Season 2 - Rift
+Season 1 - Rift
 - `set ui_mapname mp_jup_sira;seta ob_s2_rift_run 1`
-Season 3 - Rift Story
+Season 2 - Rift
 - `set ui_mapname mp_jup_hydro;seta ob_rift_story_mission_s3 1`
-Season 3 - Rift
+Season 3 - Rift Story
 - `set ui_mapname mp_jup_hydro;seta ob_s3_rift_run 1`
-Season 4 - Unstable Rift
+Season 3 - Rift
 - `set ui_mapname mp_jup_fort;seta ob_unstable_rift 1`
-Season 5 Rift Story
+Season 4 - Unstable Rift
 - `set ui_mapname mp_jup_tower;seta ob_rift_story_mission_s5 1`
-Season 5 Rift
+Season 5 Rift Story
 - `set ui_mapname mp_jup_tower;seta ob_rift_run 1;seta ob_s5_rift_run 1`
+Season 5 Rift
 
 ### MWZ Inventories
 - `setOutbreakLoadout loadouts 0 weaponSetups 0 weapon`
@@ -185,7 +185,6 @@ Equipment setup, example: *setOutbreakLoadout loadouts 0 equipmentSetups 0 equip
 Field upgrade setup, example: *setOutbreakLoadout loadouts 0 fieldUpgradeSetups 0 fieldUpgrade super_aether_shroud*
 
 ### Wonder weapons
-![](../images/iw9/jup_ui_map_icon_mysterybox.png){30%:30%}
 Name|Icon|ID
 -|:-:|-
 Ray Gun|![](https://static.wikia.nocookie.net/callofduty/images/e/e6/RayGun_HUD_Icon_MWIII.png)|`jup_pi_raygun`
@@ -200,7 +199,6 @@ Name|Icon|ID
 -|:-:|-
 Mark of the Survivor|![](https://static.wikia.nocookie.net/callofduty/images/c/c8/MarkOfTheSurvivor_Camo_Icon_MWIII.png){90px:90px}|`jup_camo_n4942_1`
 
-![](https://cdn2.steamgriddb.com/logo/50d2be98900f1d8a2fb3c3207c6d31b9.png){30%:30%}
 Zombies mastery
 Name|Icon|ID
 -|:-:|-
@@ -239,6 +237,8 @@ Tesla Storm|![](https://static.wikia.nocookie.net/callofduty/images/7/71/TeslaSt
 
 ## WARZONE 2.0
 ![](https://cdn2.steamgriddb.com/hero/d0c5eb4ed41f5237969d0218c27aee75.png)
+*->"Let's get this done."<-*
+
 - `exec br_core.cfg;exec br_globals.cfg`
 Execute WZ 2.0.
 - `exec #x43B0AD900F42FF5D5`
