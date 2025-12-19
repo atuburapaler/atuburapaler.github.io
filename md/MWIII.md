@@ -88,6 +88,8 @@ Rebreather|![](../images/iw9/hud_icon_loot_rebreather.png)|`iw9_oxygenmask_mp`
 Iodine pills|![](../images/iw9/hud_icon_equipment_iodine_pills.png)|`iodine_pills_mp`
 
 ### Exclusive field upgrades
+Name|Icon|ID
+-|:-:|-
 Stim pistol|![](https://static.wikia.nocookie.net/callofduty/images/b/bc/StimPistol_FieldUpgrade_HUD_Icon_WZ2.png)|`super_stimpistol`
 Oxygen mask|![](../images/iw9/hud_icon_loot_rebreather.png)|`super_oxygen_mask`
 Haunted box|![](https://static.wikia.nocookie.net/callofduty/images/6/64/HauntedBox_FieldUpgrade_HUD_Icon_WZ2.png)|`super_haunted_drop`
@@ -225,7 +227,7 @@ Monkey bomb|![](https://static.wikia.nocookie.net/callofduty/images/c/c7/CymbalM
 LT53 Kazimir|![](https://static.wikia.nocookie.net/callofduty/images/3/38/LT53Kazimir_Tactical_HUD_Icon_Zombies_MWIII.png)|`equip_blackhole_bomb`
 Aether blade|![](https://static.wikia.nocookie.net/callofduty/images/b/b1/AetherBlade_Lethal_HUD_Icon_Zombies_MWIII.png)|`equip_aether_blade`
 
-### W.A.N.D.S
+### WANDS
 Name|Icon|ID
 -|:-:|-
 Energy mine|![](https://static.wikia.nocookie.net/callofduty/images/a/ae/EnergyMine_FieldUpgrade_Icon_Zombies_BOCW.png)|`super_energy_mine`
