@@ -10,7 +10,7 @@
 - `openmenu systemlinklobby`
 - `openmenu solooperatorselect`
 - `openmenu obplaymenu`
-- `openmenu obloadoutmanagementinternal`
+- `openmenu obloadoutmanagement`
 
 ## Visuals
 - `seta #x3879E55ACF9D60DEB`
