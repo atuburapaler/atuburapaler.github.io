@@ -216,7 +216,6 @@ Arachnida|![](https://static.wikia.nocookie.net/callofduty/images/1/1f/Arachnida
 Bioluminescent|![](https://static.wikia.nocookie.net/callofduty/images/e/e6/Bioluminescent_Camo_Icon_MWIII.png){90px:90px}|`jup_camo_ob_iw9_comp_04`
 
 ### Equipment
-![](../images/iw9/jup_ui_map_icon_mr_peeks.png){30%:30%}
 Name|Icon|ID
 -|:-:|-
 Snowball|![](../images/iw9/hud_icon_equipment_snowball.png)|`equip_snowball`
