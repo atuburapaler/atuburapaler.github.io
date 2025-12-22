@@ -7,7 +7,6 @@
     r4v3n, xifil, luxploit, purrplee, Kechioma, J, pipes, Dyl_Cam, RyGuy2Cool, momo5502, & the *IW8-Mod* team.
 
 # DVARS
-
 *berko: What's a DVAR? Do i eat it?*
 It means **Dynamic variable**, is a configuration variable used to store and manage game settings, it allows you to modify the game’s behavior via scripts or console commands (In this case, we're talking about commands)
 
