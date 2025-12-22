@@ -6,7 +6,7 @@
 !!! info Special thanks to:
     r4v3n, xifil, luxploit, purrplee, Kechioma, J, pipes, Dyl_Cam, RyGuy2Cool, momo5502, & the *IW8-Mod* team.
 
-# DVARS
+DVARS
 *berko: What's a DVAR? Do i eat it?*
 It means **Dynamic variable**, is a configuration variable used to store and manage game settings, it allows you to modify the game’s behavior via scripts or console commands (In this case, we're talking about commands)
 
@@ -48,7 +48,7 @@ During Warzone lifecycle, the island had several changes
 Name|Picture|Game|ID
 -|-|-|-
 Alcatraz|![](https://static.wikia.nocookie.net/callofduty/images/4/4a/Alcatraz_MenuScreen_BO4.jpg)|Black Ops 4, Blackout|`wz_escape`
-Rebirth Island|![](../images/iw8/Rebirth.gif)|Warzone|`mp_escape2`,`mp_escape3`&`mp_escape4`
+Rebirth Island|![](../images/iw8/Rebirth.gif)|![](../images/ui/WZ-icon.png){64px:64px}|`mp_escape2`,`mp_escape3`&`mp_escape4`
 Rebirth Island|![](https://static.wikia.nocookie.net/callofduty/images/0/01/RebirthIsland_LoadingScreen_WZ2.png)|Warzone 2.0|`mp_jup_escape5`
 Rebirth Island "Hellspawn"|![](https://static.wikia.nocookie.net/callofduty/images/a/a7/Hellspawn_LoadingScreen_WZ2.png)|Warzone 2.0|`mp_jup_escape5_hell`
 Fortune's Keep|![](https://static.wikia.nocookie.net/callofduty/images/b/bc/FortunesKeep_LoadingScreen_WZ2.png)|Warzone 2.0|`mp_jup_sm_island_2`
