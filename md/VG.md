@@ -1,6 +1,6 @@
 # VANGUARD
 ![](https://cdn2.steamgriddb.com/hero/52ec3baefcf93a558d994e1bcd3b5c3d.jpg)
-*->"Ever heard of Vanguard? I created Vanguard."<-*
+*"Ever heard of Vanguard? I created Vanguard."*
 
 ## Menus
 - `openmenu mainlockoutmenu`
@@ -37,7 +37,8 @@ Deathmachine|![](https://static.wikia.nocookie.net/callofduty/images/7/7e/Deathm
 Flamethrower|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw8/v_ui_icon_weapon_flima35_00.png){50%:50%}|`s4_gw_flima35`
 
 # Vanguard Zombies
-![](../images/ui/Placeholder.png)
+![](https://cdn2.steamgriddb.com/hero_thumb/9e7f111f15db1aa3830cd806660d7b97.webm)
+*"Rise, my revenants! A new chapter of warfare is about to begin."*
 
 ## Zombies Inventories
 - `setZMLoadout loadouts 0 weaponSetups 0 weapon`
