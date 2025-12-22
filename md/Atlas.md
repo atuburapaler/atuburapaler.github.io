@@ -6,7 +6,7 @@
 !!! info Special thanks to:
     r4v3n, xifil, luxploit, purrplee, Kechioma, J, pipes, Dyl_Cam, RyGuy2Cool, momo5502, & the *IW8-Mod* team.
 
-DVARS
+# DVARS
 
 *berko: What's a DVAR? Do i eat it?*
 It means **Dynamic variable**, is a configuration variable used to store and manage game settings, it allows you to modify the game’s behavior via scripts or console commands (In this case, we're talking about commands)
@@ -19,7 +19,7 @@ A **hash** is a process that converts data into a fixed-length string of charact
 Well, if you can, you read it! Unless the dvar is hashed, the behaviour of it it's pretty much explicit. Here you can see some examples:
 `Imagine a picture that explains how it works`
 
-## Code names
+# Code names
 You might have read some code names on dvars, files, or even documentation. Here you can read some:
 
 Code|Meaning
@@ -33,7 +33,7 @@ Warzone|This is the codename for Blackout
 Magma|This was the codename for Warzone (2020-2022)
 WZ2|This is the codename for Warzone 2.0 (current one, up to 2025)
 
-### Engine
+## Engine
 Early on during Call of Duty development, Infinity Ward modified its own version of the id Tech 3 engine, naming it "IW Engine"
 - **IW3** was named after Infinity Ward making **3 titles** (Call of Duty 4 being the last one)
 - Eventually, every studio forked and made it's own advancements based on IW3, until the **HQ** concept, which introduced a way of development were every studio works in the **same unified engine line**.
@@ -41,12 +41,12 @@ Early on during Call of Duty development, Infinity Ward modified its own version
 - **Cold War**, T9, being **Treyarch's ninth** game, is the last title made on their version of the IW engine (Started as a IW3 fork on World at War, T4)
 - Then, **IW9** is **named after MWII**. Every other HQ game uses the **same engine**, that's why they use more often **word codenames** instead, because **it's all IW9**.
 
-### Warzone maps
+## Warzone maps
 - While Rebirth Island was initially a lore location for Black Ops titles, the place where the nerve gas Nova Six was produced by undercover for the Soviet Union, it turned out to be a location for Warzone "Resurgence" matches (short range combat with a limited respawn period)
 During Warzone lifecycle, the island had several changes `Imagine a detailed explanation of every change on the island per version`
 `Imagine details about some other maps from the list`
 
-Name|Picture|Playable on|ID
+Name|Picture|Game|ID
 -|-|-|-
 Alcatraz|![](https://static.wikia.nocookie.net/callofduty/images/4/4a/Alcatraz_MenuScreen_BO4.jpg)|Black Ops 4, Blackout|`wz_escape`
 Rebirth Island|![](https://static.wikia.nocookie.net/callofduty/images/1/1a/RebirthIsland_LoadingScreen_WZ.png)|Warzone|`mp_escape2`
