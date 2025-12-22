@@ -7,8 +7,8 @@ Number|Season|Splash
 -|:-:|:-:
 `1.16`|![](../images/ui/MW-icon.png){30%:30%} Season Two|![](../images/iw8/1.16.bmp){80%:80%}
 `1.19`-`20`|![](../images/ui/MW-icon.png){30%:30%} Season Three|![](../images/iw8/1.20.bmp){80%:80%}
-`1.23`|![](../images/ui/MW-icon.png){30%:30%} Season Four|![](){80%:80%}
-`1.24`-`6`|![](../images/ui/MW-icon.png){30%:30%} Season Five|![](){80%:80%}
+`1.23`|![](../images/ui/MW-icon.png){30%:30%} Season Four|![](../images/ui/Placeholder.png){80%:80%}
+`1.24`-`6`|![](../images/ui/MW-icon.png){30%:30%} Season Five|![](../images/ui/Placeholder.png){80%:80%}
 `1.27`-`8`|![](../images/ui/MW-icon.png){30%:30%} Season Six|![](../images/iw8/1.28.bmp){80%:80%}
 `1.30`-`1`|![](../images/ui/CW-icon.png){25%:25%} Season One|![](../images/iw8/1.30.bmp){80%:80%}
 `1.34`|![](../images/ui/CW-icon.png){25%:25%} Season Two|![](../images/iw8/1.34.bmp){80%:80%}
@@ -45,11 +45,11 @@ This will show or hide a hint whenever you're able to perform an execution, the 
 
 ## Inventories
 - `setPrivateLoadout loadouts 0 name`
-Example setPrivateLoadout loadouts 0 name "New meta, chat"
-- `setPrivateLoadoutsPlayerData customizationSetup radial 0`
-- `setPrivateLoadoutsPlayerData customizationSetup operatorCustomization`
+Loadout name, example: *setPrivateLoadout loadouts 0 name "Fist of iron"*
 - `setPrivateLoadout loadouts 0 weaponSetups 0 weapon`
+Weapon setup, example: *setPrivateLoadout loadouts 0 weaponSetups 0 weapon iw8_ar_kilo433*
 - `setPrivateLoadout loadouts 0 weaponSetups 0 camo`
+Weapon setup camouflage, example: *setPrivateLoadout loadouts 0 weaponSetups 0 camo camo_11a*
 
 ### Camouflages
 Name|Icon|ID
@@ -97,7 +97,7 @@ King Slayer|![](https://static.wikia.nocookie.net/callofduty/images/7/7d/KingSla
 ### ![](https://images.blz-contentstack.com/v3/assets/bltf408a0557f4e4998/blt658c764be11bbed4/60db86bbce1eb95db45df71b/call-of-duty-warzone.svg){32px:32px} Special events
 Name|Version|Icon|Full command
 -|-|:-:|-
-Zombies in Vodianoy|1.34|![](https://static.wikia.nocookie.net/callofduty/images/8/8e/Zombie_Keycard_Icon_WZ.png)|`TBA`
+Zombies in Vodianoy|1.34|![](https://static.wikia.nocookie.net/callofduty/images/8/8e/Zombie_Keycard_Icon_WZ.png)|`Lorem ipsum dolor sit amet, consectetur adipiscing elit`
 The Destruction of Verdansk P1|1.34|![Part 1](https://static.wikia.nocookie.net/callofduty/images/b/bc/DestructionOfVerdansk_Mode_Icon_WZ.png)|`seta scr_br_gametype "reveal";seta scr_br_alt_mode_zxp 1`
 The Destruction of Verdansk P2|1.34|![Part 2](https://static.wikia.nocookie.net/callofduty/images/b/bc/DestructionOfVerdansk_Mode_Icon_WZ.png)|`set NSQLTTMRMP "mp_escape2_pm";set scr_br_gametype reveal_2`
 Verdansk '84 Loot. Kill. Win.|1.34%darkgoldenrod%**¹**%%|![](https://static.wikia.nocookie.net/callofduty/images/a/a3/BattleRoyale_Logo_Warzone_MW.png)|`scr_br_gametype brdov`
@@ -113,11 +113,11 @@ Operation: Last Call|1.63+%darkgoldenrod%**²**%%|![](https://static.wikia.nocoo
     
 ### WZ Inventories
 - `setWZPrivateLoadout loadouts 0 name`
-Example setWZPrivateLoadout loadouts 0 name "New meta, chat"
+Loadout name, example: *setWZPrivateLoadout loadouts 0 name "Fist of iron"*
 - `setWZPrivateLoadout loadouts 0 weaponSetups 0 weapon`
-- `setWZPrivateLoadoutsPlayerData customizationSetup radial 0`
-- `setWZPrivateLoadoutsPlayerData customizationSetup operatorCustomization`
+Weapon setup, example: *setWZPrivateLoadout loadouts 0 weaponSetups 0 weapon iw8_ar_t9accurate*
 - `setWZPrivateLoadout loadouts 0 weaponSetups 0 camo`
+Weapon setup camouflage, example: *setWZPrivateLoadout loadouts 0 weaponSetups 0 camo camo_mp_t9mastery_gold*
 
 ### WZ Camouflages
 ![](https://static.wikia.nocookie.net/callofduty/images/9/97/TeamDeathmatch_Gamemode_Icon_MP_BOCW.png){25%:25%}
