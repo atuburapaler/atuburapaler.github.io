@@ -9,14 +9,12 @@
 &nbsp;
 # Introduction
 ## DVARS
-- %coral%berko:%% What's a DVAR? Do i eat it?
+- berko: What's a DVAR? Do i eat it?
 It means **Dynamic variable**, is a configuration variable used to store and manage game settings, it allows you to modify the game’s behavior via scripts or console commands (In this case, we're talking about commands)
-
-- %darkturquoise%relax-guy:%% Why does it looks like random letters? I dun understand 😩
+- relax-guy: Why does it looks like random letters? I dun understand 😩
 You're probably looking at a **hash**ed dvar!
 A **hash** is a process that converts data into a fixed-length string of characters. In this case, it transforms a **legible dvar** into a **unique identifier**, making it easy to verify but nearly impossible to reverse-engineer. This means that, it's still a dvar, but it **looks different**.
-
-- %gold%neutron-star:%% How do i know what the dvar is for, tho? 😒
+- neutron-star: How do i know what the dvar is for, tho? 😒
 Well, if you can, you read it! Unless the dvar is hashed, the behaviour of it it's pretty much explicit. Here you can see some examples:
 `Imagine a picture that explains how it works`
 
@@ -43,7 +41,6 @@ Early on during Call of Duty development, Infinity Ward modified its own version
 - Then, **IW9** is **named after MWII**. Every other HQ game uses the **same engine**, that's why they use more often **word codenames** instead, because **it's all IW9**.
 
 ### Warzone maps
-
 - While Rebirth Island was initially a lore location for Black Ops titles, the place where the nerve gas Nova Six was produced by undercover for the Soviet Union, it turned out to be a location for Warzone "Resurgence" matches (short range combat with a limited respawn period)
 During Warzone lifecycle, the island had several changes `Imagine a detailed explanation of every change on the island per version`
 `Imagine details about some other maps from the list`
@@ -51,10 +48,14 @@ During Warzone lifecycle, the island had several changes `Imagine a detailed exp
 Name|Picture|Playable on|ID
 -|-|-|-
 Alcatraz|![](https://static.wikia.nocookie.net/callofduty/images/4/4a/Alcatraz_MenuScreen_BO4.jpg)|Black Ops 4, Blackout|`wz_escape`
-Rebirth Island|![](https://static.wikia.nocookie.net/callofduty/images/1/1a/RebirthIsland_LoadingScreen_WZ.png)|Warzone Season 1 to 2 Cold War|`mp_escape2`
-Rebirth Island|![](https://static.wikia.nocookie.net/callofduty/images/b/bb/RebirthIsland_LoadingScreen_BOCWS3_WZ.png)|Warzone Season 3 Reloaded Cold War to 1 Vanguard|`mp_escape3`
-Rebirth Island "Reinforced"|![](https://static.wikia.nocookie.net/callofduty/images/5/5b/RebirthReinforced_LoadingScreen_WZ.png)|Warzone 2 Reloaded Vanguard|`mp_escape4`
-Rebirth Island|![](https://static.wikia.nocookie.net/callofduty/images/0/01/RebirthIsland_LoadingScreen_WZ2.png)|Warzone 2.0 Season 3 MWIII|`mp_jup_escape5`
-Rebirth Island "Hellspawn"|![](https://static.wikia.nocookie.net/callofduty/images/a/a7/Hellspawn_LoadingScreen_WZ2.png)|Warzone 2.0 Season 3 MWIII|`mp_jup_escape5_hell`
-Urzikstan|![](https://static.wikia.nocookie.net/callofduty/images/b/bb/Urzikstan_LoadingScreen_WZ2.png)|Warzone 2.0 MWIII|`mp_jup_bigmap_wz2`
-Fortune's Keep|![](https://static.wikia.nocookie.net/callofduty/images/b/bc/FortunesKeep_LoadingScreen_WZ2.png)|Warzone 2.0 Season 2 MWIII|`mp_jup_sm_island_2`
+Rebirth Island|![](https://static.wikia.nocookie.net/callofduty/images/1/1a/RebirthIsland_LoadingScreen_WZ.png)|Warzone|`mp_escape2`
+Rebirth Island|![](https://static.wikia.nocookie.net/callofduty/images/b/bb/RebirthIsland_LoadingScreen_BOCWS3_WZ.png)|Warzone|`mp_escape3`
+Rebirth Island "Reinforced"|![](https://static.wikia.nocookie.net/callofduty/images/5/5b/RebirthReinforced_LoadingScreen_WZ.png)|Warzone|`mp_escape4`
+Rebirth Island|![](https://static.wikia.nocookie.net/callofduty/images/0/01/RebirthIsland_LoadingScreen_WZ2.png)|Warzone 2.0|`mp_jup_escape5`
+Rebirth Island "Hellspawn"|![](https://static.wikia.nocookie.net/callofduty/images/a/a7/Hellspawn_LoadingScreen_WZ2.png)|Warzone 2.0|`mp_jup_escape5_hell`
+Fortune's Keep|![](https://static.wikia.nocookie.net/callofduty/images/b/bc/FortunesKeep_LoadingScreen_WZ2.png)|Warzone 2.0|`mp_jup_sm_island_2`
+Al Mazrah|![](https://static.wikia.nocookie.net/callofduty/images/9/99/AlMazrah_LoadingScreen_Season5_WZ2.png)|Warzone 2.0|`mp_saba2`
+Ashika Island|![](https://static.wikia.nocookie.net/callofduty/images/8/84/AshikaIsland_LoadingScreen_Resurgence_WZ2.png)|Warzone 2.0|`mp_sealion`
+Vondel|![](https://static.wikia.nocookie.net/callofduty/images/f/f5/Vondel_LoadingScreen_WZ2.png)|Warzone 2.0|`mp_jup_delta`
+Urzikstan|![](https://static.wikia.nocookie.net/callofduty/images/b/bb/Urzikstan_LoadingScreen_WZ2.png)|Warzone 2.0|`mp_jup_bigmap_wz2`
+Urzikstan|![](https://static.wikia.nocookie.net/callofduty/images/5/56/OperationDeadbolt_LoadingScreen_MWIII.png)|Modern Warfare Zombies|`mp_jup_bigmap`
