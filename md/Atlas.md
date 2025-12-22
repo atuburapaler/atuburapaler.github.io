@@ -16,7 +16,7 @@ A **hash** is a process that converts data into a fixed-length string of charact
 
 *neutron-star: How do i know what the dvar is for, tho?*
 Well, if you can, you read it! Unless the dvar is hashed, the behaviour of it it's pretty much explicit. Here you can see some examples:
-`Imagine a picture that explains how it works`
+![](../images/Placeholder.png)
 
 # Code names
 You might have read some code names on dvars, files, or even documentation. Here you can read some:
@@ -42,8 +42,8 @@ Early on during Call of Duty development, Infinity Ward modified its own version
 
 ## Warzone maps
 - While Rebirth Island was initially a lore location for Black Ops titles, the place where the nerve gas Nova Six was produced by undercover for the Soviet Union, it turned out to be a location for Warzone "Resurgence" matches (short range combat with a limited respawn period)
-During Warzone lifecycle, the island had several changes `Imagine a detailed explanation of every change on the island per version`
-`Imagine details about some other maps from the list`
+During Warzone lifecycle, the island had several changes
+![](../images/Placeholder.png){50%:50%}
 
 Name|Picture|Game|ID
 -|-|-|-
