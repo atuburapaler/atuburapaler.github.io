@@ -90,6 +90,7 @@ Iodine pills|![](../images/iw9/hud_icon_equipment_iodine_pills.png)|`iodine_pill
 ### Exclusive field upgrades
 Name|Icon|ID
 -|:-:|-
+Empty slot|![](../images/iw9/hud_x_marker.png)|`none`
 Stim pistol|![](https://static.wikia.nocookie.net/callofduty/images/b/bc/StimPistol_FieldUpgrade_HUD_Icon_WZ2.png)|`super_stimpistol`
 Oxygen mask|![](../images/iw9/hud_icon_loot_rebreather.png)|`super_oxygen_mask`
 Haunted box|![](https://static.wikia.nocookie.net/callofduty/images/6/64/HauntedBox_FieldUpgrade_HUD_Icon_WZ2.png)|`super_haunted_drop`
@@ -227,6 +228,7 @@ Aether blade|![](https://static.wikia.nocookie.net/callofduty/images/b/b1/Aether
 ### WANDS
 Name|Icon|ID
 -|:-:|-
+Empty slot|![](../images/iw9/hud_x_marker.png)|`none`
 Energy mine|![](https://static.wikia.nocookie.net/callofduty/images/a/ae/EnergyMine_FieldUpgrade_Icon_Zombies_BOCW.png)|`super_energy_mine`
 Frenzied guard|![](https://static.wikia.nocookie.net/callofduty/images/e/e8/FrenziedGuard_FieldUpgrade_Icon_Zombies_BOCW.png)|`super_frenzied_guard`
 Healing aura|![](https://static.wikia.nocookie.net/callofduty/images/a/a7/HealingAura_FieldUpgrade_Icon_Zombies_BOCW.png)|`super_healing_aura`
