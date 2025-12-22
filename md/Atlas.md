@@ -48,14 +48,11 @@ During Warzone lifecycle, the island had several changes
 Name|Picture|Game|ID
 -|-|-|-
 Alcatraz|![](https://static.wikia.nocookie.net/callofduty/images/4/4a/Alcatraz_MenuScreen_BO4.jpg)|Black Ops 4, Blackout|`wz_escape`
-Rebirth Island|![](https://static.wikia.nocookie.net/callofduty/images/1/1a/RebirthIsland_LoadingScreen_WZ.png)|Warzone|`mp_escape2`
-Rebirth Island|![](https://static.wikia.nocookie.net/callofduty/images/b/bb/RebirthIsland_LoadingScreen_BOCWS3_WZ.png)|Warzone|`mp_escape3`
-Rebirth Island "Reinforced"|![](https://static.wikia.nocookie.net/callofduty/images/5/5b/RebirthReinforced_LoadingScreen_WZ.png)|Warzone|`mp_escape4`
+Rebirth Island|![](../images/iw8/Rebirth.gif)|Warzone|`mp_escape2`,`mp_escape3`&`mp_escape4`
 Rebirth Island|![](https://static.wikia.nocookie.net/callofduty/images/0/01/RebirthIsland_LoadingScreen_WZ2.png)|Warzone 2.0|`mp_jup_escape5`
 Rebirth Island "Hellspawn"|![](https://static.wikia.nocookie.net/callofduty/images/a/a7/Hellspawn_LoadingScreen_WZ2.png)|Warzone 2.0|`mp_jup_escape5_hell`
 Fortune's Keep|![](https://static.wikia.nocookie.net/callofduty/images/b/bc/FortunesKeep_LoadingScreen_WZ2.png)|Warzone 2.0|`mp_jup_sm_island_2`
 Al Mazrah|![](https://static.wikia.nocookie.net/callofduty/images/9/99/AlMazrah_LoadingScreen_Season5_WZ2.png)|Warzone 2.0|`mp_saba2`
 Ashika Island|![](https://static.wikia.nocookie.net/callofduty/images/8/84/AshikaIsland_LoadingScreen_Resurgence_WZ2.png)|Warzone 2.0|`mp_sealion`
 Vondel|![](https://static.wikia.nocookie.net/callofduty/images/f/f5/Vondel_LoadingScreen_WZ2.png)|Warzone 2.0|`mp_jup_delta`
-Urzikstan|![](https://static.wikia.nocookie.net/callofduty/images/b/bb/Urzikstan_LoadingScreen_WZ2.png)|Warzone 2.0|`mp_jup_bigmap_wz2`
-Urzikstan|![](https://static.wikia.nocookie.net/callofduty/images/5/56/OperationDeadbolt_LoadingScreen_MWIII.png)|Modern Warfare Zombies|`mp_jup_bigmap`
+Urzikstan|![](../images/iw9/Urzikstan.gif)|Warzone 2.0, Modern Warfare Zombies|`mp_jup_bigmap_wz2`&`mp_jup_bigmap`
