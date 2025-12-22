@@ -37,7 +37,7 @@ Deathmachine|![](https://static.wikia.nocookie.net/callofduty/images/7/7e/Deathm
 Flamethrower|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw8/v_ui_icon_weapon_flima35_00.png){50%:50%}|`s4_gw_flima35`
 
 # Vanguard Zombies
-![](https://cdn2.steamgriddb.com/hero_thumb/9e7f111f15db1aa3830cd806660d7b97.webm)
+![](https://cdn2.steamgriddb.com/hero/13349a1d2d1c176d5fa2124ce62d35a2.png)
 *"Rise, my revenants! A new chapter of warfare is about to begin."*
 
 ## Zombies Inventories
