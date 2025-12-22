@@ -6,15 +6,13 @@
 !!! info Special thanks to:
     r4v3n, xifil, luxploit, purrplee, Kechioma, J, pipes, Dyl_Cam, RyGuy2Cool, momo5502, & the *IW8-Mod* team.
 
-# Introduction
-
 ## DVARS
-- berko: What's a DVAR? Do i eat it?
+- *berko: What's a DVAR? Do i eat it?*
 It means **Dynamic variable**, is a configuration variable used to store and manage game settings, it allows you to modify the game’s behavior via scripts or console commands (In this case, we're talking about commands)
-- relax-guy: Why does it looks like random letters? I dun understand 😩
+- *relax-guy: Why does it looks like random letters?*
 You're probably looking at a **hash**ed dvar!
 A **hash** is a process that converts data into a fixed-length string of characters. In this case, it transforms a **legible dvar** into a **unique identifier**, making it easy to verify but nearly impossible to reverse-engineer. This means that, it's still a dvar, but it **looks different**.
-- neutron-star: How do i know what the dvar is for, tho? 😒
+- *neutron-star: How do i know what the dvar is for, tho?*
 Well, if you can, you read it! Unless the dvar is hashed, the behaviour of it it's pretty much explicit. Here you can see some examples:
 `Imagine a picture that explains how it works`
 
