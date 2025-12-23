@@ -50,9 +50,9 @@ Name|Picture|Game|ID
 Alcatraz|![](https://static.wikia.nocookie.net/callofduty/images/4/4a/Alcatraz_MenuScreen_BO4.jpg)|![](../images/ui/BO4-icon.png){32px:32px}|`wz_escape`
 Rebirth Island|![](../images/iw8/Rebirth.gif)|![](../images/ui/WZ-icon.png){32px:32px}|`mp_escape2`,`mp_escape3`&`mp_escape4`
 Rebirth Island|![](https://static.wikia.nocookie.net/callofduty/images/0/01/RebirthIsland_LoadingScreen_WZ2.png)||`mp_jup_escape5`
-Rebirth Island "Hellspawn"|![](https://static.wikia.nocookie.net/callofduty/images/a/a7/Hellspawn_LoadingScreen_WZ2.png)||`mp_jup_escape5_hell`
-Fortune's Keep|![](https://static.wikia.nocookie.net/callofduty/images/b/bc/FortunesKeep_LoadingScreen_WZ2.png)||`mp_jup_sm_island_2`
+Rebirth Island "Hellspawn"|![](https://static.wikia.nocookie.net/callofduty/images/a/a7/Hellspawn_LoadingScreen_WZ2.png)|![](../images/ui/WZ2-icon.png){32px:32px}|`mp_jup_escape5_hell`
+Fortune's Keep|![](https://static.wikia.nocookie.net/callofduty/images/b/bc/FortunesKeep_LoadingScreen_WZ2.png)|![](../images/ui/WZ2-icon.png){32px:32px}|`mp_jup_sm_island_2`
 Al Mazrah|![](https://static.wikia.nocookie.net/callofduty/images/9/99/AlMazrah_LoadingScreen_Season5_WZ2.png)|![](../images/ui/WZ2-icon.png){32px:32px}|`mp_saba2`
 Ashika Island|![](https://static.wikia.nocookie.net/callofduty/images/8/84/AshikaIsland_LoadingScreen_Resurgence_WZ2.png)|![](../images/ui/WZ2-icon.png){32px:32px}|`mp_sealion`
 Vondel|![](https://static.wikia.nocookie.net/callofduty/images/f/f5/Vondel_LoadingScreen_WZ2.png)|![](../images/ui/WZ2-icon.png){32px:32px}|`mp_jup_delta`
-Urzikstan|![](../images/iw9/Urzikstan.gif)|![](../images/ui/WZ2-icon.png){32px:32px}|`mp_jup_bigmap_wz2`&`mp_jup_bigmap`
+Urzikstan|![](../images/iw9/Urzikstan.gif)|![](../images/ui/WZ2-icon.png){16px:16px}![](../images/ui/MWIII-icon.png){16px:16px}|`mp_jup_bigmap_wz2`&`mp_jup_bigmap`
