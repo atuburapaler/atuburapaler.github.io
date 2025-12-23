@@ -47,7 +47,7 @@ During Warzone lifecycle, the island had several changes
 
 Name|Picture|Game|ID
 -|-|-|-
-Alcatraz|![](https://static.wikia.nocookie.net/callofduty/images/4/4a/Alcatraz_MenuScreen_BO4.jpg){1000px:500px}|![](../images/ui/BO4-icon.png){32px:32px}|`wz_escape`
+Alcatraz|![](https://static.wikia.nocookie.net/callofduty/images/4/4a/Alcatraz_MenuScreen_BO4.jpg){500px:1000px}|![](../images/ui/BO4-icon.png){32px:32px}|`wz_escape`
 Rebirth Island|![](../images/iw8/Rebirth.gif){1000px:500px}|![](../images/ui/WZ-icon.png){32px:32px}|`mp_escape2`,`mp_escape3`&`mp_escape4`
 Rebirth Island|![](https://static.wikia.nocookie.net/callofduty/images/0/01/RebirthIsland_LoadingScreen_WZ2.png){1000px:500px}|![](../images/ui/WZ2-icon.png){32px:32px}|`mp_jup_escape5`
 Rebirth Island "Hellspawn"|![](https://static.wikia.nocookie.net/callofduty/images/a/a7/Hellspawn_LoadingScreen_WZ2.png){1000px:500px}|![](../images/ui/WZ2-icon.png){32px:32px}|`mp_jup_escape5_hell`
