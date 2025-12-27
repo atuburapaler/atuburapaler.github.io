@@ -21,7 +21,7 @@ Number|Season|Splash
 `1.57`-`8`|![](../images/ui/VG-icon.png){20%:20%} Season Three|![](../images/iw8/1.57.bmp){80%:80%}
 `1.59`-`61`|![](../images/ui/VG-icon.png){20%:20%} Season Four|![](../images/iw8/1.60.bmp){80%:80%}
 `1.62`-`64`|![](../images/ui/VG-icon.png){20%:20%} Season Five|![](../images/iw8/1.62.bmp){80%:80%}
-`1.65`|Warzone Caldera|![](https://static.wikia.nocookie.net/callofduty/images/4/42/WarzoneCaldera_Artwork_WZ.jpg/revision/latest/scale-to-width-down/1000?cb=20230624220454){80%:80%}
+`1.65`|![](https://cdn2.steamgriddb.com/logo/0928a2ac707995558f4b3f0aefe1bccc.png){20%:20%}|![](https://static.wikia.nocookie.net/callofduty/images/4/42/WarzoneCaldera_Artwork_WZ.jpg/revision/latest/scale-to-width-down/1000?cb=20230624220454){80%:80%}
 `1.67`|Retail|![](../images/iw8/1.0.bmp){80%:80%}
 
 ## Menus
@@ -77,13 +77,13 @@ This enables the possibility of using loadouts for every player/bot in the next 
 - `seta scr_br_use_ww2_announcer`
 - `seta scr_br_use_ww2_killstreak_call_in_device`
 - `seta scr_br_use_ww2_model_swaps`
-These defines if the next match it's going to use specific ![](../images/ui/VG-icon.png){32px:32px} assets or not (0-1)
+These defines if the next match it's going to use specific Vanguard assets or not (0-1)
 - `seta scr_br_atlantisNight`
 This defines if the next match on escape it's going to use night assets
 - `seta scr_escape4_ee_6_2_enabled 1;seta scr_escape4_ee_6_3_enabled 1`
 This defines if the next match will open up the secret bunkers under escape 4 by force.
 
-### ![](https://images.blz-contentstack.com/v3/assets/bltf408a0557f4e4998/blt658c764be11bbed4/60db86bbce1eb95db45df71b/call-of-duty-warzone.svg){6%:6%} Game modes
+### Game modes
 Name|Icon|Full command
 -|:-:|-
 Battle Royale|![](https://static.wikia.nocookie.net/callofduty/images/a/a3/BattleRoyale_Logo_Warzone_MW.png)![](https://static.wikia.nocookie.net/callofduty/images/9/9a/BattleRoyale_Icon_VG_WZ.png)|`scr_br_gametype br`
@@ -94,7 +94,7 @@ Resurgence|![](https://static.wikia.nocookie.net/callofduty/images/1/1d/Resurgen
 Plunder|![](https://static.wikia.nocookie.net/callofduty/images/5/5e/Plunder_Logo_Warzone_MW.png)![](https://static.wikia.nocookie.net/callofduty/images/c/c9/Plunder_Icon_VG_WZ.png)|`scr_br_gametype dmz`
 King Slayer|![](https://static.wikia.nocookie.net/callofduty/images/7/7d/KingSlayer_Logo_WZ.png)|`scr_br_gametype kingslayer`
 
-### ![](https://images.blz-contentstack.com/v3/assets/bltf408a0557f4e4998/blt658c764be11bbed4/60db86bbce1eb95db45df71b/call-of-duty-warzone.svg){32px:32px} Special events
+### Special events
 Name|Version|Icon|Full command
 -|-|:-:|-
 Zombies in Vodianoy|1.34|![](https://static.wikia.nocookie.net/callofduty/images/8/8e/Zombie_Keycard_Icon_WZ.png)|`Lorem ipsum dolor sit amet, consectetur adipiscing elit`
@@ -132,7 +132,6 @@ Dark Matter Ultra|![](https://static.wikia.nocookie.net/callofduty/images/a/a1/D
 ¹Only available on version 1.30 onwards (Season One)
 This version has some early coverage on weapon models.
 
-![](https://static.wikia.nocookie.net/callofduty/images/0/08/Defend_Objective_Icon_Outbreak_Zombies_BOCW.png){50%:50%}
 **Cold War, Zombies mastery** %darkgoldenrod%²%%
 
 Name|Icon|ID
@@ -145,7 +144,6 @@ Dark Aether|![](https://static.wikia.nocookie.net/callofduty/images/0/03/Dark_Ae
 This version has some early coverage on weapon models.
 Some assets of the Dark Aether are broken on version 1.45 onwards.
 
-![](https://static.wikia.nocookie.net/callofduty/images/1/17/TeamDeathmatch_Gamemode_Icon_MP_CODV.png){50%:50%}
 **Vanguard, Multiplayer mastery**%darkgoldenrod%¹%%
 
 Name|Icon|ID
@@ -155,7 +153,6 @@ Diamond|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/ima
 Atomic|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw8/v_ui_elmnt_camo_112.png){90px:90px}|`s4_camo_11c`
 ?||`s4_camo_11d`
 
-![](https://static.wikia.nocookie.net/callofduty/images/9/97/DerAnfang_LobbyIcon_CODV.png){101px:124px}
 **Vanguard, Zombies mastery**%darkgoldenrod%¹%%
 
 Name|Icon|ID
@@ -167,8 +164,9 @@ Dark Aether|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main
 ¹Only available on version 1.46 onwards (Season One)
 
 **Events**
+
 Name|Icon|ID
--|:-:|-
+-|-|-
 Titanium Chrome||`s4_camo_titanium_trials_01`
 Liquid Metal|![](https://static.wikia.nocookie.net/callofduty/images/b/bc/Liquid_Metal_Camo_Vanguard.png){90px:90px}|`s4_camo_titanium_trials_02`
 Skynet||`s4_camo_titanium_trials_03`
