@@ -3,8 +3,8 @@
     - This is a work in progress "Atlas" for guiding users in search of fun.
     - If you're reading this, you probably found it by a search engine index or maybe was sent by me.
     - Please note that this is in barebones and the final result it's going to look better, any weird message means it's a placeholder
-!!! info Special thanks to:
-    r4v3n, xifil, luxploit, purrplee, Kechioma, J, pipes, Dyl_Cam, RyGuy2Cool, momo5502, & the *IW8-Mod* team.
+!!! info This site was repurposed by me, and i did find some dvars, but most of the work was done by these people. Thanks!
+    r4v3n, xifil, luxploit, purrplee, Kechioma, J, Sebass, pipes, Dyl_Cam, RyGuy2Cool
 
 DVARS
 
