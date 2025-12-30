@@ -208,6 +208,10 @@ Death Perception|![](https://static.wikia.nocookie.net/callofduty/images/e/ef/De
 **Aetherium**
 Name|Icon|ID
 -|:-:|-
+Uncommon Aether Tool|![](https://static.wikia.nocookie.net/callofduty/images/8/87/Uncommon_AetherTool_Acquisition_Icon_Zombies_MWIII.png)|`ob_jup_item_aether_tool`
+Rare Aether Tool|![](https://static.wikia.nocookie.net/callofduty/images/b/b5/Rare_AetherTool_Acquisition_Icon_Zombies_MWIII.png)|`ob_jup_item_aether_tool_2`
+Epic Aether Tool|![](https://static.wikia.nocookie.net/callofduty/images/a/a9/Epic_AetherTool_Acquisition_Icon_Zombies_MWIII.png)|`ob_jup_item_aether_tool_3`
+Legendary Aether Tool|![](https://static.wikia.nocookie.net/callofduty/images/4/4c/Legendary_AetherTool_Acquisition_Icon_Zombies_MWIII.png)|`ob_jup_item_aether_tool_4`
 Raw Aetherium Crystal|![](https://static.wikia.nocookie.net/callofduty/images/0/0a/Raw_AetheriumCrystal_Acquisition_Icon_Zombies_MWIII.png)|`ob_jup_item_aether_crystal`
 Refined Aetherium Crystal|![](https://static.wikia.nocookie.net/callofduty/images/2/25/Refined_AetheriumCrystal_Acquisition_Icon_Zombies_MWIII.png)|`ob_jup_item_aether_crystal_2`
 Flawless Aetherium Crystal|![](https://static.wikia.nocookie.net/callofduty/images/d/d4/Flawless_AetheriumCrystal_Acquisition_Icon_Zombies_MWIII.png)|`ob_jup_item_aether_crystal_3`
@@ -235,7 +239,7 @@ Name|Icon|ID
 Aether Blade case|![](https://static.wikia.nocookie.net/callofduty/images/9/9f/Aether_Blade_Acquisition_Icon_Zombies_MWIII.png)|`ob_jup_item_weaponcase_aetherblade`
 Dead Wire Detonators|![](https://static.wikia.nocookie.net/callofduty/images/e/ed/DeadWireDetonators_Acquisition_Icon_Zombies_MWIII.png)|`ob_jup_item_warlord_maestro_mod`
 Disciple Bottle|![](https://static.wikia.nocookie.net/callofduty/images/c/c3/DiscipleBottle_Acquisition_Icon_Zombies_MWIII.png)|`ob_jup_item_disciple_bottle`
-Dog Bone|![](https://static.wikia.nocookie.net/callofduty/images/7/7e/DogBone_Acquisition_Icon_Zombies_MWIII.png)|`ob_jup_item_jup_dog_whistle`
+Dog Bone|![](https://static.wikia.nocookie.net/callofduty/images/7/7e/DogBone_Acquisition_Icon_Zombies_MWIII.png)|`ob_jup_item_dog_whistle`
 Golden Armor plate|![](https://static.wikia.nocookie.net/callofduty/images/4/46/Golden_Armor_Plate_Acquisition_Icon_Zombies_MWIII.png)|`ob_jup_item_golden_armor_plate`
 Golden Mask Filter|![](https://static.wikia.nocookie.net/callofduty/images/0/0d/GoldenMaskFilter_Acquisition_Icon_Zombies_MWIII.png)|`ob_jup_item_warlord_chemist_mask`
 Grenade Bandolier|![](https://static.wikia.nocookie.net/callofduty/images/d/d5/GrenadeBandolier_Acquisition_Icon_Zombies_MWIII.png)|`ob_jup_item_grenade_bandolier`
