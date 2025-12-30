@@ -144,10 +144,7 @@ This will define if bots can perform specific actions like shooting and aiming, 
 This will define if bots can't follow a path and track hostiles, in the next match, it's enabled by default (1-0)
 - `seta #x32fe0283b419ff08a`
 This defines if the Urzikstan helicopter infil animation plays, in the next match, enabled by default (0-1)
-- `seta cheat_force_power_level`
-This will enable a developer cheat for all players/bots with high value loot, depending on the number, and based on the danger zone loot. Can be used once per weapon upgrade (0-3)
-- `set scr_start_currency`
-Set the amount of essence the players/bots will have in the next match, affects the whole squad (0-2147483647)
+
 
 ### Story Missions
 - `set ui_mapname mp_jup_st_c_gw;seta ob_quest1_act1 1`
@@ -184,6 +181,15 @@ Weapon setup camouflage, example: *setOutbreakLoadout loadouts 0 weaponSetups 0 
 Equipment setup, example: *setOutbreakLoadout loadouts 0 equipmentSetups 0 equipment equip_frag*
 - `setOutbreakLoadout loadouts 0 fieldUpgradeSetups 0 fieldUpgrade`
 Field upgrade setup, example: *setOutbreakLoadout loadouts 0 fieldUpgradeSetups 0 fieldUpgrade super_aether_shroud*
+**In-match**
+- `set scr_start_currency`
+Set the amount of essence the players/bots will have in the next match, affects the whole squad (0-2147483647)
+- `seta cheat_give_cash`
+This will give you a specific ammount of essence in match (0-2147483647)
+- `seta cheat_give_equipment`
+This will drop a specific equipment in match, next to you.
+- `seta cheat_force_power_level`
+This will enable a developer cheat for all players/bots with high value loot, depending on the number, and based on the danger zone loot. Can be used once per weapon upgrade (0-3)
 
 ### Wonder weapons
 Name|Icon|ID
@@ -194,36 +200,38 @@ Scorcher|![](https://static.wikia.nocookie.net/callofduty/images/5/56/Scorcher_H
 Wunderwaffe DG-2|![](https://static.wikia.nocookie.net/callofduty/images/3/33/WunderwaffeDG2_HUD_Icon_MWIII.png)|`jup_ar_dg2`
 V-R11|![](https://static.wikia.nocookie.net/callofduty/images/b/bc/VR11_HUD_Icon_MWIII.png)|`jup_la_humangun`
 
-### Camouflages
-Events
+### MWZ Equipment
 Name|Icon|ID
 -|:-:|-
-Mark of the Survivor|![](https://static.wikia.nocookie.net/callofduty/images/c/c8/MarkOfTheSurvivor_Camo_Icon_MWIII.png){90px:90px}|`jup_camo_n4942_1`
-
-Zombies mastery
-Name|Icon|ID
--|:-:|-
-Golden Enigma|![](https://static.wikia.nocookie.net/callofduty/images/8/8a/GoldenEnigma_Camo_Icon_MWIII.png){90px:90px}|`jup_camo_ob_comp_01`
-Zircon Scale|![](https://static.wikia.nocookie.net/callofduty/images/f/fc/ZirconScale_Camo_Icon_MWIII.png){90px:90px}|`jup_camo_ob_comp_02`
-Serpentinite|![](https://static.wikia.nocookie.net/callofduty/images/3/3d/Serpentinite_Camo_Icon_MWIII.png){90px:90px}|`jup_camo_ob_comp_03`
-Borealis|![](https://static.wikia.nocookie.net/callofduty/images/1/15/Borealis_Camo_Icon_MWIII.png){90px:90px}|`jup_camo_ob_comp_04`
-
-MWII Zombies mastery
-Name|Icon|ID
--|:-:|-
-Golden Ivory|![](https://static.wikia.nocookie.net/callofduty/images/e/ef/GoldenIvory_Camo_Icon_MWIII.png){90px:90px}|`jup_camo_ob_iw9_comp_01`
-Spinel Husk|![](https://static.wikia.nocookie.net/callofduty/images/b/b8/SpinelHusk_Camo_Icon_MWIII.png){90px:90px}|`jup_camo_ob_iw9_comp_02`
-Arachnida|![](https://static.wikia.nocookie.net/callofduty/images/1/1f/Arachnida_Camo_Icon_MWIII.png){90px:90px}|`jup_camo_ob_iw9_comp_03`
-Bioluminescent|![](https://static.wikia.nocookie.net/callofduty/images/e/e6/Bioluminescent_Camo_Icon_MWIII.png){90px:90px}|`jup_camo_ob_iw9_comp_04`
-
-### Equipment
-Name|Icon|ID
--|:-:|-
-Snowball|![](../images/iw9/hud_icon_equipment_snowball.png)|`equip_snowball`
-Golden snowball|![](../images/iw9/hud_icon_equipment_snowball_pball.png)|`equip_pball`
-Monkey bomb|![](https://static.wikia.nocookie.net/callofduty/images/c/c7/CymbalMonkey_Tactical_HUD_Icon_Zombies_MWIII.png)|`equip_monkey_bomb`
-LT53 Kazimir|![](https://static.wikia.nocookie.net/callofduty/images/3/38/LT53Kazimir_Tactical_HUD_Icon_Zombies_MWIII.png)|`equip_blackhole_bomb`
-Aether blade|![](https://static.wikia.nocookie.net/callofduty/images/b/b1/AetherBlade_Lethal_HUD_Icon_Zombies_MWIII.png)|`equip_aether_blade`
+Juggernog|![]()|`ob_jup_item_perk_juggernog`
+Quick Revive|![]()|`ob_jup_item_perk_quickrevive`
+Speed Cola|![]()|`ob_jup_item_perk_speedcola`
+Staminup|![]()|`ob_jup_item_perk_staminup`
+Deadshot Daiquiri|![]()|`ob_jup_item_perk_deadshot`
+PhD Flopper|![]()|`ob_jup_item_perk_phd_flopper`
+Tombstone|![]()|`ob_jup_item_perk_tombstone`
+Elemental Pop|![]()|`ob_jup_item_perk_elemental_pop`
+Death Perception|![]()|`ob_jup_item_perk_death_perception`
+Self Revive|![]()|`ob_jup_item_revive_self_revive`
+Raw Aetherium Crystal|![](https://static.wikia.nocookie.net/callofduty/images/0/0a/Raw_AetheriumCrystal_Acquisition_Icon_Zombies_MWIII.png)|`ob_jup_item_aether_crystal`
+Refined Aetherium Crystal|![](https://static.wikia.nocookie.net/callofduty/images/2/25/Refined_AetheriumCrystal_Acquisition_Icon_Zombies_MWIII.png)|`ob_jup_item_aether_crystal_2`
+Flawless Aetherium Crystal|![](https://static.wikia.nocookie.net/callofduty/images/d/d4/Flawless_AetheriumCrystal_Acquisition_Icon_Zombies_MWIII.png)|`ob_jup_item_aether_crystal_3`
+Medium Backpack|![]()|`ob_jup_item_backpack_medium`
+Large Backpack|![]()|`ob_jup_item_backpack_large`
+Gas Mask|![]()|`ob_jup_item_gasmask`
+Durable Gas Mask|![]()|`ob_jup_item_gasmask_durable`
+Napalm Burst|![]()|`ob_jup_item_ammomod_napalmburst`
+Brain Rot|![]()|`ob_jup_item_ammomod_bainrot`
+Dead Wire|![]()|`ob_jup_item_ammomod_deadwire`
+Cryo Freeze|![]()|`ob_jup_item_ammomod_cryofreeze`
+Shatter Blast|![]()|`ob_jup_item_ammomod_shatterblast`
+Ray Gun case|![]()|`ob_jup_item_weaponcase_raygun`
+DG-2 case|![]()|`ob_jup_item_weaponcase_dg2`
+VR11 case|![]()|`ob_jup_item_weaponcase_vr11`
+Aether Blade case|![]()|`ob_jup_item_weaponcase_aetherblade`
+Scorcher case|![]()|`ob_jup_item_weaponcase_plasmagun`
+Monkey Bomb|![](https://static.wikia.nocookie.net/callofduty/images/c/c7/CymbalMonkey_Tactical_HUD_Icon_Zombies_MWIII.png)|`ob_jup_item_tactical_monkey_bomb`
+Juggernaut|![](https://static.wikia.nocookie.net/callofduty/images/b/b2/Juggernaut_Streak_HUD_Icon_MWII.png)|`ob_jup_item_killstreak_juggernaut`
 
 ### WANDS
 Name|Icon|ID
@@ -235,6 +243,28 @@ Healing aura|![](https://static.wikia.nocookie.net/callofduty/images/a/a7/Healin
 Frost blast|![](https://static.wikia.nocookie.net/callofduty/images/7/71/FrostBlast_FieldUpgrade_Icon_Zombies_BOCW.png)|`super_frost_blast`
 Aether shroud|![](https://static.wikia.nocookie.net/callofduty/images/e/e8/AetherShroud_FieldUpgrade_Icon_Zombies_BOCW.png)|`super_aether_shroud`
 Tesla Storm|![](https://static.wikia.nocookie.net/callofduty/images/7/71/TeslaStorm_FieldUpgrade_Icon_Zombies_BOCW.png)|`super_tesla_storm`
+
+### MWZ Camouflages
+Events
+Name|Icon|ID
+-|:-:|-
+Mark of the Survivor|![](https://static.wikia.nocookie.net/callofduty/images/c/c8/MarkOfTheSurvivor_Camo_Icon_MWIII.png){90px:90px}|`jup_camo_n4942_1`
+
+Mastery
+Name|Icon|ID
+-|:-:|-
+Golden Enigma|![](https://static.wikia.nocookie.net/callofduty/images/8/8a/GoldenEnigma_Camo_Icon_MWIII.png){90px:90px}|`jup_camo_ob_comp_01`
+Zircon Scale|![](https://static.wikia.nocookie.net/callofduty/images/f/fc/ZirconScale_Camo_Icon_MWIII.png){90px:90px}|`jup_camo_ob_comp_02`
+Serpentinite|![](https://static.wikia.nocookie.net/callofduty/images/3/3d/Serpentinite_Camo_Icon_MWIII.png){90px:90px}|`jup_camo_ob_comp_03`
+Borealis|![](https://static.wikia.nocookie.net/callofduty/images/1/15/Borealis_Camo_Icon_MWIII.png){90px:90px}|`jup_camo_ob_comp_04`
+
+MWII Mastery
+Name|Icon|ID
+-|:-:|-
+Golden Ivory|![](https://static.wikia.nocookie.net/callofduty/images/e/ef/GoldenIvory_Camo_Icon_MWIII.png){90px:90px}|`jup_camo_ob_iw9_comp_01`
+Spinel Husk|![](https://static.wikia.nocookie.net/callofduty/images/b/b8/SpinelHusk_Camo_Icon_MWIII.png){90px:90px}|`jup_camo_ob_iw9_comp_02`
+Arachnida|![](https://static.wikia.nocookie.net/callofduty/images/1/1f/Arachnida_Camo_Icon_MWIII.png){90px:90px}|`jup_camo_ob_iw9_comp_03`
+Bioluminescent|![](https://static.wikia.nocookie.net/callofduty/images/e/e6/Bioluminescent_Camo_Icon_MWIII.png){90px:90px}|`jup_camo_ob_iw9_comp_04`
 
 ## WARZONE 2.0
 ![](https://cdn2.steamgriddb.com/hero/d0c5eb4ed41f5237969d0218c27aee75.png)
