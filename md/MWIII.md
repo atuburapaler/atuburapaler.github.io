@@ -191,51 +191,63 @@ This will drop a specific equipment in match, next to you.
 - `seta cheat_force_power_level`
 This will enable a developer cheat for all players/bots with high value loot, depending on the number, and based on the danger zone loot. Can be used once per weapon upgrade (0-3)
 
-### Wonder weapons
+### Acquisitions
+**Perk-a-Cola cans**
 Name|Icon|ID
 -|:-:|-
-Ray Gun|![](https://static.wikia.nocookie.net/callofduty/images/e/e6/RayGun_HUD_Icon_MWIII.png)|`jup_pi_raygun`
-Ray Gun (WZ)|![](https://static.wikia.nocookie.net/callofduty/images/e/e6/RayGun_HUD_Icon_MWIII.png)|`jup_pi_goldengun`
-Scorcher|![](https://static.wikia.nocookie.net/callofduty/images/5/56/Scorcher_HUD_Icon_MWIII.png)|`jup_la_plasmagun`
-Wunderwaffe DG-2|![](https://static.wikia.nocookie.net/callofduty/images/3/33/WunderwaffeDG2_HUD_Icon_MWIII.png)|`jup_ar_dg2`
-V-R11|![](https://static.wikia.nocookie.net/callofduty/images/b/bc/VR11_HUD_Icon_MWIII.png)|`jup_la_humangun`
+Juggernog|![](https://static.wikia.nocookie.net/callofduty/images/2/22/Juggernog_Acquisition_Icon_Zombies_MWIII.png)|`ob_jup_item_perk_juggernog`
+Quick Revive|![](https://static.wikia.nocookie.net/callofduty/images/f/fe/QuickRevive_Acquisition_Icon_Zombies_MWIII.png)|`ob_jup_item_perk_quickrevive`
+Speed Cola|![](https://static.wikia.nocookie.net/callofduty/images/5/5a/SpeedCola_Acquisition_Icon_Zombies_MWIII.png)|`ob_jup_item_perk_speedcola`
+Staminup|![](https://static.wikia.nocookie.net/callofduty/images/b/be/StaminUp_Acquisition_Icon_Zombies_MWIII.png)|`ob_jup_item_perk_staminup`
+Deadshot Daiquiri|![](https://static.wikia.nocookie.net/callofduty/images/1/19/DeadshotDaiquiri_Acquisition_Icon_Zombies_MWIII.png)|`ob_jup_item_perk_deadshot`
+PhD Flopper|![](https://static.wikia.nocookie.net/callofduty/images/4/47/PhDFlopper_Acquisition_Icon_Zombies_MWIII.png)|`ob_jup_item_perk_phd_flopper`
+Tombstone Soda|![](https://static.wikia.nocookie.net/callofduty/images/5/5f/Tombstone_Acquisition_Icon_Zombies_MWIII.png)|`ob_jup_item_perk_tombstone`
+Elemental Pop|![](https://static.wikia.nocookie.net/callofduty/images/3/3b/ElementalPop_Acquisition_Icon_Zombies_MWIII.png)|`ob_jup_item_perk_elemental_pop`
+Death Perception|![](https://static.wikia.nocookie.net/callofduty/images/e/ef/DeathPerception_Acquisition_Icon_Zombies_MWIII.png)|`ob_jup_item_perk_death_perception`
 
-### MWZ Equipment
+**Aetherium**
 Name|Icon|ID
 -|:-:|-
-Juggernog|![]()|`ob_jup_item_perk_juggernog`
-Quick Revive|![]()|`ob_jup_item_perk_quickrevive`
-Speed Cola|![]()|`ob_jup_item_perk_speedcola`
-Staminup|![]()|`ob_jup_item_perk_staminup`
-Deadshot Daiquiri|![]()|`ob_jup_item_perk_deadshot`
-PhD Flopper|![]()|`ob_jup_item_perk_phd_flopper`
-Tombstone|![]()|`ob_jup_item_perk_tombstone`
-Elemental Pop|![]()|`ob_jup_item_perk_elemental_pop`
-Death Perception|![]()|`ob_jup_item_perk_death_perception`
-Self Revive|![]()|`ob_jup_item_revive_self_revive`
 Raw Aetherium Crystal|![](https://static.wikia.nocookie.net/callofduty/images/0/0a/Raw_AetheriumCrystal_Acquisition_Icon_Zombies_MWIII.png)|`ob_jup_item_aether_crystal`
 Refined Aetherium Crystal|![](https://static.wikia.nocookie.net/callofduty/images/2/25/Refined_AetheriumCrystal_Acquisition_Icon_Zombies_MWIII.png)|`ob_jup_item_aether_crystal_2`
 Flawless Aetherium Crystal|![](https://static.wikia.nocookie.net/callofduty/images/d/d4/Flawless_AetheriumCrystal_Acquisition_Icon_Zombies_MWIII.png)|`ob_jup_item_aether_crystal_3`
+
+**Ammo Mods**
+Name|Icon|ID
+-|:-:|-
+Brain Rot|![](https://static.wikia.nocookie.net/callofduty/images/8/8a/BrainRot_Schematic_Icon_Zombies_MWIII.png)|`ob_jup_item_ammomod_bainrot`
+Cryo Freeze|![](https://static.wikia.nocookie.net/callofduty/images/6/63/Cryofreeze_Schematic_Icon_Zombies_MWIII.png)|`ob_jup_item_ammomod_cryofreeze`
+Dead Wire|![](https://static.wikia.nocookie.net/callofduty/images/1/1c/DeadWire_Schematic_Icon_Zombies_MWIII.png)|`ob_jup_item_ammomod_deadwire`
+Napalm Burst|![](https://static.wikia.nocookie.net/callofduty/images/3/3a/NapalmBurst_Schematic_Icon_Zombies_MWIII.png)|`ob_jup_item_ammomod_napalmburst`
+Shatter Blast|![](https://static.wikia.nocookie.net/callofduty/images/d/d0/ShatterBlast_Schematic_Icon_Zombies_MWIII.png)|`ob_jup_item_ammomod_shatterblast`
+
+**Wonder Weapons cases**
+Name|Icon|ID
+-|:-:|-
+Ray Gun|![](https://static.wikia.nocookie.net/callofduty/images/e/ee/Ray_Gun_Acquisition_Icon_Zombies_MWIII.png)|`ob_jup_item_weaponcase_raygun`
+Scorcher|![](https://static.wikia.nocookie.net/callofduty/images/a/af/Scorcher_Acquisition_Icon_Zombies_MWIII.png)|`ob_jup_item_weaponcase_plasmagun`
+VR11|![](https://static.wikia.nocookie.net/callofduty/images/6/63/V-R11_Acquisition_Icon_Zombies_MWIII.png)|`ob_jup_item_weaponcase_vr11`
+Wunderwaffe DG-2|![](https://static.wikia.nocookie.net/callofduty/images/9/93/WunderwaffeDG2_Acquisition_Icon_Zombies_MWIII.png)|`ob_jup_item_weaponcase_dg2`
+
+**Classified**
+Name|Icon|ID
+-|:-:|-
+Aether Blade case|![](https://static.wikia.nocookie.net/callofduty/images/9/9f/Aether_Blade_Acquisition_Icon_Zombies_MWIII.png)|`ob_jup_item_weaponcase_aetherblade`
+Dead Wire Detonators|![](https://static.wikia.nocookie.net/callofduty/images/e/ed/DeadWireDetonators_Acquisition_Icon_Zombies_MWIII.png)|`ob_jup_item_warlord_maestro_mod`
+Disciple Bottle|![](https://static.wikia.nocookie.net/callofduty/images/c/c3/DiscipleBottle_Acquisition_Icon_Zombies_MWIII.png)|`ob_jup_item_disciple_bottle`
+Dog Bone|![](https://static.wikia.nocookie.net/callofduty/images/7/7e/DogBone_Acquisition_Icon_Zombies_MWIII.png)|`ob_jup_item_jup_dog_whistle`
+Golden Armor plate|![](https://static.wikia.nocookie.net/callofduty/images/4/46/Golden_Armor_Plate_Acquisition_Icon_Zombies_MWIII.png)|`ob_jup_item_golden_armor_plate`
+Golden Mask Filter|![](https://static.wikia.nocookie.net/callofduty/images/0/0d/GoldenMaskFilter_Acquisition_Icon_Zombies_MWIII.png)|`ob_jup_item_warlord_chemist_mask
+Sergeant's Beret|![](https://static.wikia.nocookie.net/callofduty/images/3/37/SergeantsBeret_Acquisition_Icon_Zombies_MWIII.png)|`ob_jup_item_warlord_afo_beret`
+
+**Military loot**
+Name|Icon|ID
+-|:-:|-
+Self Revive|![]()|`ob_jup_item_revive_self_revive`
 Medium Backpack|![]()|`ob_jup_item_backpack_medium`
 Large Backpack|![]()|`ob_jup_item_backpack_large`
-Gas Mask|![]()|`ob_jup_item_gasmask`
-Durable Gas Mask|![]()|`ob_jup_item_gasmask_durable`
-Golden Mask Filter|![]()|`ob_jup_item_warlord_chemist_mask
-Golden Armor plate|![]()|`ob_jup_item_golden_armor_plate`
-Dog Bone|![]()|`ob_jup_item_jup_dog_whistle`
-Disciple Bottle|![]()|`ob_jup_item_disciple_bottle`
-Sergeant's Beret|![]()|`ob_jup_item_warlord_afo_beret`
-Dead Wire Detonators|![]()|`ob_jup_item_warlord_maestro_mod`
-Napalm Burst|![]()|`ob_jup_item_ammomod_napalmburst`
-Brain Rot|![]()|`ob_jup_item_ammomod_bainrot`
-Dead Wire|![]()|`ob_jup_item_ammomod_deadwire`
-Cryo Freeze|![]()|`ob_jup_item_ammomod_cryofreeze`
-Shatter Blast|![]()|`ob_jup_item_ammomod_shatterblast`
-Ray Gun case|![]()|`ob_jup_item_weaponcase_raygun`
-DG-2 case|![]()|`ob_jup_item_weaponcase_dg2`
-VR11 case|![]()|`ob_jup_item_weaponcase_vr11`
-Aether Blade case|![]()|`ob_jup_item_weaponcase_aetherblade`
-Scorcher case|![]()|`ob_jup_item_weaponcase_plasmagun`
+Gas Mask|![](https://static.wikia.nocookie.net/callofduty/images/5/57/GasMask_Icon_WZ.png)|`ob_jup_item_gasmask`
+Durable Gas Mask|![](https://static.wikia.nocookie.net/callofduty/images/7/72/DurableGasMask_Icon_WZ.png)|`ob_jup_item_gasmask_durable`
 Monkey Bomb|![](https://static.wikia.nocookie.net/callofduty/images/c/c7/CymbalMonkey_Tactical_HUD_Icon_Zombies_MWIII.png)|`ob_jup_item_tactical_monkey_bomb`
 Juggernaut|![](https://static.wikia.nocookie.net/callofduty/images/b/b2/Juggernaut_Streak_HUD_Icon_MWII.png)|`ob_jup_item_killstreak_juggernaut`
 
@@ -249,6 +261,15 @@ Healing aura|![](https://static.wikia.nocookie.net/callofduty/images/a/a7/Healin
 Frost blast|![](https://static.wikia.nocookie.net/callofduty/images/7/71/FrostBlast_FieldUpgrade_Icon_Zombies_BOCW.png)|`super_frost_blast`
 Aether shroud|![](https://static.wikia.nocookie.net/callofduty/images/e/e8/AetherShroud_FieldUpgrade_Icon_Zombies_BOCW.png)|`super_aether_shroud`
 Tesla Storm|![](https://static.wikia.nocookie.net/callofduty/images/7/71/TeslaStorm_FieldUpgrade_Icon_Zombies_BOCW.png)|`super_tesla_storm`
+
+### Wonder weapons
+Name|Icon|ID
+-|:-:|-
+Ray Gun|![](https://static.wikia.nocookie.net/callofduty/images/e/e6/RayGun_HUD_Icon_MWIII.png)|`jup_pi_raygun`
+Ray Gun (WZ)|![](https://static.wikia.nocookie.net/callofduty/images/e/e6/RayGun_HUD_Icon_MWIII.png)|`jup_pi_goldengun`
+Scorcher|![](https://static.wikia.nocookie.net/callofduty/images/5/56/Scorcher_HUD_Icon_MWIII.png)|`jup_la_plasmagun`
+Wunderwaffe DG-2|![](https://static.wikia.nocookie.net/callofduty/images/3/33/WunderwaffeDG2_HUD_Icon_MWIII.png)|`jup_ar_dg2`
+V-R11|![](https://static.wikia.nocookie.net/callofduty/images/b/bc/VR11_HUD_Icon_MWIII.png)|`jup_la_humangun`
 
 ### MWZ Camouflages
 Events
