@@ -237,15 +237,19 @@ Dead Wire Detonators|![](https://static.wikia.nocookie.net/callofduty/images/e/e
 Disciple Bottle|![](https://static.wikia.nocookie.net/callofduty/images/c/c3/DiscipleBottle_Acquisition_Icon_Zombies_MWIII.png)|`ob_jup_item_disciple_bottle`
 Dog Bone|![](https://static.wikia.nocookie.net/callofduty/images/7/7e/DogBone_Acquisition_Icon_Zombies_MWIII.png)|`ob_jup_item_jup_dog_whistle`
 Golden Armor plate|![](https://static.wikia.nocookie.net/callofduty/images/4/46/Golden_Armor_Plate_Acquisition_Icon_Zombies_MWIII.png)|`ob_jup_item_golden_armor_plate`
-Golden Mask Filter|![](https://static.wikia.nocookie.net/callofduty/images/0/0d/GoldenMaskFilter_Acquisition_Icon_Zombies_MWIII.png)|`ob_jup_item_warlord_chemist_mask
+Golden Mask Filter|![](https://static.wikia.nocookie.net/callofduty/images/0/0d/GoldenMaskFilter_Acquisition_Icon_Zombies_MWIII.png)|`ob_jup_item_warlord_chemist_mask`
+Grenade Bandolier|![](https://static.wikia.nocookie.net/callofduty/images/d/d5/GrenadeBandolier_Acquisition_Icon_Zombies_MWIII.png)|`ob_jup_item_grenade_bandolier`
+Mag of Holding|![](https://static.wikia.nocookie.net/callofduty/images/a/af/MagOfHolding_Acquisition_Icon_Zombies_MWIII.png)|`ob_jup_item_warlord_golden_ammo`
 Sergeant's Beret|![](https://static.wikia.nocookie.net/callofduty/images/3/37/SergeantsBeret_Acquisition_Icon_Zombies_MWIII.png)|`ob_jup_item_warlord_afo_beret`
 
 **Military loot**
 Name|Icon|ID
 -|:-:|-
 Self Revive|![]()|`ob_jup_item_revive_self_revive`
-Medium Backpack|![]()|`ob_jup_item_backpack_medium`
-Large Backpack|![]()|`ob_jup_item_backpack_large`
+2-Plate Armor Vest|![]()|`ob_jup_item_plate_carrier_2`
+3-Plate Armor Vest|![]()|`ob_jup_item_plate_carrier_3`
+Medium Rucksack|![]()|`ob_jup_item_backpack_medium`
+Large Rucksack|![]()|`ob_jup_item_backpack_large`
 Gas Mask|![](https://static.wikia.nocookie.net/callofduty/images/5/57/GasMask_Icon_WZ.png)|`ob_jup_item_gasmask`
 Durable Gas Mask|![](https://static.wikia.nocookie.net/callofduty/images/7/72/DurableGasMask_Icon_WZ.png)|`ob_jup_item_gasmask_durable`
 Monkey Bomb|![](https://static.wikia.nocookie.net/callofduty/images/c/c7/CymbalMonkey_Tactical_HUD_Icon_Zombies_MWIII.png)|`ob_jup_item_tactical_monkey_bomb`
