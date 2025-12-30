@@ -220,6 +220,12 @@ Medium Backpack|![]()|`ob_jup_item_backpack_medium`
 Large Backpack|![]()|`ob_jup_item_backpack_large`
 Gas Mask|![]()|`ob_jup_item_gasmask`
 Durable Gas Mask|![]()|`ob_jup_item_gasmask_durable`
+Golden Mask Filter|![]()|`ob_jup_item_warlord_chemist_mask
+Golden Armor plate|![]()|`ob_jup_item_golden_armor_plate`
+Dog Bone|![]()|`ob_jup_item_jup_dog_whistle`
+Disciple Bottle|![]()|`ob_jup_item_disciple_bottle`
+Sergeant's Beret|![]()|`ob_jup_item_warlord_afo_beret`
+Dead Wire Detonators|![]()|`ob_jup_item_warlord_maestro_mod`
 Napalm Burst|![]()|`ob_jup_item_ammomod_napalmburst`
 Brain Rot|![]()|`ob_jup_item_ammomod_bainrot`
 Dead Wire|![]()|`ob_jup_item_ammomod_deadwire`
