@@ -263,6 +263,7 @@ Medium Rucksack|![]()|`ob_jup_item_backpack_medium`
 Large Rucksack|![]()|`ob_jup_item_backpack_large`
 Gas Mask|![](https://static.wikia.nocookie.net/callofduty/images/5/57/GasMask_Icon_WZ.png)|`ob_jup_item_gasmask`
 Durable Gas Mask|![](https://static.wikia.nocookie.net/callofduty/images/7/72/DurableGasMask_Icon_WZ.png)|`ob_jup_item_gasmask_durable`
+Stronghold Keycard|![]()|`ob_jup_item_key_human_stronghold`
 Monkey Bomb|![](https://static.wikia.nocookie.net/callofduty/images/c/c7/CymbalMonkey_Tactical_HUD_Icon_Zombies_MWIII.png)|`ob_jup_item_tactical_monkey_bomb`
 LT53 Kazimir|![](https://static.wikia.nocookie.net/callofduty/images/3/38/LT53Kazimir_Tactical_HUD_Icon_Zombies_MWIII.png)|`ob_jup_item_tactical_blackhole_bomb`
 Juggernaut|![](https://static.wikia.nocookie.net/callofduty/images/b/b2/Juggernaut_Streak_HUD_Icon_MWII.png)|`ob_jup_item_killstreak_juggernaut`
