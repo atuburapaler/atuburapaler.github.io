@@ -3,14 +3,14 @@
 *->"Take this to hell with you, Captain... Never bury your enemies alive."<-*
 
 ## Menus
-- `openmenu mainmenuoffline`
-- `openmenu customizemenu`
-- `openmenu musicpackselect`
-- `openmenu mybundleselect`
-- `openmenu systemlinklobby`
-- `openmenu solooperatorselect`
-- `openmenu obplaymenu`
-- `openmenu obloadoutmanagement`
+- `luiOpenMenu mainmenuoffline`
+- `luiOpenMenu customizemenu`
+- `luiOpenMenu musicpackselect`
+- `luiOpenMenu mybundleselect`
+- `luiOpenMenu systemlinklobby`
+- `luiOpenMenu solooperatorselect`
+- `luiOpenMenu obplaymenu`
+- `luiOpenMenu obloadoutmanagement`
 
 ## Visuals
 - `seta #x3879E55ACF9D60DEB`
@@ -190,6 +190,12 @@ This will give you a specific ammount of essence in match (0-2147483647)
 This will drop a specific equipment in match, next to you.
 - `seta cheat_force_power_level`
 This will enable a developer cheat for all players/bots with high value loot, depending on the number, and based on the danger zone loot. Can be used once per weapon upgrade (0-3)
+- `seta #x3c71b67e0a3ba8ac6 1`
+This will enable a developer cheat that will drop next to you every acquisition.
+- `seta #x3e169afa3c29fa095 1`
+This will enable a developer cheat that will drop next to you every relic.
+- `seta #x373cb4ab372e0194a 1`
+This will enable a developer cheat that will drop next to you every ammo mod.
 
 ### Acquisitions
 **Perk-a-Cola cans**
@@ -249,7 +255,7 @@ Sergeant's Beret|![](https://static.wikia.nocookie.net/callofduty/images/3/37/Se
 **Military loot**
 Name|Icon|ID
 -|:-:|-
-Self Revive|![]()|`ob_jup_item_revive_self_revive`
+Self Revive|![](https://static.wikia.nocookie.net/callofduty/images/b/b9/Self_Revive_Icon_WZ.png)|`ob_jup_item_revive_self_revive`
 2-Plate Armor Vest|![]()|`ob_jup_item_plate_carrier_2`
 3-Plate Armor Vest|![]()|`ob_jup_item_plate_carrier_3`
 Medium Rucksack|![]()|`ob_jup_item_backpack_medium`
