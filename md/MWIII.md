@@ -256,14 +256,14 @@ Sergeant's Beret|![](https://static.wikia.nocookie.net/callofduty/images/3/37/Se
 Name|Icon|ID
 -|:-:|-
 Armor Plate|![](https://static.wikia.nocookie.net/callofduty/images/1/18/ArmorPlate_Icon_WZ2.png)|`ob_jup_item_armor_plate`
-Self Revive|![](https://static.wikia.nocookie.net/callofduty/images/b/b9/Self_Revive_Icon_WZ.png)|`ob_jup_item_revive_self_revive`
-2-Plate Armor Vest|![]()|`ob_jup_item_plate_carrier_2`
-3-Plate Armor Vest|![]()|`ob_jup_item_plate_carrier_3`
-Medium Rucksack|![]()|`ob_jup_item_backpack_medium`
-Large Rucksack|![]()|`ob_jup_item_backpack_large`
+Self Revive|![](../images/iw9/hud_icon_loot_revive.png)|`ob_jup_item_revive_self_revive`
+2-Plate Armor Vest|![](../images/iw9/hud_icon_loot_armor_medium.png)|`ob_jup_item_plate_carrier_2`
+3-Plate Armor Vest|![](../images/iw9/hud_icon_loot_armor_heavy.png)|`ob_jup_item_plate_carrier_3`
+Medium Rucksack|![](../images/iw9/hud_icon_loot_backpack_medium.png)|`ob_jup_item_backpack_medium`
+Large Rucksack|![](../images/iw9/hud_icon_loot_backpack_large.png)|`ob_jup_item_backpack_large`
 Gas Mask|![](https://static.wikia.nocookie.net/callofduty/images/5/57/GasMask_Icon_WZ.png)|`ob_jup_item_gasmask`
 Durable Gas Mask|![](https://static.wikia.nocookie.net/callofduty/images/7/72/DurableGasMask_Icon_WZ.png)|`ob_jup_item_gasmask_durable`
-Stronghold Keycard|![]()|`ob_jup_item_key_human_stronghold`
+Stronghold Keycard|![](../images/iw9/jup_hud_icon_loot_keycard_stronghold_zm.png)|`ob_jup_item_key_human_stronghold`
 Monkey Bomb|![](https://static.wikia.nocookie.net/callofduty/images/c/c7/CymbalMonkey_Tactical_HUD_Icon_Zombies_MWIII.png)|`ob_jup_item_tactical_monkey_bomb`
 LT53 Kazimir|![](https://static.wikia.nocookie.net/callofduty/images/3/38/LT53Kazimir_Tactical_HUD_Icon_Zombies_MWIII.png)|`ob_jup_item_tactical_blackhole_bomb`
 Juggernaut|![](https://static.wikia.nocookie.net/callofduty/images/b/b2/Juggernaut_Streak_HUD_Icon_MWII.png)|`ob_jup_item_killstreak_juggernaut`
@@ -271,7 +271,7 @@ Precision Airstrike|![](https://static.wikia.nocookie.net/callofduty/images/8/81
 Sentry Gun|![](https://static.wikia.nocookie.net/callofduty/images/9/90/SentryGun_Streak_HUD_Icon_MWII.png)|`ob_jup_item_killstreak_sentrygun`
 Cluster Mine|![](https://static.wikia.nocookie.net/callofduty/images/0/09/ClusterMine_Streak_HUD_Icon_MWII.png)|`ob_jup_item_killstreak_cluster_spike`
 Mortar Strike|![](https://static.wikia.nocookie.net/callofduty/images/6/67/MortarStrike_Streak_HUD_Icon_MWII.png)|`ob_jup_item_killstreak_clusterstrike`
-Termal Phone|![](../images/iw9/hud_icon_equipment_thermal_phone.png))|`ob_jup_item_thermal_phone`
+Termal Phone|![](../images/iw9/hud_icon_equipment_thermal_phone.png)|`ob_jup_item_thermal_phone`
 
 ### WANDS
 Name|Icon|ID
