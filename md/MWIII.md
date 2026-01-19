@@ -123,9 +123,7 @@ Orion|![](https://static.wikia.nocookie.net/callofduty/images/6/6d/Orion_Camo_Ic
 Events
 Name|Icon|ID
 -|:-:|-
-Gridlocked|![](https://static.wikia.nocookie.net/callofduty/images/8/8e/Gridlocked_Camo_Icon_MWIII.png){90px:90px}|
-Shifting Grid|![](https://static.wikia.nocookie.net/callofduty/images/d/df/ShiftingGrid_Camo_Icon_MWIII.png){90px:90px}|
-Synth-Bust|![](https://static.wikia.nocookie.net/callofduty/images/f/fb/SynthBust_Camo_Icon_MWIII.png){90px:90px}|
+Royalty Tiger|![](){90px:90px}|jup_camo_eventsc
 
 ## MODERN WARFARE ZOMBIES
 ![](../images/iw9/jup-ob-bann.png)
