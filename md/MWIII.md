@@ -3,18 +3,29 @@
 *->"Take this to hell with you, Captain... Never bury your enemies alive."<-*
 
 ## Menus
+**Offline**
 - `luiOpenMenu mainmenuoffline`
 - `luiOpenMenu customizemenu`
 - `luiOpenMenu musicpackselect`
 - `luiOpenMenu mybundleselect`
 - `luiOpenMenu systemlinklobby`
 - `luiOpenMenu solooperatorselect`
+**Online**
+- `luiOpenMenu hqmainmenu`
+- `luiOpenMenu mpmainmenu`
+- `luiOpenMenu brmainmenu`
+- `luiOpenMenu warzoneprivatematchlobby`
+- `luiOpenMenu obmainmenu`
 - `luiOpenMenu obplaymenu`
 - `luiOpenMenu obloadoutmanagement`
+!!! info If these don't work for you, delete `lui` prefix.
+Online menus could have network dependencies.
 
 ## Visuals
+- `seta scr_game_use_squad_ui`
+This defines if the health and stamina bar on the next multiplayer match, following user settings, disabled in private matches by default (0-1)
 - `seta #x3879E55ACF9D60DEB`
-This displays the Halloween themed Season Six HUD, in the next multiplayer match (0-1)
+This defines if the Halloween themed Season Six HUD, will display in the next multiplayer match (0-1)
 - `#x3BB4DBC0D6A10A598`
 This displays the Call of Duty Endowment banner in the countdown after the warmup, in the next WZ 2.0 match (0-1)
 - `lui_channels_enabled`
@@ -37,13 +48,16 @@ This will enable/disable Bot names used in WZ 2.0 in every possible mode, disabl
 - `set com_showbottag`
 This will enable/disable the [bot] prefix for bots in every possible mode, enabled by default (1-0)
 - `cg_drawdevoverlays`
-This will show/hide developer info in an overlay (0-1)
+This will show/hide developer info in an overlay (0-1) it might require an external implementation.
 - `lui_enable_gun_effect_preview_firing_range`
 This defines if the weapon preview from the firing range will display or not a tracers preview window like in bundle menus (0-1)
 - `lui_use_lua_subtitle_impl`
-This defines if an icon will display on specific subtitles, unfinished and early BO6 implementation, disabled by default (0-1)
+Unfinished/early BO6 implementation, this defines if an icon prefix will display on specific subtitles for context, disabled by default (0-1)
 - `r_globalSnow 1`
 Experimental, this will render snow textures on the whole game, can affect all kind of maps.
+- `lui_store_tab_state`
+- `lui_battlepass_tab_state`
+These will define how the tabs look on online menus (0 default - 2 grey) season and network dependent.
 
 ## Inventories
 **Private matches**
@@ -142,7 +156,6 @@ This will define if bots can perform specific actions like shooting and aiming, 
 This will define if bots can't follow a path and track hostiles, in the next match, it's enabled by default (1-0)
 - `seta #x32fe0283b419ff08a`
 This defines if the Urzikstan helicopter infil animation plays, in the next match, enabled by default (0-1)
-
 
 ### Story Missions
 - `set ui_mapname mp_jup_st_c_gw;seta ob_quest1_act1 1`
@@ -317,12 +330,14 @@ Bioluminescent|![](https://static.wikia.nocookie.net/callofduty/images/e/e6/Biol
 ![](https://cdn2.steamgriddb.com/hero/d0c5eb4ed41f5237969d0218c27aee75.png)
 *->"Let's get this done."<-*
 
-- `exec br_core.cfg;exec br_globals.cfg`
-Execute WZ 2.0.
-- `exec #x43B0AD900F42FF5D5`
-Needed for Urzikstan WZ 2.0 matches.
+- `seta #x3116700c9b39c1eba`
+This sets the ammount of bots the next match will have (0-110)
 - `live_lobby_minplayers_start`
 This sets what's the minimum players requirement in order to finish the warmup.
+- `scr_live_lobby`
+This will define if the lobby is running with online dependencies.
+- `br_minplayers`
+Minimum players requirement but for the previous dvar context.
 - `set lui_show_loading_hints`
 This disables/enable the next game mode hints, in the next match. (0-1)
 - `set ui_serverframeduration 16,set ui_physicsframeduration 16`
