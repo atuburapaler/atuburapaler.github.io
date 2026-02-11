@@ -345,7 +345,9 @@ Sets the right physics values for miscellaneous entities like drones, in the nex
 - `cl_transientcollision_memorybudgetgame 224288000;cl_transientcollision_maxtilesoverride 64`
 Sets the right collisions on Resurgence maps, like Vondel's train, in the next match.
 - `scr_br_third_person_toggle`
-This disables/enable third person button option on the pause menu, in the next match.
+This disables/enable third person button option on the pause menu, in the next match, disabled by default (0-1)
+- `skydive_always_weapon_raise`
+This disables/enable a pistol weapon raise everytime they cut their parachute, like in WZ (2020-2022) or WZ 2.0 (2025-2026), in the next match, disabled by default (0-1)
 - `scr_br_playtest_tool_phoenix`
 This disables/enable a developer tool kit in the next match, most of the stuff won't work, visual only.
 - `seta scr_br_bunker_doors_show_graffiti`
