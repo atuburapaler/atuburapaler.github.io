@@ -109,6 +109,7 @@ Rebirth of the Dead|1.60+|![](https://static.wikia.nocookie.net/callofduty/image
 Operation: Last Call|1.63+%darkgoldenrod%**²**%%|![](https://static.wikia.nocookie.net/callofduty/images/e/e6/OperationLastCall_Icon_WZ.png)|`scr_br_gametype olaride;seta scr_br_pr_validate_gametypes 0;set scr_br_alt_mode_olaride 1`
 !!! warning
 ¹It requires a controller set as the primary input method as you need to unplug it and plug it back in to get any input.
+!!! warning
 ² 1.63 is a very unstable/broken build, the event will work in post. versions but it might miss some mechanics.
     
 ### WZ Inventories
