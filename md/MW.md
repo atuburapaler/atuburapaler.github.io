@@ -25,11 +25,12 @@ Number|Season|Splash
 `1.67`|Retail|![](../images/iw8/1.0.bmp){80%:80%}
 
 ## Menus
-- `openmenu mainlockoutmenu`
-- `openmenu mainmenuoffline`
-- `openmenu systemlinklobby`
-- `openmenu bundlelockermenu`
-- `openmenu wzseasonalopeningscreenpc`
+- `luiOpenMenu mainlockoutmenu`
+- `luiOpenMenu mainmenuoffline`
+- `luiOpenMenu systemlinklobby`
+- `luiOpenMenu bundlelockermenu`
+- `luiOpenMenu wzseasonalopeningscreenpc`
+💡 If these don't work for you, try to delete the `lui` prefix.
 
 ## Visuals
 - `seta MONKPPPQR`
@@ -42,6 +43,12 @@ This will restore previous values and return to the default front end lighting.
 This will set the terrain tessellation details render (0-2) this setting is often set to 0 by the engine, you can use it when you want.
 - `execution_hint_enabled`
 This will show or hide a hint whenever you're able to perform an execution, the UI elements are unfinished in this game (0-1)
+- `lui_showBuildAndServerText`
+Hides the bottom right watermark on menus. NOT RECOMMENDED FOR PLAYERS WITH TECH ISSUES.
+- `seta showSeasonVideoInDev 1;seta lui_force_season_intro_video 1`
+These will force the game to display the current seasonal cutscene when refreshing the menu, season and network dependent (0-1)
+- `lfx_showDebugOverlay`
+This will show/hide developer info in an overlay (0-1) it might require an external implementation.
 
 ## Inventories
 - `setPrivateLoadout loadouts 0 name`
@@ -107,10 +114,9 @@ Festive Fervor|1.50-2|![](https://lh3.google.com/u/0/d/1Flv4ms4vnsYOxmUUmYX5oIvL
 Operation: Monarch|1.57|![](https://static.wikia.nocookie.net/callofduty/images/1/11/OperationMonarch_Logo_WZ.png)|`scr_br_gametype mendota;seta scr_br_pr_validate_gametypes 0;set scr_br_alt_mode_mendota 1;exec pr_br_mendota.cfg;seta scr_br_alt_mode_mxp 5`
 Rebirth of the Dead|1.60+|![](https://static.wikia.nocookie.net/callofduty/images/d/d0/ZombieRoyale_Logo_Warzone_MW.png)|`set scr_br_gametype "zxp";set scr_br_alt_mode_zxp 1;set scr_br_zxp_numHitsJugg 0;set scr_br_zxp_respawn_shutdown_jugg 0;set scr_br_zxp_jugg_num_players 0;set scr_br_dbd_vehicle_motorcycle 1;set scr_br_zxp_zombiesDamageZombies 1;set scr_br_zxp_health 700;set scr_br_zxp_powers_cooldown 0;set scr_br_zxp_human_powers 1;seta scr_br_pr_validate_gametypes 0;seta scr_br_atlantisNight 1`
 Operation: Last Call|1.63+%darkgoldenrod%**²**%%|![](https://static.wikia.nocookie.net/callofduty/images/e/e6/OperationLastCall_Icon_WZ.png)|`scr_br_gametype olaride;seta scr_br_pr_validate_gametypes 0;set scr_br_alt_mode_olaride 1`
-!!! warning
-¹It requires a controller set as the primary input method as you need to unplug it and plug it back in to get any input.
-!!! warning
-² 1.63 is a very unstable/broken build, the event will work in post. versions but it might miss some mechanics.
+
+💡 ¹It requires a controller set as the primary input method as you need to unplug it and plug it back in to get any input.
+    ² 1.63 is a very unstable/broken build, the event will work in post. versions but it might miss some mechanics.
     
 ### WZ Inventories
 - `setWZPrivateLoadout loadouts 0 name`
@@ -129,9 +135,9 @@ Name|Icon|ID
 Gold|![](https://static.wikia.nocookie.net/callofduty/images/0/05/Gold_Camo_Icon_BOCW.png){90px:90px}|`camo_mp_t9mastery_gold`
 Diamond|![](https://static.wikia.nocookie.net/callofduty/images/7/73/Diamond_Camo_Icon_BOCW.png){90px:90px}|`camo_mp_t9mastery_diamond`
 Dark Matter Ultra|![](https://static.wikia.nocookie.net/callofduty/images/a/a1/DM_Ultra_Camo_Icon_BOCW.png){90px:90px}|`camo_mp_t9mastery_darkmatter`
-!!! warning
-¹Only available on version 1.30 onwards (Season One)
-This version has some early coverage on weapon models.
+
+💡 ¹Only available on version 1.30 onwards (Season One)
+    This version has some early coverage on weapon models.
 
 **Cold War, Zombies mastery** %darkgoldenrod%²%%
 
@@ -140,10 +146,10 @@ Name|Icon|ID
 Golden Viper|![](https://static.wikia.nocookie.net/callofduty/images/9/95/Golden_Viper_Camouflage_BOCW.png){90px:90px}|`camo_zm_t9mastery_gold`
 Plague Diamond|![](https://static.wikia.nocookie.net/callofduty/images/f/f6/Plague_Diamond_Camo_Icon_BOCW.png){90px:90px}|`camo_zm_t9mastery_diamond`
 Dark Aether|![](https://static.wikia.nocookie.net/callofduty/images/0/03/Dark_Aether_Camouflage_BOCW.png){90px:90px}|`camo_zm_t9mastery_darkmatter`
-!!! warning
-²Only available on version 1.41 onwards (Season Five)
-This version has some early coverage on weapon models.
-Some assets of the Dark Aether are broken on version 1.45 onwards.
+
+💡 ²Only available on version 1.41 onwards (Season Five)
+    This version has some early coverage on weapon models.
+    Some assets of the Dark Aether are broken on version 1.45 onwards.
 
 **Vanguard, Multiplayer mastery**%darkgoldenrod%¹%%
 
@@ -161,8 +167,8 @@ Name|Icon|ID
 Golden Viper|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw8/v_ui_elmnt_camo_gold_zm_e_s.png){90px:90px}|`s4_camo_11a_zm`
 Plague Diamond|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw8/v_ui_elmnt_camo_diamond_zm_a_s.png){90px:90px}|`s4_camo_11b_zm`
 Dark Aether|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw8/v_ui_elmnt_camo_atomic_c_zm_c.png){90px:90px}|`s4_camo_11c_zm`
-!!! warning
-¹Only available on version 1.46 onwards (Season One)
+
+💡 ¹Only available on version 1.46 onwards (Season One)
 
 **Events**
 
