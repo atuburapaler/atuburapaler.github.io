@@ -18,8 +18,8 @@
 - `luiOpenMenu obmainmenu`
 - `luiOpenMenu obplaymenu`
 - `luiOpenMenu obloadoutmanagement`
-!!! info If these don't work for you, delete `lui` prefix.
-Online menus could have network dependencies.
+💡 If these don't work for you, delete `lui` prefix.
+💡 Online menus could have network dependencies.
 
 ## Visuals
 - `seta scr_game_use_squad_ui`
