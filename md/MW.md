@@ -47,6 +47,8 @@ This will show or hide a hint whenever you're able to perform an execution, the 
 Hides the bottom right watermark on menus. NOT RECOMMENDED FOR PLAYERS WITH TECH ISSUES.
 - `seta showSeasonVideoInDev 1;seta lui_force_season_intro_video 1`
 These will force the game to display the current seasonal cutscene when refreshing the menu, season and network dependent (0-1)
+- `lui_cod_points_enabled`
+This will show/hide COD Points on menus (0-1)
 - `lfx_showDebugOverlay`
 This will show/hide developer info in an overlay (0-1) it might require an external implementation.
 
