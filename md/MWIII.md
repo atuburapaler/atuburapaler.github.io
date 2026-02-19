@@ -43,8 +43,8 @@ This will enable/disable depth of field.
 This will try to fix blurry screen space reflections by increasing the sample count.
 - `r_ssrsamplecount 64`
 This will restore previous values and return to the default sample count.
-- `set bot_use_vanilla_name`
-This will enable/disable Bot names used in WZ 2.0 in every possible mode, disabled by default (0-1)
+- `lui_showBuildAndServerText`
+Hides the bottom right watermark on menus. NOT RECOMMENDED FOR PLAYERS WITH TECH ISSUES.
 - `set com_showbottag`
 This will enable/disable the [bot] prefix for bots in every possible mode, enabled by default (1-0)
 - `cg_drawdevoverlays`
