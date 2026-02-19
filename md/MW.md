@@ -112,7 +112,7 @@ The Destruction of Verdansk P2|1.34|![Part 2](https://static.wikia.nocookie.net/
 Verdansk '84 Loot. Kill. Win.|1.34%darkgoldenrod%**¹**%%|![](https://static.wikia.nocookie.net/callofduty/images/a/a3/BattleRoyale_Logo_Warzone_MW.png)|`scr_br_gametype brdov`
 The Battle of Verdansk|1.41|![](https://static.wikia.nocookie.net/callofduty/images/e/e7/BattleOfVerdansk_Logo_WZ.png)|`seta scr_br_gametype x2;seta scr_wztrain_enable 1;seta scr_wztrain_type armored;seta scr_br_x2_signal_quest_enabled 1`
 Ghosts of Verdansk|1.44|![](https://static.wikia.nocookie.net/callofduty/images/a/a5/GhostsOfVerdansk_Logo_WZ.png)|`scr_br_gametype gxp;seta scr_br_alt_mode_gxp 1;seta scr_br_gxp_fear 1;seta scr_br_gxp_fear 1;seta scr_br_gxp_phones 2;seta scr_br_safe_zones_enabled 1;seta scr_br_gxp_human_powers 1;seta scr_br_gxp_zombie_drop_tags 1;scr_br_gxp_safezone_hallucinations 1;scr_br_gxp_loop_zombie_fx 1;seta scr_fear_onlootboxjumpscare 1`
-Festive Fervor|1.50-2|![](https://lh3.google.com/u/0/d/1Flv4ms4vnsYOxmUUmYX5oIvLaI6rowmu=w1910-h922-iv1?auditContext=prefetch)|`exec pr_br_global.cfg;set scr_br_alt_mode_hh 1;set scr_br_ff_xmas_blueprint 1;set scr_br_alt_mode_ff 1;set scr_br_hh_num_trees 12;scr_br_ff_fountain 1;scr_br_quests_enabled 1;set scr_br_events 1;set scr_br_hh_allowRepeatCompletion 0;set scr_br_hh_morse_message 1;set scr_mapHints 1;set scr_br_eas_wait_for_prematch 1;set scr_br_eas_force_use_data_positions 0;set scr_br_ff_elves 1;set disable_elf_collision 0;set scr_br_eas_disable_countdown 1;set scr_br_eas_num_elf_regions_per_map 13;set scr_br_eas_num_elf_buildings_per_region 6;set scr_br_eas_num_lives 3;set scr_br_eas_reward_coal_chance 25;set scr_br_eas_vo_delay 7;set scr_br_eas_countdown 15;set scr_br_eas_stun_range 900;set scr_br_eas_stun_duration 6;set scr_br_eas_start_range 90;set scr_br_eas_max_num_elves -1;set scr_br_ai_encounters 1`
+Festive Fervor|1.50-2|![](../images/iw8/v_ui_icon_codmas_krampus_alive.png)|`exec pr_br_global.cfg;set scr_br_alt_mode_hh 1;set scr_br_ff_xmas_blueprint 1;set scr_br_alt_mode_ff 1;set scr_br_hh_num_trees 12;scr_br_ff_fountain 1;scr_br_quests_enabled 1;set scr_br_events 1;set scr_br_hh_allowRepeatCompletion 0;set scr_br_hh_morse_message 1;set scr_mapHints 1;set scr_br_eas_wait_for_prematch 1;set scr_br_eas_force_use_data_positions 0;set scr_br_ff_elves 1;set disable_elf_collision 0;set scr_br_eas_disable_countdown 1;set scr_br_eas_num_elf_regions_per_map 13;set scr_br_eas_num_elf_buildings_per_region 6;set scr_br_eas_num_lives 3;set scr_br_eas_reward_coal_chance 25;set scr_br_eas_vo_delay 7;set scr_br_eas_countdown 15;set scr_br_eas_stun_range 900;set scr_br_eas_stun_duration 6;set scr_br_eas_start_range 90;set scr_br_eas_max_num_elves -1;set scr_br_ai_encounters 1`
 Operation: Monarch|1.57|![](https://static.wikia.nocookie.net/callofduty/images/1/11/OperationMonarch_Logo_WZ.png)|`scr_br_gametype mendota;seta scr_br_pr_validate_gametypes 0;set scr_br_alt_mode_mendota 1;exec pr_br_mendota.cfg;seta scr_br_alt_mode_mxp 5`
 Rebirth of the Dead|1.60+|![](https://static.wikia.nocookie.net/callofduty/images/d/d0/ZombieRoyale_Logo_Warzone_MW.png)|`set scr_br_gametype "zxp";set scr_br_alt_mode_zxp 1;set scr_br_zxp_numHitsJugg 0;set scr_br_zxp_respawn_shutdown_jugg 0;set scr_br_zxp_jugg_num_players 0;set scr_br_dbd_vehicle_motorcycle 1;set scr_br_zxp_zombiesDamageZombies 1;set scr_br_zxp_health 700;set scr_br_zxp_powers_cooldown 0;set scr_br_zxp_human_powers 1;seta scr_br_pr_validate_gametypes 0;seta scr_br_atlantisNight 1`
 Operation: Last Call|1.63+%darkgoldenrod%**²**%%|![](https://static.wikia.nocookie.net/callofduty/images/e/e6/OperationLastCall_Icon_WZ.png)|`scr_br_gametype olaride;seta scr_br_pr_validate_gametypes 0;set scr_br_alt_mode_olaride 1`
@@ -157,18 +157,18 @@ Dark Aether|![](https://static.wikia.nocookie.net/callofduty/images/0/03/Dark_Ae
 
 Name|Icon|ID
 -|:-:|-
-Gold|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw8/v_ui_elmnt_camo_110.png){90px:90px}|`s4_camo_11a`
-Diamond|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw8/v_ui_elmnt_camo_111.png){90px:90px}|`s4_camo_11b`
-Atomic|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw8/v_ui_elmnt_camo_112.png){90px:90px}|`s4_camo_11c`
+Gold|![](../images/iw8/v_ui_elmnt_camo_110.png){90px:90px}|`s4_camo_11a`
+Diamond|![](../images/iw8/v_ui_elmnt_camo_111.png){90px:90px}|`s4_camo_11b`
+Atomic|![](../images/iw8/v_ui_elmnt_camo_112.png){90px:90px}|`s4_camo_11c`
 ?||`s4_camo_11d`
 
 **Vanguard, Zombies mastery**%darkgoldenrod%¹%%
 
 Name|Icon|ID
 -|:-:|-
-Golden Viper|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw8/v_ui_elmnt_camo_gold_zm_e_s.png){90px:90px}|`s4_camo_11a_zm`
-Plague Diamond|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw8/v_ui_elmnt_camo_diamond_zm_a_s.png){90px:90px}|`s4_camo_11b_zm`
-Dark Aether|![](https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/iw8/v_ui_elmnt_camo_atomic_c_zm_c.png){90px:90px}|`s4_camo_11c_zm`
+Golden Viper|![](../images/iw8/v_ui_elmnt_camo_gold_zm_e_s.png){90px:90px}|`s4_camo_11a_zm`
+Plague Diamond|![](../images/iw8/v_ui_elmnt_camo_diamond_zm_a_s.png){90px:90px}|`s4_camo_11b_zm`
+Dark Aether|![](../images/iw8/v_ui_elmnt_camo_atomic_c_zm_c.png){90px:90px}|`s4_camo_11c_zm`
 
 💡 ¹Only available on version 1.46 onwards (Season One)
 
