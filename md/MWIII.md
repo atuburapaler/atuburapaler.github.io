@@ -44,7 +44,7 @@ This will try to fix blurry screen space reflections by increasing the sample co
 - `r_ssrsamplecount 64`
 This will restore previous values and return to the default sample count.
 - `lui_showBuildAndServerText`
-Hides the bottom right watermark on menus. NOT RECOMMENDED FOR PLAYERS WITH TECH ISSUES.
+Hides the bottom right watermark on menus. NOT RECOMMENDED FOR PLAYERS WITH TECH ISSUES, (0-1)
 - `set com_showbottag`
 This will enable/disable the [bot] prefix for bots in every possible mode, enabled by default (1-0)
 - `cg_drawdevoverlays`
