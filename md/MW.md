@@ -44,7 +44,7 @@ This will set the terrain tessellation details render (0-2) this setting is ofte
 - `execution_hint_enabled`
 This will show or hide a hint whenever you're able to perform an execution, the UI elements are unfinished in this game (0-1)
 - `lui_showBuildAndServerText`
-Hides the bottom right watermark on menus. NOT RECOMMENDED FOR PLAYERS WITH TECH ISSUES.
+Hides the bottom right watermark on menus. NOT RECOMMENDED FOR PLAYERS WITH TECH ISSUES, (0-1)
 - `seta showSeasonVideoInDev 1;seta lui_force_season_intro_video 1`
 These will force the game to display the current seasonal cutscene when refreshing the menu, season and network dependent (0-1)
 - `lui_cod_points_enabled`
