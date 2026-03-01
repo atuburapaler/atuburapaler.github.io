@@ -3,12 +3,30 @@
 *"Be careful who you trust, Sergeant. People you know can hurt you the most."*
 
 ## Menus
+**Offline**
 - `openmenu mainmenuoffline`
 - `openmenu customizemenu`
 - `openmenu musicpackselect`
 - `openmenu mybundleselect`
+- `openmenu systemlinkmenu`
 - `openmenu systemlinklobby`
+- `openmenu solooperatorselect`
 - `openmenu warzoneprivatematchlobby`
+**Online**
+- `openmenu hqmainmenu`
+- `openmenu mpmainmenu`
+- `openmenu brmainmenu`
+💡 Online menus could have network dependencies.
+
+## Visuals
+- `#x39cf7929f0f6ca759`
+Hides the bottom right watermark on menus. NOT RECOMMENDED FOR PLAYERS WITH TECH ISSUES, (0-1)
+- `#x375d8587bd65f560`
+This will enable/disable depth of field, (0-1)
+- `#x3c9942a582fc5cea4 900`
+This will try to fix blurry screen space reflections by increasing the sample count.
+- `#x3c9942a582fc5cea4 64`
+This will restore previous values and return to the default sample count.
 
 ## Inventories
 - `setPrivateLoadout loadouts 0 name`
