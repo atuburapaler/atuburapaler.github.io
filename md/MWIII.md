@@ -8,6 +8,7 @@
 - `luiOpenMenu customizemenu`
 - `luiOpenMenu musicpackselect`
 - `luiOpenMenu mybundleselect`
+- `luiOpenMenu systemlinkmenu`
 - `luiOpenMenu systemlinklobby`
 - `luiOpenMenu solooperatorselect`
 **Online**
