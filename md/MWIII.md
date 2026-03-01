@@ -38,7 +38,7 @@ This will show/hide the recommended weapons flairs from the current build (0-1)
 - `lui_atvi_clantag_icons_enabled`
 This will show/hide the clan tag icons for COD studios if chosen (0-1)
 - `r_dof_enable`
-This will enable/disable depth of field.
+This will enable/disable depth of field, (0-1)
 - `r_ssrsamplecount 900`
 This will try to fix blurry screen space reflections by increasing the sample count.
 - `r_ssrsamplecount 64`
