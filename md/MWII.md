@@ -27,6 +27,10 @@ This will enable/disable depth of field, (0-1)
 This will try to fix blurry screen space reflections by increasing the sample count.
 - `#x3c9942a582fc5cea4 64`
 This will restore previous values and return to the default sample count.
+- `#x3568a7f53b08bfcca`
+This disables/enable the next game mode hints (if they exist) in the next match. (0-1)
+- `#x386b8e46942f50a45 1`
+Experimental, this will render snow textures on the whole game, can affect all kind of maps.
 
 ## Inventories
 - `setPrivateLoadout loadouts 0 name`
