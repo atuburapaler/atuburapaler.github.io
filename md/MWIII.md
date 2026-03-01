@@ -50,6 +50,8 @@ Hides the bottom right watermark on menus. NOT RECOMMENDED FOR PLAYERS WITH TECH
 This will enable/disable the [bot] prefix for bots in every possible mode, enabled by default (1-0)
 - `cg_drawdevoverlays`
 This will show/hide developer info in an overlay (0-1) it might require an external implementation.
+- `lui_show_loading_hints`
+This disables/enable the next game mode hints (if they exist) in the next match. (0-1)
 - `lui_enable_gun_effect_preview_firing_range`
 This defines if the weapon preview from the firing range will display or not a tracers preview window like in bundle menus (0-1)
 - `lui_use_lua_subtitle_impl`
@@ -339,8 +341,6 @@ This sets what's the minimum players requirement in order to finish the warmup.
 This will define if the lobby is running with online dependencies.
 - `br_minplayers`
 Minimum players requirement but for the previous dvar context.
-- `set lui_show_loading_hints`
-This disables/enable the next game mode hints, in the next match. (0-1)
 - `set ui_serverframeduration 16,set ui_physicsframeduration 16`
 Sets the right physics values for miscellaneous entities like drones, in the next match.
 - `cl_transientcollision_memorybudgetgame 224288000;cl_transientcollision_maxtilesoverride 64`
