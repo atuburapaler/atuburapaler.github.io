@@ -39,25 +39,25 @@ This will show/hide the recommended weapons flairs from the current build (0-1)
 - `lui_atvi_clantag_icons_enabled`
 This will show/hide the clan tag icons for COD studios if chosen (0-1)
 - `r_dof_enable`
-This will enable/disable depth of field, (0-1)
+This will enable/disable depth of field (0-1)
 - `r_ssrsamplecount 900`
 This will try to fix blurry screen space reflections by increasing the sample count.
 - `r_ssrsamplecount 64`
 This will restore previous values and return to the default sample count.
 - `lui_showBuildAndServerText`
-Hides the bottom right watermark on menus. NOT RECOMMENDED FOR PLAYERS WITH TECH ISSUES, (0-1)
+Hides the bottom right watermark on menus. NOT RECOMMENDED FOR PLAYERS WITH TECH ISSUES (0-1)
 - `set com_showbottag`
 This will enable/disable the [bot] prefix for bots in every possible mode, enabled by default (1-0)
 - `cg_drawdevoverlays`
 This will show/hide developer info in an overlay (0-1) it might require an external implementation.
 - `lui_show_loading_hints`
-This disables/enable the next game mode hints (if they exist) in the next match. (0-1)
+This disables/enable the next game mode hints (if they exist) in the next match (0-1)
 - `lui_enable_gun_effect_preview_firing_range`
 This defines if the weapon preview from the firing range will display or not a tracers preview window like in bundle menus (0-1)
 - `lui_use_lua_subtitle_impl`
 Unfinished/early BO6 implementation, this defines if an icon prefix will display on specific subtitles for context, disabled by default (0-1)
-- `r_globalSnow 1`
-Experimental, this will render snow textures on the whole game, can affect all kind of maps.
+- `r_globalSnow`
+Experimental, this will render snow textures on the whole game, can affect all kind of maps (0-1)
 - `lui_store_tab_state`
 - `lui_battlepass_tab_state`
 These will define how the tabs look on online menus (0 default - 2 grey) season and network dependent.
