@@ -9,11 +9,11 @@
 
 ## Visuals
 - `execution_hint_enabled`
-This will show or hide a hint whenever you're able to perform an execution, the UI elements for controller are unfinished in this game (0-1)
+This will show/hide a hint whenever you're able to perform an execution, the UI elements for controller are unfinished in this game (0-1)
 - `lui_showBuildAndServerText`
 Hides the top right watermark on menus. NOT RECOMMENDED FOR PLAYERS WITH TECH ISSUES, (0-1)
 - `lui_cod_points_enabled`
-This will show/hide COD Points on menus (0-1)
+This will show/hide COD Points in menus (0-1)
 
 ## Inventories
 - `setPrivateLoadout loadouts 0 name`
