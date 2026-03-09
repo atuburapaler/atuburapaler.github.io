@@ -27,16 +27,16 @@ Number|Season|Picture
 - `luiOpenMenu battlemapsectorpreview`
 - `luiOpenMenu bpsectorpreview`
 - `luiOpenMenu bpmap`
-💡 If these don't work for you, delete `lui` prefix.
+💡 If these don't work for you, delete `lui` prefix. Example `openmenu mainlockoutmenu`
 💡 Online menus could require network/external implementation.
 
 ## Visuals
 - `seta scr_game_use_squad_ui`
-This defines if the health and stamina bar on the next multiplayer match, following user settings, disabled in private matches by default (0-1)
+This defines if the health and stamina bar appear on the next multiplayer match, following user settings, disabled in private matches by default (0-1)
 - `seta #x3879E55ACF9D60DEB`
-This defines if the Halloween themed Season Six HUD, will display in the next multiplayer match (0-1)
+This defines if the Season 6 Halloween-themed HUD will display in the next multiplayer match (0-1)
 - `#x3BB4DBC0D6A10A598`
-This displays the Call of Duty Endowment banner in the countdown after the warmup, in the next WZ 2.0 match (0-1)
+This defines if the Call of Duty Endowment banner is displayed in the countdown after the warmup, in the next WZ 2.0 match (0-1)
 - `lui_channels_enabled`
 - `lui_notifications_enabled`
 These defines if the top right menu will display various buttons, or not (0-1)
@@ -65,10 +65,10 @@ This defines if the weapon preview from the firing range will display or not a t
 - `lui_use_lua_subtitle_impl`
 Unfinished/early BO6 implementation, this defines if an icon prefix will display on specific subtitles for context, disabled by default (0-1)
 - `r_globalSnow`
-Experimental, this will render snow textures on the whole game, can affect all kind of maps (0-1)
+Experimental, this will render snow textures on applicable models, this can affect all kind of maps (0-1)
 - `lui_store_tab_state`
 - `lui_battlepass_tab_state`
-These will define how the tabs look on online menus (0 default - 2 grey) season and network dependent.
+These will define how the tabs look in online menus (0 default - 2 grey) season and network dependent.
 
 ## Inventories
 **Private matches**
@@ -164,9 +164,9 @@ This will define the number of players/squads on your team, using the same value
 - `seta enable_automation_bot`
 This will define if bots can perform specific actions like shooting and aiming, in the next match, it's disabled by default (0-1)
 - `set bot_enablenopathnodebehavior`
-This will define if bots can't follow a path and track hostiles, in the next match, it's enabled by default (1-0)
+This will define if bots can't follow a path and track hostiles in the next match, it's enabled by default (1-0)
 - `seta #x32fe0283b419ff08a`
-This defines if the Urzikstan helicopter infil animation plays, in the next match, enabled by default (0-1)
+This defines if the Urzikstan helicopter infil animation plays in the next match, enabled by default (0-1)
 
 ### Story Missions
 - `set ui_mapname mp_jup_st_c_gw;seta ob_quest1_act1 1`
@@ -344,24 +344,24 @@ Bioluminescent|![](https://static.wikia.nocookie.net/callofduty/images/e/e6/Biol
 - `seta #x3116700c9b39c1eba`
 This sets the ammount of bots the next match will have (0-110)
 - `live_lobby_minplayers_start`
-This sets what's the minimum players requirement in order to finish the warmup.
+This sets the minimum players requirement in order to finish the warmup.
 - `scr_live_lobby`
 This will define if the lobby is running with online dependencies.
 - `br_minplayers`
 Minimum players requirement but for the previous dvar context.
 - `set ui_serverframeduration 16,set ui_physicsframeduration 16`
-Sets the right physics values for miscellaneous entities like drones, in the next match.
+Sets the right physics values for miscellaneous entities like drones in the next match.
 - `cl_transientcollision_memorybudgetgame 224288000;cl_transientcollision_maxtilesoverride 64`
 Sets the right collisions on Resurgence maps, like Vondel's train, in the next match.
 - `scr_br_third_person_toggle`
-This disables/enable third person button option on the pause menu, in the next match, disabled by default (0-1)
+This disables/enables third person button option on the pause menu in the next match, disabled by default (0-1)
 - `skydive_always_weapon_raise`
-This disables/enable a pistol weapon raise everytime they cut their parachute, like in WZ (2020-2022) or WZ 2.0 (2025-2026), in the next match, disabled by default (0-1)
+This disables/enables a pistol weapon raise every time a player may cut their parachute, like in WZ (2020-2022) or WZ 2.0 (2025-2026) in the next match, disabled by default (0-1)
 - `scr_br_playtest_tool_phoenix`
-This disables/enable a developer tool kit in the next match, most of the stuff won't work, visual only.
+This disables/enables a developer tool kit in the next match, most of the stuff won't work, visual only.
 - `seta scr_br_bunker_doors_show_graffiti`
 - `seta scr_br_bunker_doors_show_documents`
-These defines if the next match it's going to use specific BO6 reveal assets or not (0-1)
+These defines if the next match will use specific BO6 reveal assets or not (0-1)
 
 ### Game modes
 Name|Icon|Full command
