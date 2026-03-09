@@ -30,7 +30,7 @@ Number|Season|Splash
 - `luiOpenMenu systemlinklobby`
 - `luiOpenMenu bundlelockermenu`
 - `luiOpenMenu wzseasonalopeningscreenpc`
-💡 If these don't work for you, try to delete the `lui` prefix.
+💡 If these don't work for you, try to delete the `lui` prefix. Example `openmenu mainlockoutmenu`
 
 ## Visuals
 - `seta MONKPPPQR`
@@ -117,8 +117,8 @@ Operation: Monarch|1.57|![](https://static.wikia.nocookie.net/callofduty/images/
 Rebirth of the Dead|1.60+|![](https://static.wikia.nocookie.net/callofduty/images/d/d0/ZombieRoyale_Logo_Warzone_MW.png)|`set scr_br_gametype "zxp";set scr_br_alt_mode_zxp 1;set scr_br_zxp_numHitsJugg 0;set scr_br_zxp_respawn_shutdown_jugg 0;set scr_br_zxp_jugg_num_players 0;set scr_br_dbd_vehicle_motorcycle 1;set scr_br_zxp_zombiesDamageZombies 1;set scr_br_zxp_health 700;set scr_br_zxp_powers_cooldown 0;set scr_br_zxp_human_powers 1;seta scr_br_pr_validate_gametypes 0;seta scr_br_atlantisNight 1`
 Operation: Last Call|1.63+%darkgoldenrod%**²**%%|![](https://static.wikia.nocookie.net/callofduty/images/e/e6/OperationLastCall_Icon_WZ.png)|`scr_br_gametype olaride;seta scr_br_pr_validate_gametypes 0;set scr_br_alt_mode_olaride 1`
 
-💡 ¹It requires a controller set as the primary input method as you need to unplug it and plug it back in to get any input.
-    ² 1.63 is a very unstable/broken build, the event will work in post. versions but it might miss some mechanics.
+💡 ¹It requires a controller set as the primary input method, as you need to unplug it and plug it back in to get any input.
+    ² 1.63 is a very unstable/broken build, the event will work in post versions, however it may be missing some mechanics.
     
 ### WZ Inventories
 - `setWZPrivateLoadout loadouts 0 name`
