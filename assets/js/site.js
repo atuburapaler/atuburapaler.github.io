@@ -584,6 +584,7 @@ async function renderPage(pageKey) {
     convertEventTables(content);
     setupExpandableCommands(content);
     buildTOC(content);
+    setupCopyButtons(content);
     hideLoader();
 
     const cards = document.getElementById('overview-cards');
