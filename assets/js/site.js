@@ -81,11 +81,9 @@ function renderNav(activeKey = 'home') {
     <div class="cod-nav-inner">
       <div class="brand">
         <div>
-          <div class="brand-mark">Call of Duty</div>
+          <div class="brand-mark">COD</div>
           <div class="brand-title">Atlas</div>
         </div>
-        <div class="brand-sub">COD Intel</div>
-      </div>
 
       <div class="nav-links">${links}</div>
 
