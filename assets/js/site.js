@@ -570,9 +570,9 @@ async function renderPage(pageKey) {
     const cards = document.getElementById('overview-cards');
     const h2s = [...content.querySelectorAll('h2')].slice(0, 3);
     const featureImages = [
-      'https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/blog/MW-S6-Announce-New-Marksman.jpg',
-      'https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/MWIII-S1-ANNOUNCEMENT-050.jpg',
-      'https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/blog/v_ui_img_bundle1036_billboard.png'
+      'https://blog.activision.com/content/dam/atvi/activision/atvi-touchui/blog/callofduty/body/WZ-Verdansk-Air-Book-Now.jpg',
+      'https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/vgd/VGD-MERCENARIES-OF-FORTUNE-ANNOUNCE-025.jpg',
+      'https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/mwii/MWII-S03-COD-101-002.jpg'
     ];
 
     cards.innerHTML = h2s.map((h, i) => {
