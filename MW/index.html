@@ -83,6 +83,7 @@ Gold|![](https://static.wikia.nocookie.net/callofduty/images/4/45/Gold_Camo_Icon
 Platinum|![](https://static.wikia.nocookie.net/callofduty/images/1/11/Platinum_Camo_Icon_MW2019.png)|`camo_11b`
 Damascus|![](https://static.wikia.nocookie.net/callofduty/images/0/09/Damascus_Camo_Icon_MW2019.png)|`camo_11c`
 Obsidian|![](https://static.wikia.nocookie.net/callofduty/images/3/31/Obsidian_Camo_Icon_MW2019.png)|`camo_11d`
+
 ## Warzone
 - `set QTQRQPLNK 1;set MLQNQTRRTK 1;set MKQQKMRORQ 16;exec br_core.cfg`
 Full Warzone trigger.
@@ -98,15 +99,17 @@ This sets a base discount to the buy stations using percents (0-undefined)
 This sets the value of minimap radar players indicators (0-4)
 - `set scr_br_loadout_option standardammo;set scr_br_allowLoadout 1;set scr_br_use_set_loadouts 1;set scr_br_allowLoadoutOnlyInPreLobby 0`
 This enables the possibility of using loadouts for every player/bot in the next match.
-- `seta scr_br_use_ww2_announcer`
-- `seta scr_br_use_ww2_killstreak_call_in_device`
-- `seta scr_br_use_ww2_model_swaps`
-These defines if the next match it's going to use specific Vanguard assets or not (0-1)
+- `seta scr_br_use_ww2_announcer
+seta scr_br_use_ww2_killstreak_call_in_device
+seta scr_br_use_ww2_model_swaps`
+These will define if the next match it's going to use specific Vanguard assets or not (0-1)
 - `seta scr_br_atlantisNight`
 This defines if the next match on escape it's going to use night assets
-- `seta scr_escape4_ee_6_2_enabled 1;seta scr_escape4_ee_6_3_enabled 1`
-This defines if the next match will open up the secret bunkers under escape 4 by force.
-# Game modes
+- `seta scr_escape4_ee_6_2_enabled
+    seta scr_escape4_ee_6_3_enabled`
+These will define if the next match will open/close the bunkers under Rebirth Island (escape_4), disabled by default, (0-1)
+
+## Game modes
 Name|Icon|Full command
 -|:-:|-
 Battle Royale|![](https://static.wikia.nocookie.net/callofduty/images/a/a3/BattleRoyale_Logo_Warzone_MW.png)![](https://static.wikia.nocookie.net/callofduty/images/9/9a/BattleRoyale_Icon_VG_WZ.png)|`scr_br_gametype br`
@@ -116,7 +119,8 @@ Armored Royale|![](https://static.wikia.nocookie.net/callofduty/images/7/7d/Armo
 Resurgence|![](https://static.wikia.nocookie.net/callofduty/images/1/1d/Resurgence_Logo_WZ.png)|`scr_br_gametype rebirth`
 Plunder|![](https://static.wikia.nocookie.net/callofduty/images/5/5e/Plunder_Logo_Warzone_MW.png)![](https://static.wikia.nocookie.net/callofduty/images/c/c9/Plunder_Icon_VG_WZ.png)|`scr_br_gametype dmz`
 King Slayer|![](https://static.wikia.nocookie.net/callofduty/images/7/7d/KingSlayer_Logo_WZ.png)|`scr_br_gametype kingslayer`
-# Events
+
+## Events
 Name|Version|Icon|Full command
 -|-|:-:|-
 Zombies in Vodianoy|1.34|![](https://static.wikia.nocookie.net/callofduty/images/8/8e/Zombie_Keycard_Icon_WZ.png)|`Lorem ipsum dolor sit amet, consectetur adipiscing elit`
@@ -129,33 +133,40 @@ Festive Fervor|1.50-2|![](./images/iw8/v_ui_icon_codmas_krampus_alive.png)|`exec
 Operation: Monarch|1.57|![](https://static.wikia.nocookie.net/callofduty/images/1/11/OperationMonarch_Logo_WZ.png)|`scr_br_gametype mendota;seta scr_br_pr_validate_gametypes 0;set scr_br_alt_mode_mendota 1;exec pr_br_mendota.cfg;seta scr_br_alt_mode_mxp 5`
 Rebirth of the Dead|1.60+|![](https://static.wikia.nocookie.net/callofduty/images/d/d0/ZombieRoyale_Logo_Warzone_MW.png)|`set scr_br_gametype "zxp";set scr_br_alt_mode_zxp 1;set scr_br_zxp_numHitsJugg 0;set scr_br_zxp_respawn_shutdown_jugg 0;set scr_br_zxp_jugg_num_players 0;set scr_br_dbd_vehicle_motorcycle 1;set scr_br_zxp_zombiesDamageZombies 1;set scr_br_zxp_health 700;set scr_br_zxp_powers_cooldown 0;set scr_br_zxp_human_powers 1;seta scr_br_pr_validate_gametypes 0;seta scr_br_atlantisNight 1`
 Operation: Last Call|1.63+**²**|![](https://static.wikia.nocookie.net/callofduty/images/e/e6/OperationLastCall_Icon_WZ.png)|`scr_br_gametype olaride;seta scr_br_pr_validate_gametypes 0;set scr_br_alt_mode_olaride 1`
+
 💡¹It requires a controller set as the primary input method, as you need to unplug it and plug it back in to get any input.
 💡²1.63 is a very unstable/broken build, the event will work in post versions, however it may be missing some mechanics.
-# WZ Inventories
+
+## WZ Inventories
 - `setWZPrivateLoadout loadouts 0 name`
 Loadout name, example: *setWZPrivateLoadout loadouts 0 name "Fist of iron"*
 - `setWZPrivateLoadout loadouts 0 weaponSetups 0 weapon`
 Weapon setup, example: *setWZPrivateLoadout loadouts 0 weaponSetups 0 weapon iw8_ar_t9accurate*
 - `setWZPrivateLoadout loadouts 0 weaponSetups 0 camo`
 Weapon setup camouflage, example: *setWZPrivateLoadout loadouts 0 weaponSetups 0 camo camo_mp_t9mastery_gold*
-# WZ Camouflages
+
+## WZ Camouflages
 **Cold War, Multiplayer mastery**
 Name|Icon|ID
 -|:-:|-
 Gold|![](https://static.wikia.nocookie.net/callofduty/images/0/05/Gold_Camo_Icon_BOCW.png){90px:90px}|`camo_mp_t9mastery_gold`
 Diamond|![](https://static.wikia.nocookie.net/callofduty/images/7/73/Diamond_Camo_Icon_BOCW.png){90px:90px}|`camo_mp_t9mastery_diamond`
 Dark Matter Ultra|![](https://static.wikia.nocookie.net/callofduty/images/a/a1/DM_Ultra_Camo_Icon_BOCW.png){90px:90px}|`camo_mp_t9mastery_darkmatter`
+
 💡 ¹Only available on version 1.30 onwards (Season One)
     This version has some early coverage on weapon models.
+
 **Cold War, Zombies mastery²**
 Name|Icon|ID
 -|:-:|-
 Golden Viper|![](https://static.wikia.nocookie.net/callofduty/images/9/95/Golden_Viper_Camouflage_BOCW.png){90px:90px}|`camo_zm_t9mastery_gold`
 Plague Diamond|![](https://static.wikia.nocookie.net/callofduty/images/f/f6/Plague_Diamond_Camo_Icon_BOCW.png){90px:90px}|`camo_zm_t9mastery_diamond`
 Dark Aether|![](https://static.wikia.nocookie.net/callofduty/images/0/03/Dark_Aether_Camouflage_BOCW.png){90px:90px}|`camo_zm_t9mastery_darkmatter`
+
 💡 ²Only available on version 1.41 onwards (Season Five)
     This version has some early coverage on weapon models.
     Some assets of the Dark Aether are broken on version 1.45 onwards.
+
 **Vanguard, Multiplayer mastery¹**
 Name|Icon|ID
 -|:-:|-
@@ -163,13 +174,16 @@ Gold|![](./images/iw8/v_ui_elmnt_camo_110.png){90px:90px}|`s4_camo_11a`
 Diamond|![](./images/iw8/v_ui_elmnt_camo_111.png){90px:90px}|`s4_camo_11b`
 Atomic|![](./images/iw8/v_ui_elmnt_camo_112.png){90px:90px}|`s4_camo_11c`
 Unreleased camo||`s4_camo_11d`
+
 **Vanguard, Zombies mastery¹**
 Name|Icon|ID
 -|:-:|-
 Golden Viper|![](./images/iw8/v_ui_elmnt_camo_gold_zm_e_s.png){90px:90px}|`s4_camo_11a_zm`
 Plague Diamond|![](./images/iw8/v_ui_elmnt_camo_diamond_zm_a_s.png){90px:90px}|`s4_camo_11b_zm`
 Dark Aether|![](./images/iw8/v_ui_elmnt_camo_atomic_c_zm_c.png){90px:90px}|`s4_camo_11c_zm`
+
 💡 ¹Only available on version 1.46 onwards (Season One)
+
 **Events**
 Name|Icon|ID
 -|-|-
@@ -178,6 +192,7 @@ Liquid Metal|![](https://static.wikia.nocookie.net/callofduty/images/b/bc/Liquid
 Skynet||`s4_camo_titanium_trials_03`
 Death Prospector||`mtl_s4_camo_gold_woodland`
 False Protector||`mtl_s4_camo_gold_digital`
+
   </script>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script src="../assets/js/site.js"></script>
