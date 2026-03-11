@@ -34,29 +34,40 @@ Number|Season|Picture
 
 ## Menus
 **Offline**
-- `luiOpenMenu mainmenuoffline`
-- `luiOpenMenu customizemenu`
-- `luiOpenMenu musicpackselect`
-- `luiOpenMenu mybundleselect`
-- `luiOpenMenu systemlinkmenu`
-- `luiOpenMenu systemlinklobby`
-- `luiOpenMenu solooperatorselect`
+- `openmenu mainmenuoffline`
+**Main offline menu, you might wanna come here if something's broken."
+- `openmenu customizemenu`
+**Main customization menu, sub-menus are network and inventory dependent.**
+- `openmenu musicpackselect`
+**Lets you choose between the default game music, or Lorne Balfe/Hans Zimmer music.**
+- `openmenu mybundleselect`
+**Bundle list menu, inventory and version dependent.**
+- `openmenu systemlinkmenu`
+- `openmenu systemlinklobby`
+- `openmenu solooperatorselect`
+**Operator selection menu without factions, as seen in Warzone 2.0**
+- `openmenu warzoneprivatematchlobby`
+
 **Online**
 - `luiOpenMenu hqmainmenu`
+**CODHQ style main menu, network dependent.**
 - `luiOpenMenu mpmainmenu`
+**Multiplayer main menu, network dependent.**
 - `luiOpenMenu brmainmenu`
+**Warzone 2.0 main menu, network dependent.**
 - `luiOpenMenu warzoneprivatematchlobby`
 - `luiOpenMenu obmainmenu`
+**Modern Warfare Zombies main menu, network dependent.**
 - `luiOpenMenu obplaymenu`
+**Previous menu variant, network dependent.**
 - `luiOpenMenu obloadoutmanagement`
+**Modern Warfare Zombies inventories menu, network dependent.**
 - `luiOpenMenu battlemapsectorpreview`
+**Battle Pass preview menu, network & season dependent, requires external implementation.**
 - `luiOpenMenu bpsectorpreview`
+**Battle Pass sector previews, network & season dependent, requires external implementation.**
 - `luiOpenMenu bpmap`
-
-## Warning!
-
-💡 If these don't work for you, delete `lui` prefix. Example `openmenu mainlockoutmenu`
-💡 Online menus could require network/external implementation.
+**Battle Pass map menu, network & season dependent, requires external implementation.**
 
 ## Visuals
 - `seta scr_game_use_squad_ui`
