@@ -570,9 +570,9 @@ async function renderPage(pageKey) {
     const cards = document.getElementById('overview-cards');
     const h2s = [...content.querySelectorAll('h2')].slice(0, 3);
     const featureImages = [
-      './images/blog/MW-S6-Announce-New-Marksman.jpg',
-      'https://static.wikia.nocookie.net/callofduty/images/2/27/Multiplayer_Promo2_MWIII.jpg',
-      'https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/vgd/VGD-S2-ANNOUNCEMENT-016.jpg'
+      'https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/blog/MW-S6-Announce-New-Marksman.jpg',
+      'https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/MWIII-S1-ANNOUNCEMENT-050.jpg',
+      'https://github.com/atuburapaler/atuburapaler.github.io/blob/main/images/blog/v_ui_img_bundle1036_billboard.png'
     ];
 
     cards.innerHTML = h2s.map((h, i) => {
