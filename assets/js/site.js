@@ -81,8 +81,7 @@ function renderNav(activeKey = 'home') {
     <div class="cod-nav-inner">
       <div class="brand">
         <div>
-          <div class="brand-mark">COD</div>
-          <div class="brand-title">Atlas</div>
+         <img  class="brand-logo" src="/images/ui/logo.png"></img>
         </div>
       </div>
       
