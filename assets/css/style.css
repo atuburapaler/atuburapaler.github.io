@@ -93,6 +93,9 @@ img { max-width: 100%; display: block; }
   font-weight: 600;
   line-height: 1;
 }
+.brand-logo {
+  height: 105px;
+}
 
 .brand-sub {
   color: var(--soft);
@@ -128,7 +131,7 @@ img { max-width: 100%; display: block; }
 }
 
 .nav-game-icon {
-  height: 22px;
+  height: 52px;
   width: auto;
   display: block;
   opacity: 0.92;
